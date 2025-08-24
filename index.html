@@ -440,6 +440,83 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
+        .predefined-quizzes {
+            margin-bottom: 30px;
+        }
+
+        .predefined-quizzes h3 {
+            color: #333;
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .quiz-list {
+            display: grid;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .quiz-card {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+        }
+
+        .quiz-card:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.1);
+        }
+
+        .quiz-card.selected {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .quiz-card-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .quiz-card-description {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        .divider {
+            text-align: center;
+            position: relative;
+            margin: 25px 0;
+        }
+
+        .divider::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: #e9ecef;
+        }
+
+        .divider span {
+            background: white;
+            padding: 0 20px;
+            color: #666;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
@@ -450,6 +527,18 @@
         </div>
 
         <div id="file-upload" class="file-input">
+            <div id="predefined-quizzes" class="predefined-quizzes">
+                <h3>🎯 Quizz disponibles</h3>
+                <div id="quiz-list" class="quiz-list">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Chargement des quizz...</p>
+                    </div>
+                </div>
+                <div class="divider">
+                    <span>OU</span>
+                </div>
+            </div>
             <label for="json-file" class="file-label">
                 📁 Choisir un fichier JSON de questions
             </label>
@@ -550,9 +639,12 @@
                 this.selectedAnswer = null;
                 this.timer = null;
                 this.timeLeft = 20;
+                this.availableQuizzes = [];
+                this.selectedQuiz = null;
                 
                 this.initializeEventListeners();
                 this.initializeModal();
+                this.loadAvailableQuizzes();
             }
 
             initializeModal() {
@@ -574,6 +666,89 @@
                 document.getElementById('restart-btn').addEventListener('click', () => this.restart());
                 document.getElementById('play-again-btn').addEventListener('click', () => this.restart());
                 document.getElementById('modal-next-button').addEventListener('click', () => this.goToNextQuestion());
+            }
+
+            async loadAvailableQuizzes() {
+                try {
+                    const response = await fetch('quizz.json');
+                    if (!response.ok) throw new Error('Impossible de charger la liste des quizz');
+                    
+                    const data = await response.json();
+                    this.availableQuizzes = data.quizzes || [];
+                    this.displayAvailableQuizzes();
+                } catch (error) {
+                    console.error('Erreur lors du chargement des quizz:', error);
+                    this.displayQuizzesError();
+                }
+            }
+
+            displayAvailableQuizzes() {
+                const quizList = document.getElementById('quiz-list');
+                
+                if (this.availableQuizzes.length === 0) {
+                    quizList.innerHTML = '<p>Aucun quiz disponible</p>';
+                    return;
+                }
+
+                quizList.innerHTML = '';
+                this.availableQuizzes.forEach(quiz => {
+                    const quizCard = document.createElement('div');
+                    quizCard.className = 'quiz-card';
+                    quizCard.innerHTML = `
+                        <div class="quiz-card-name">${quiz.name}</div>
+                        <div class="quiz-card-description">${quiz.description}</div>
+                    `;
+                    
+                    quizCard.addEventListener('click', () => this.selectQuiz(quiz, quizCard));
+                    quizList.appendChild(quizCard);
+                });
+            }
+
+            displayQuizzesError() {
+                const quizList = document.getElementById('quiz-list');
+                quizList.innerHTML = '<p style="color: #ff3742;">Erreur lors du chargement des quizz disponibles</p>';
+            }
+
+            selectQuiz(quiz, cardElement) {
+                // Désélectionner les autres cartes
+                document.querySelectorAll('.quiz-card').forEach(card => {
+                    card.classList.remove('selected');
+                });
+                
+                // Sélectionner la carte cliquée
+                cardElement.classList.add('selected');
+                this.selectedQuiz = quiz;
+                
+                // Charger automatiquement le quiz sélectionné
+                this.loadQuizFromFile(quiz.file);
+            }
+
+            async loadQuizFromFile(filename) {
+                try {
+                    document.getElementById('loading').classList.remove('hidden');
+                    
+                    const response = await fetch(filename);
+                    if (!response.ok) throw new Error(`Impossible de charger le fichier ${filename}`);
+                    
+                    const data = await response.json();
+                    
+                    if (!data.questions || !Array.isArray(data.questions)) {
+                        throw new Error('Le fichier doit contenir un tableau "questions"');
+                    }
+
+                    this.questions = data.questions;
+                    this.initializePool();
+                    this.showStartScreen();
+                } catch (error) {
+                    alert('Oops ! Problème avec le fichier: ' + error.message);
+                    // Désélectionner le quiz en cas d'erreur
+                    document.querySelectorAll('.quiz-card').forEach(card => {
+                        card.classList.remove('selected');
+                    });
+                    this.selectedQuiz = null;
+                } finally {
+                    document.getElementById('loading').classList.add('hidden');
+                }
             }
 
             async loadQuestions(event) {
@@ -634,6 +809,13 @@
                 document.getElementById('start-screen').classList.add('hidden');
                 document.getElementById('file-upload').classList.remove('hidden');
                 document.getElementById('json-file').value = '';
+                
+                // Désélectionner les quizz prédéfinis
+                document.querySelectorAll('.quiz-card').forEach(card => {
+                    card.classList.remove('selected');
+                });
+                this.selectedQuiz = null;
+                
                 this.questions = [];
                 this.currentPool = [];
                 this.seenQuestions.clear();
@@ -909,6 +1091,12 @@
                 this.currentPool = [];
                 this.seenQuestions.clear();
                 this.questions = [];
+                
+                // Désélectionner les quizz prédéfinis
+                document.querySelectorAll('.quiz-card').forEach(card => {
+                    card.classList.remove('selected');
+                });
+                this.selectedQuiz = null;
                 
                 document.getElementById('file-upload').classList.remove('hidden');
                 document.getElementById('quiz-content').classList.add('hidden');

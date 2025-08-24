@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Que signifie l’acronyme ONE ?",
+      "options": [
+        "Office National de l’Emploi",
+        "Office de la Naissance et de l’Enfance",
+        "Organisation Nationale de l’Enfance",
+        "Office National de l’Éducation"
+      ],
+      "correct_answer": 1,
+      "explanation": "L’ONE signifie Office de la Naissance et de l’Enfance. Il s’occupe de la santé, de l’accueil et du bien-être des enfants et familles en Fédération Wallonie-Bruxelles."
+    },
+    {
+      "id": 2,
+      "question": "Que signifie l’acronyme AVIQ ?",
+      "options": [
+        "Agence pour une Vie de Qualité",
+        "Association des Victimes d’Incendies et Quarantaine",
+        "Agence pour la Valorisation Internationale de la Qualité",
+        "Association Vie et Quotidien"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’AVIQ est l’Agence pour une Vie de Qualité. Elle gère notamment la santé, le handicap et l’accompagnement des aînés en Wallonie."
+    },
+    {
+      "id": 3,
+      "question": "Que signifie l’acronyme CPAS ?",
+      "options": [
+        "Centre Public d’Action Sociale",
+        "Centre Provincial d’Aide Sociale",
+        "Commission Publique d’Assistance Sociale",
+        "Comité de Prévention et d’Action Sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS signifie Centre Public d’Action Sociale. Il aide les personnes en difficulté (revenu d’intégration, logement, santé, etc.)."
+    },
+    {
+      "id": 4,
+      "question": "Que signifie l’acronyme INAMI ?",
+      "options": [
+        "Institut National d’Assurance Maladie-Invalidité",
+        "Institut National d’Aide Médico-Infantile",
+        "Institut National d’Assistance Médicale Internationale",
+        "Institut National d’Accueil Médico-Social"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’INAMI est l’Institut National d’Assurance Maladie-Invalidité. Il gère la sécurité sociale pour les soins de santé et les indemnités en Belgique."
+    },
+    {
+      "id": 5,
+      "question": "Que signifie l’acronyme SECAL ?",
+      "options": [
+        "Service des Créances Alimentaires",
+        "Service d’Éducation Communautaire et d’Accompagnement Local",
+        "Société d’Entraide et de Coordination des Allocations",
+        "Service d’Enregistrement des Conflits et Actions Légales"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SECAL est le Service des Créances Alimentaires. Il intervient en cas de non-paiement des pensions alimentaires, et peut avancer les sommes dues."
+    }
+  ]
+}

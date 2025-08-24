@@ -1,0 +1,19 @@
+{
+  "quizzes": [
+    {
+      "name": "Quizz Scenario",
+      "description": "Choisi la bonne institution pour répondre au besoin",
+      "file": "scenarios.json"
+    },
+    {
+      "name": "Quizz Acronyme Q1",
+      "description": "Que veut dire cet acronyme ?",
+      "file": "Q1_acronyne.json"
+    },
+    {
+      "name": "Quizz Acronyme Q2",
+      "description": "Que veut dire cet acronyme ?",
+      "file": "Q2_acronyme.json"
+    }
+  ]
+}
