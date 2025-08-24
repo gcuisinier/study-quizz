@@ -59,6 +59,66 @@
       ],
       "correct_answer": 0,
       "explanation": "Le SECAL est le Service des Créances Alimentaires. Il intervient en cas de non-paiement des pensions alimentaires, et peut avancer les sommes dues."
+    },
+    {
+      "id": 6,
+      "question": "Que signifie l’acronyme SWL ?",
+      "options": [
+        "Société Wallonne du Logement",
+        "Service Wallon de la Législation",
+        "Soutien Wallon au Logement",
+        "Société Wallonne des Loisirs"
+      ],
+      "correct_answer": 0,
+      "explanation": "La SWL est la Société Wallonne du Logement. Elle coordonne et supervise les sociétés de logement de service public (SLSP)."
+    },
+    {
+      "id": 7,
+      "question": "Que signifie l’acronyme SLSP ?",
+      "options": [
+        "Société de Logement de Service Public",
+        "Service Local de Solidarité Publique",
+        "Structure Locale de Santé Préventive",
+        "Société Libre de Service Populaire"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SLSP sont les Sociétés de Logement de Service Public. Elles gèrent directement les logements sociaux en Wallonie."
+    },
+    {
+      "id": 8,
+      "question": "Que signifie l’acronyme AIS ?",
+      "options": [
+        "Agence Immobilière Sociale",
+        "Association Internationale de Solidarité",
+        "Action Immobilière Solidaire",
+        "Agence Intercommunale de Santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les AIS sont des Agences Immobilières Sociales. Elles prennent en gestion des logements privés pour les louer à des personnes précarisées."
+    },
+    {
+      "id": 9,
+      "question": "Que signifie l’acronyme FLFNW ?",
+      "options": [
+        "Fonds du Logement des Familles Nombreuses de Wallonie",
+        "Fondation Locale pour les Familles Nécessiteuses Wallonnes",
+        "Fonds Luxembourgeois de Financement des Nouvelles Wallonnes",
+        "Fédération Libre des Familles de Namur et Wallonie"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le FLFNW est le Fonds du Logement des Familles Nombreuses de Wallonie. Il aide à l’accès à la propriété et au logement décent."
+    },
+    {
+      "id": 10,
+      "question": "Que signifie l’acronyme SWCS ?",
+      "options": [
+        "Société Wallonne du Crédit Social",
+        "Service Wallon de Coordination Sociale",
+        "Structure Wallonne de Crédit Solidaire",
+        "Société Wallonne de la Cohésion Sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "La SWCS est la Société Wallonne du Crédit Social. Elle facilite l’accès au crédit hypothécaire et social pour les ménages modestes."
     }
   ]
 }

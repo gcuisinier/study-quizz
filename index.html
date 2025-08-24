@@ -856,11 +856,20 @@
                 questionText.textContent = this.currentQuestion.question;
                 optionsContainer.innerHTML = '';
 
-                this.currentQuestion.options.forEach((option, index) => {
+                // Créer un tableau d'options avec leurs indices originaux
+                const optionsWithIndices = this.currentQuestion.options.map((option, index) => ({
+                    text: option,
+                    originalIndex: index
+                }));
+
+                // Mélanger les options
+                const shuffledOptions = this.shuffleArray([...optionsWithIndices]);
+
+                shuffledOptions.forEach((option) => {
                     const optionElement = document.createElement('div');
                     optionElement.className = 'option';
-                    optionElement.textContent = option;
-                    optionElement.addEventListener('click', () => this.selectAnswer(index, optionElement));
+                    optionElement.textContent = option.text;
+                    optionElement.addEventListener('click', () => this.selectAnswer(option.originalIndex, optionElement));
                     optionsContainer.appendChild(optionElement);
                 });
             }
