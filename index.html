@@ -575,6 +575,7 @@
 
             <div class="buttons">
                 <button id="restart-btn" class="btn btn-secondary">Recommencer</button>
+                <button id="reset-history-btn" class="btn btn-secondary">🔄 Réinitialiser l'historique</button>
             </div>
         </div>
 
@@ -630,7 +631,7 @@
             constructor() {
                 this.questions = [];
                 this.currentPool = [];
-                this.seenQuestions = new Set(); // Track questions that have been shown
+                this.seenQuestions = new Set(); // Track questions that have been shown in current session
                 this.correctAnswers = 0;
                 this.currentStreak = 0;
                 this.targetCorrect = 25;
@@ -641,6 +642,7 @@
                 this.timeLeft = 20;
                 this.availableQuizzes = [];
                 this.selectedQuiz = null;
+                this.currentQuizKey = null; // Clé pour identifier le quiz actuel dans localStorage
                 
                 this.initializeEventListeners();
                 this.initializeModal();
@@ -666,6 +668,7 @@
                 document.getElementById('restart-btn').addEventListener('click', () => this.restart());
                 document.getElementById('play-again-btn').addEventListener('click', () => this.restart());
                 document.getElementById('modal-next-button').addEventListener('click', () => this.goToNextQuestion());
+                document.getElementById('reset-history-btn').addEventListener('click', () => this.resetQuestionHistory());
             }
 
             async loadAvailableQuizzes() {
@@ -718,6 +721,7 @@
                 // Sélectionner la carte cliquée
                 cardElement.classList.add('selected');
                 this.selectedQuiz = quiz;
+                this.currentQuizKey = quiz.file; // Utiliser le nom du fichier comme clé unique
                 
                 // Charger automatiquement le quiz sélectionné
                 this.loadQuizFromFile(quiz.file);
@@ -766,6 +770,7 @@
                     }
 
                     this.questions = data.questions;
+                    this.currentQuizKey = file.name; // Utiliser le nom du fichier comme clé unique
                     this.initializePool();
                     this.showStartScreen();
                 } catch (error) {
@@ -898,6 +903,10 @@
                     this.currentStreak++;
                     this.showResult(true, 'Excellente réponse ! 🎉');
                     this.correctAnswers++;
+                    
+                    // Sauvegarder la question comme vue SEULEMENT si la réponse est correcte
+                    this.markQuestionAsSeen();
+                    
                     this.removeQuestionFromPool();
                     this.addQuestionToPool();
                     this.checkStreakMilestones();
@@ -913,6 +922,22 @@
                 }
 
                 this.updateProgress();
+            }
+
+            markQuestionAsSeen() {
+                if (!this.currentQuestion || !this.currentQuizKey) return;
+                
+                const questionId = this.getQuestionId(this.currentQuestion);
+                
+                // Ajouter à la session actuelle
+                this.seenQuestions.add(questionId);
+                
+                // Sauvegarder dans localStorage
+                const storedSeenQuestions = this.getSeenQuestionsFromStorage(this.currentQuizKey);
+                if (!storedSeenQuestions.includes(questionId)) {
+                    storedSeenQuestions.push(questionId);
+                    this.saveSeenQuestionsToStorage(this.currentQuizKey, storedSeenQuestions);
+                }
             }
 
             showResult(isCorrect, message) {
@@ -968,18 +993,73 @@
                 return question.id || `q_${question.question.substring(0, 50).replace(/\s+/g, '_')}`;
             }
 
+            // Méthodes pour gérer le stockage persistant des questions vues
+            getSeenQuestionsFromStorage(quizKey) {
+                try {
+                    const stored = localStorage.getItem(`quiz_seen_${quizKey}`);
+                    return stored ? JSON.parse(stored) : [];
+                } catch (error) {
+                    console.warn('Erreur lors de la lecture du localStorage:', error);
+                    return [];
+                }
+            }
+
+            saveSeenQuestionsToStorage(quizKey, seenQuestionIds) {
+                try {
+                    localStorage.setItem(`quiz_seen_${quizKey}`, JSON.stringify(seenQuestionIds));
+                } catch (error) {
+                    console.warn('Erreur lors de l\'écriture dans localStorage:', error);
+                }
+            }
+
+            clearSeenQuestionsFromStorage(quizKey) {
+                try {
+                    localStorage.removeItem(`quiz_seen_${quizKey}`);
+                } catch (error) {
+                    console.warn('Erreur lors de la suppression du localStorage:', error);
+                }
+            }
+
+            getAllSeenQuestions() {
+                // Combine les questions vues dans la session actuelle + celles en localStorage
+                const storedSeenQuestions = this.currentQuizKey ? 
+                    this.getSeenQuestionsFromStorage(this.currentQuizKey) : [];
+                const sessionSeenQuestions = Array.from(this.seenQuestions);
+                
+                return [...new Set([...storedSeenQuestions, ...sessionSeenQuestions])];
+            }
+
             addQuestionToPool() {
+                // Obtenir toutes les questions vues (session + localStorage)
+                const allSeenQuestions = this.getAllSeenQuestions();
+                
                 // Filtrer les questions qui ne sont ni dans la pool actuelle ni déjà vues
                 const availableQuestions = this.questions.filter(q => {
                     const questionId = this.getQuestionId(q);
                     const isInPool = this.currentPool.some(poolQ => this.getQuestionId(poolQ) === questionId);
-                    const hasBeenSeen = this.seenQuestions.has(questionId);
+                    const hasBeenSeen = allSeenQuestions.includes(questionId);
                     return !isInPool && !hasBeenSeen;
                 });
                 
                 if (availableQuestions.length > 0) {
                     const randomQuestion = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
                     this.currentPool.push(randomQuestion);
+                } else if (allSeenQuestions.length >= this.questions.length * 0.8) {
+                    // Si 80% des questions ont été vues, réinitialiser l'historique pour ce quiz
+                    console.log('Réinitialisation de l\'historique des questions vues (80% du quiz vu)');
+                    this.clearSeenQuestionsFromStorage(this.currentQuizKey);
+                    // Réessayer d'ajouter une question après la réinitialisation
+                    const resetAvailableQuestions = this.questions.filter(q => {
+                        const questionId = this.getQuestionId(q);
+                        const isInPool = this.currentPool.some(poolQ => this.getQuestionId(poolQ) === questionId);
+                        const hasBeenSeenInSession = this.seenQuestions.has(questionId);
+                        return !isInPool && !hasBeenSeenInSession;
+                    });
+                    
+                    if (resetAvailableQuestions.length > 0) {
+                        const randomQuestion = resetAvailableQuestions[Math.floor(Math.random() * resetAvailableQuestions.length)];
+                        this.currentPool.push(randomQuestion);
+                    }
                 }
             }
 
@@ -1093,6 +1173,19 @@
                 document.getElementById('final-result').classList.remove('hidden');
             }
 
+            resetQuestionHistory() {
+                if (!this.currentQuizKey) {
+                    alert('Aucun quiz sélectionné');
+                    return;
+                }
+                
+                if (confirm('Êtes-vous sûr de vouloir réinitialiser l\'historique des questions vues pour ce quiz ?')) {
+                    this.clearSeenQuestionsFromStorage(this.currentQuizKey);
+                    this.seenQuestions.clear();
+                    alert('Historique des questions réinitialisé ! Toutes les questions redeviendront disponibles.');
+                }
+            }
+
             restart() {
                 this.clearTimer();
                 this.correctAnswers = 0;
@@ -1100,6 +1193,7 @@
                 this.currentPool = [];
                 this.seenQuestions.clear();
                 this.questions = [];
+                this.currentQuizKey = null;
                 
                 // Désélectionner les quizz prédéfinis
                 document.querySelectorAll('.quiz-card').forEach(card => {
