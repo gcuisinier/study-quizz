@@ -1,0 +1,214 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la capitale de la France ?",
+      "options": ["Londres", "Berlin", "Paris", "Madrid"],
+      "correct_answer": 2,
+      "explanation": "Paris est la capitale et la plus grande ville de la France depuis le XIIe siècle."
+    },
+    {
+      "id": 2,
+      "question": "Combien font 2 + 2 ?",
+      "options": ["3", "4", "5", "6"],
+      "correct_answer": 1,
+      "explanation": "L'addition de 2 + 2 donne 4, c'est une opération mathématique de base."
+    },
+    {
+      "id": 3,
+      "question": "Quel est le plus grand océan du monde ?",
+      "options": ["Atlantique", "Pacifique", "Indien", "Arctique"],
+      "correct_answer": 1,
+      "explanation": "L'océan Pacifique couvre environ un tiers de la surface terrestre, soit plus que tous les continents réunis."
+    },
+    {
+      "id": 4,
+      "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+      "options": ["1967", "1968", "1969", "1970"],
+      "correct_answer": 2,
+      "explanation": "Neil Armstrong et Buzz Aldrin ont marché sur la Lune le 20 juillet 1969 lors de la mission Apollo 11."
+    },
+    {
+      "id": 5,
+      "question": "Quel est le langage de programmation créé par Guido van Rossum ?",
+      "options": ["Java", "Python", "C++", "JavaScript"],
+      "correct_answer": 1,
+      "explanation": "Python a été créé par Guido van Rossum et publié pour la première fois en 1991."
+    },
+    {
+      "id": 6,
+      "question": "Combien de continents y a-t-il sur Terre ?",
+      "options": ["5", "6", "7", "8"],
+      "correct_answer": 2,
+      "explanation": "Il y a 7 continents : Asie, Afrique, Amérique du Nord, Amérique du Sud, Antarctique, Europe et Océanie."
+    },
+    {
+      "id": 7,
+      "question": "Quelle est la formule chimique de l'eau ?",
+      "options": ["CO2", "H2O", "O2", "NaCl"],
+      "correct_answer": 1,
+      "explanation": "H2O signifie que chaque molécule d'eau contient 2 atomes d'hydrogène et 1 atome d'oxygène."
+    },
+    {
+      "id": 8,
+      "question": "Qui a peint la Joconde ?",
+      "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+      "correct_answer": 2,
+      "explanation": "Leonardo da Vinci a peint la Joconde (Mona Lisa) entre 1503 et 1519, c'est l'une des œuvres les plus célèbres au monde."
+    },
+    {
+      "id": 9,
+      "question": "Quel est le plus petit pays du monde ?",
+      "options": ["Monaco", "Vatican", "San Marin", "Liechtenstein"],
+      "correct_answer": 1,
+      "explanation": "Le Vatican est le plus petit État souverain du monde avec seulement 0,17 km² de superficie."
+    },
+    {
+      "id": 10,
+      "question": "Combien de jours y a-t-il dans une année bissextile ?",
+      "options": ["365", "366", "367", "364"],
+      "correct_answer": 1,
+      "explanation": "Une année bissextile a 366 jours car on ajoute un jour (29 février) tous les 4 ans pour ajuster le calendrier."
+    },
+    {
+      "id": 11,
+      "question": "Quelle planète est la plus proche du Soleil ?",
+      "options": ["Vénus", "Mercure", "Terre", "Mars"],
+      "correct_answer": 1,
+      "explanation": "Mercure est la planète la plus proche du Soleil, à une distance moyenne de 58 millions de kilomètres."
+    },
+    {
+      "id": 12,
+      "question": "Quel est l'élément chimique dont le symbole est 'Au' ?",
+      "options": ["Argent", "Aluminium", "Or", "Azote"],
+      "correct_answer": 2,
+      "explanation": "Au vient du latin 'aurum' qui signifie or. C'est un métal précieux de numéro atomique 79."
+    },
+    {
+      "id": 13,
+      "question": "En informatique, que signifie 'CPU' ?",
+      "options": ["Computer Processing Unit", "Central Processing Unit", "Central Program Unit", "Computer Program Unit"],
+      "correct_answer": 1,
+      "explanation": "CPU signifie Central Processing Unit, c'est le composant qui exécute les instructions des programmes."
+    },
+    {
+      "id": 14,
+      "question": "Quelle est la vitesse de la lumière dans le vide ?",
+      "options": ["300 000 km/s", "150 000 km/s", "450 000 km/s", "600 000 km/s"],
+      "correct_answer": 0,
+      "explanation": "La vitesse de la lumière dans le vide est exactement 299 792 458 m/s, soit environ 300 000 km/s."
+    },
+    {
+      "id": 15,
+      "question": "Qui a écrit '1984' ?",
+      "options": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Philip K. Dick"],
+      "correct_answer": 1,
+      "explanation": "George Orwell a écrit '1984' en 1948. Ce roman dystopique explore les thèmes de la surveillance et du totalitarisme."
+    },
+    {
+      "id": 16,
+      "question": "Quel est le plus haut sommet du monde ?",
+      "options": ["K2", "Mont Everest", "Kangchenjunga", "Lhotse"],
+      "correct_answer": 1,
+      "explanation": "L'Everest culmine à 8 848 mètres d'altitude dans la chaîne de l'Himalaya, à la frontière entre le Népal et le Tibet."
+    },
+    {
+      "id": 17,
+      "question": "Combien de cordes a une guitare classique ?",
+      "options": ["4", "5", "6", "7"],
+      "correct_answer": 2,
+      "explanation": "Une guitare classique a 6 cordes accordées (du plus grave au plus aigu) : Mi, La, Ré, Sol, Si, Mi."
+    },
+    {
+      "id": 18,
+      "question": "Quelle est la monnaie du Japon ?",
+      "options": ["Won", "Yuan", "Yen", "Dong"],
+      "correct_answer": 2,
+      "explanation": "Le yen (¥) est la monnaie officielle du Japon depuis 1871, c'est la troisième devise la plus échangée au monde."
+    },
+    {
+      "id": 19,
+      "question": "Quel gaz forme environ 78% de l'atmosphère terrestre ?",
+      "options": ["Oxygène", "Azote", "Dioxyde de carbone", "Argon"],
+      "correct_answer": 1,
+      "explanation": "L'azote (N2) représente 78% de l'atmosphère, suivi de l'oxygène (21%) et de l'argon (0,9%)."
+    },
+    {
+      "id": 20,
+      "question": "En quelle année a eu lieu la Révolution française ?",
+      "options": ["1789", "1799", "1779", "1809"],
+      "correct_answer": 0,
+      "explanation": "La Révolution française a commencé en 1789 avec la prise de la Bastille le 14 juillet."
+    },
+    {
+      "id": 21,
+      "question": "Quel est le plus grand mammifère du monde ?",
+      "options": ["Éléphant d'Afrique", "Baleine bleue", "Girafe", "Rhinocéros"],
+      "correct_answer": 1,
+      "explanation": "La baleine bleue peut mesurer jusqu'à 30 mètres de long et peser jusqu'à 200 tonnes."
+    },
+    {
+      "id": 22,
+      "question": "Combien de secondes y a-t-il dans une heure ?",
+      "options": ["3600", "3000", "4200", "2400"],
+      "correct_answer": 0,
+      "explanation": "1 heure = 60 minutes × 60 secondes = 3600 secondes."
+    },
+    {
+      "id": 23,
+      "question": "Quel est le symbole chimique du fer ?",
+      "options": ["Fr", "Fe", "Fi", "Fo"],
+      "correct_answer": 1,
+      "explanation": "Fe vient du latin 'ferrum' qui signifie fer. C'est un métal de transition de numéro atomique 26."
+    },
+    {
+      "id": 24,
+      "question": "Quelle est la langue la plus parlée au monde ?",
+      "options": ["Anglais", "Espagnol", "Mandarin", "Hindi"],
+      "correct_answer": 2,
+      "explanation": "Le mandarin est parlé par plus d'1,3 milliard de personnes, principalement en Chine."
+    },
+    {
+      "id": 25,
+      "question": "Quel sport se joue à Wimbledon ?",
+      "options": ["Golf", "Tennis", "Cricket", "Football"],
+      "correct_answer": 1,
+      "explanation": "Wimbledon est le plus ancien tournoi de tennis au monde, organisé depuis 1877 à Londres."
+    },
+    {
+      "id": 26,
+      "question": "Combien de faces a un cube ?",
+      "options": ["4", "6", "8", "12"],
+      "correct_answer": 1,
+      "explanation": "Un cube a 6 faces carrées identiques, 12 arêtes et 8 sommets."
+    },
+    {
+      "id": 27,
+      "question": "Quelle est la racine carrée de 64 ?",
+      "options": ["6", "7", "8", "9"],
+      "correct_answer": 2,
+      "explanation": "8 × 8 = 64, donc la racine carrée de 64 est 8."
+    },
+    {
+      "id": 28,
+      "question": "Quel fleuve traverse Paris ?",
+      "options": ["Loire", "Rhône", "Seine", "Garonne"],
+      "correct_answer": 2,
+      "explanation": "La Seine traverse Paris d'est en ouest sur 13 kilomètres, divisant la ville en rive droite et rive gauche."
+    },
+    {
+      "id": 29,
+      "question": "En informatique, que signifie 'RAM' ?",
+      "options": ["Read Access Memory", "Random Access Memory", "Rapid Access Memory", "Real Access Memory"],
+      "correct_answer": 1,
+      "explanation": "RAM signifie Random Access Memory, c'est la mémoire vive de l'ordinateur où sont stockées temporairement les données."
+    },
+    {
+      "id": 30,
+      "question": "Combien de minutes y a-t-il dans un jour ?",
+      "options": ["1440", "1200", "1800", "2400"],
+      "correct_answer": 0,
+      "explanation": "1 jour = 24 heures × 60 minutes = 1440 minutes."
+    }
+  ]
+}

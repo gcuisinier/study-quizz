@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz QCM</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .title {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        .progress {
+            background: #f0f0f0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        .progress-item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .progress-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .progress-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .timer {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .timer.warning {
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .question-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .question-text {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .options {
+            display: grid;
+            gap: 15px;
+        }
+
+        .option {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 15px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.1em;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .option.correct {
+            border-color: #2ed573;
+            background: #2ed573;
+            color: white;
+        }
+
+        .option.incorrect {
+            border-color: #ff3742;
+            background: #ff3742;
+            color: white;
+        }
+
+        .option.disabled {
+            pointer-events: none;
+            opacity: 0.7;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #545b62;
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .file-input {
+            margin-bottom: 30px;
+        }
+
+        .file-label {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.1em;
+        }
+
+        .file-label:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .result-message {
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .result-correct {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .result-incorrect {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .countdown {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        .explanation {
+            background: #e3f2fd;
+            border: 1px solid #bbdefb;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 15px;
+            color: #1565c0;
+        }
+
+        .explanation-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #0d47a1;
+        }
+
+        .explanation-text {
+            line-height: 1.4;
+            font-size: 0.95em;
+        }
+
+        .final-score {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+
+        .final-score h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .final-score p {
+            font-size: 1.3em;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 2s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">🎯 Quiz QCM</h1>
+            <p class="subtitle">Répondez correctement à 25 questions pour gagner !</p>
+        </div>
+
+        <div id="file-upload" class="file-input">
+            <label for="json-file" class="file-label">
+                📁 Choisir un fichier JSON de questions
+            </label>
+            <input type="file" id="json-file" accept=".json">
+        </div>
+
+        <div id="quiz-content" class="hidden">
+            <div class="progress">
+                <div class="progress-item">
+                    <div class="progress-number" id="correct-count">0</div>
+                    <div class="progress-label">Bonnes réponses</div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-number" id="pool-count">0</div>
+                    <div class="progress-label">Questions en attente</div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-number">25</div>
+                    <div class="progress-label">Objectif</div>
+                </div>
+            </div>
+
+            <div id="timer" class="timer">
+                ⏱️ Temps restant: <span id="time-left">20</span> secondes
+            </div>
+
+            <div id="question-container" class="question-card">
+                <div id="question-text" class="question-text"></div>
+                <div id="options-container" class="options"></div>
+            </div>
+
+            <div id="result-message" class="hidden"></div>
+            <div id="explanation-message" class="explanation hidden">
+                <div class="explanation-title">💡 Explication</div>
+                <div id="explanation-text" class="explanation-text"></div>
+            </div>
+            <div id="countdown-message" class="countdown hidden">
+                ⏳ Prochaine question dans <span id="countdown-timer">5</span> secondes
+            </div>
+
+            <div class="buttons">
+                <button id="restart-btn" class="btn btn-secondary">Recommencer</button>
+            </div>
+        </div>
+
+        <div id="final-result" class="hidden">
+            <div class="final-score">
+                <h2>🏆 Félicitations !</h2>
+                <p>Vous avez atteint l'objectif de 25 bonnes réponses !</p>
+                <button id="play-again-btn" class="btn btn-secondary" style="margin-top: 20px;">Rejouer</button>
+            </div>
+        </div>
+
+        <div id="start-screen" class="hidden">
+            <div class="header">
+                <h2>🎯 Quiz prêt à démarrer !</h2>
+                <p class="subtitle">Objectif: 25 bonnes réponses en moins de 20 secondes par question</p>
+            </div>
+            <div class="buttons">
+                <button id="start-quiz-btn" class="btn btn-primary">🚀 Démarrer le Quiz</button>
+                <button id="change-file-btn" class="btn btn-secondary">📁 Changer de fichier</button>
+            </div>
+        </div>
+
+        <div id="loading" class="hidden">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Chargement du quiz...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class QuizApp {
+            constructor() {
+                this.questions = [];
+                this.currentPool = [];
+                this.correctAnswers = 0;
+                this.targetCorrect = 25;
+                this.timeLimit = 20;
+                this.currentQuestion = null;
+                this.selectedAnswer = null;
+                this.timer = null;
+                this.timeLeft = 20;
+                this.countdownTimer = null;
+                this.countdownTime = 5;
+                
+                this.initializeEventListeners();
+            }
+
+            initializeEventListeners() {
+                document.getElementById('json-file').addEventListener('change', (e) => this.loadQuestions(e));
+                document.getElementById('start-quiz-btn').addEventListener('click', () => this.startQuiz());
+                document.getElementById('change-file-btn').addEventListener('click', () => this.changeFile());
+                document.getElementById('restart-btn').addEventListener('click', () => this.restart());
+                document.getElementById('play-again-btn').addEventListener('click', () => this.restart());
+            }
+
+            async loadQuestions(event) {
+                const file = event.target.files[0];
+                if (!file) return;
+
+                try {
+                    document.getElementById('loading').classList.remove('hidden');
+                    
+                    const text = await file.text();
+                    const data = JSON.parse(text);
+                    
+                    if (!data.questions || !Array.isArray(data.questions)) {
+                        throw new Error('Le fichier doit contenir un tableau "questions"');
+                    }
+
+                    this.questions = data.questions;
+                    this.initializePool();
+                    this.showStartScreen();
+                } catch (error) {
+                    alert('Erreur lors du chargement du fichier: ' + error.message);
+                } finally {
+                    document.getElementById('loading').classList.add('hidden');
+                }
+            }
+
+            initializePool() {
+                if (this.questions.length < 10) {
+                    alert('Il faut au moins 10 questions dans le fichier JSON.');
+                    return false;
+                }
+
+                this.currentPool = this.shuffleArray([...this.questions]).slice(0, 10);
+                return true;
+            }
+
+            shuffleArray(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            showStartScreen() {
+                document.getElementById('file-upload').classList.add('hidden');
+                document.getElementById('start-screen').classList.remove('hidden');
+            }
+
+            startQuiz() {
+                document.getElementById('start-screen').classList.add('hidden');
+                document.getElementById('quiz-content').classList.remove('hidden');
+                this.updateProgress();
+                this.nextQuestion();
+            }
+
+            changeFile() {
+                document.getElementById('start-screen').classList.add('hidden');
+                document.getElementById('file-upload').classList.remove('hidden');
+                document.getElementById('json-file').value = '';
+                this.questions = [];
+                this.currentPool = [];
+                this.correctAnswers = 0;
+            }
+
+            nextQuestion() {
+                if (this.correctAnswers >= this.targetCorrect) {
+                    this.endQuiz();
+                    return;
+                }
+
+                if (this.currentPool.length === 0) {
+                    alert('Plus de questions disponibles!');
+                    return;
+                }
+
+                this.clearTimer();
+                this.selectedAnswer = null;
+                
+                const randomIndex = Math.floor(Math.random() * this.currentPool.length);
+                this.currentQuestion = this.currentPool[randomIndex];
+                
+                this.displayQuestion();
+                this.startTimer();
+                
+                document.getElementById('result-message').classList.add('hidden');
+                document.getElementById('explanation-message').classList.add('hidden');
+                document.getElementById('countdown-message').classList.add('hidden');
+            }
+
+            displayQuestion() {
+                const questionText = document.getElementById('question-text');
+                const optionsContainer = document.getElementById('options-container');
+                
+                questionText.textContent = this.currentQuestion.question;
+                optionsContainer.innerHTML = '';
+
+                this.currentQuestion.options.forEach((option, index) => {
+                    const optionElement = document.createElement('div');
+                    optionElement.className = 'option';
+                    optionElement.textContent = option;
+                    optionElement.addEventListener('click', () => this.selectAnswer(index, optionElement));
+                    optionsContainer.appendChild(optionElement);
+                });
+            }
+
+            selectAnswer(index, element) {
+                if (this.selectedAnswer !== null) return;
+
+                this.selectedAnswer = index;
+                this.clearTimer();
+
+                const options = document.querySelectorAll('.option');
+                options.forEach(opt => opt.classList.add('disabled'));
+                
+                element.classList.add('selected');
+
+                this.checkAnswer();
+            }
+
+            checkAnswer() {
+                const options = document.querySelectorAll('.option');
+                const correctIndex = this.currentQuestion.correct_answer;
+                
+                options[correctIndex].classList.add('correct');
+                
+                if (this.selectedAnswer === correctIndex) {
+                    this.showResult(true, 'Excellente réponse ! 🎉');
+                    this.correctAnswers++;
+                    this.removeQuestionFromPool();
+                    this.addQuestionToPool();
+                } else {
+                    if (this.selectedAnswer !== null && this.selectedAnswer >= 0) {
+                        options[this.selectedAnswer].classList.add('incorrect');
+                    }
+                    const message = this.selectedAnswer === -1 ? 
+                        `⏰ Temps écoulé ! La bonne réponse était: ${this.currentQuestion.options[correctIndex]}` :
+                        `Mauvaise réponse. La bonne réponse était: ${this.currentQuestion.options[correctIndex]}`;
+                    this.showResult(false, message);
+                }
+
+                this.updateProgress();
+                
+                // Affichage du countdown et passage automatique après 5 secondes
+                this.showCountdown();
+            }
+
+            showResult(isCorrect, message) {
+                const resultElement = document.getElementById('result-message');
+                resultElement.textContent = message;
+                resultElement.className = isCorrect ? 'result-message result-correct' : 'result-message result-incorrect';
+                resultElement.classList.remove('hidden');
+                
+                // Afficher l'explication si disponible
+                if (this.currentQuestion.explanation) {
+                    const explanationElement = document.getElementById('explanation-message');
+                    const explanationText = document.getElementById('explanation-text');
+                    explanationText.textContent = this.currentQuestion.explanation;
+                    explanationElement.classList.remove('hidden');
+                }
+            }
+
+            removeQuestionFromPool() {
+                const index = this.currentPool.findIndex(q => q.id === this.currentQuestion.id);
+                if (index > -1) {
+                    this.currentPool.splice(index, 1);
+                }
+            }
+
+            addQuestionToPool() {
+                const availableQuestions = this.questions.filter(q => 
+                    !this.currentPool.some(poolQ => poolQ.id === q.id)
+                );
+                
+                if (availableQuestions.length > 0) {
+                    const randomQuestion = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+                    this.currentPool.push(randomQuestion);
+                }
+            }
+
+            startTimer() {
+                this.timeLeft = this.timeLimit;
+                this.updateTimerDisplay();
+                
+                this.timer = setInterval(() => {
+                    this.timeLeft--;
+                    this.updateTimerDisplay();
+                    
+                    if (this.timeLeft <= 5) {
+                        document.getElementById('timer').classList.add('warning');
+                    }
+                    
+                    if (this.timeLeft <= 0) {
+                        this.timeUp();
+                    }
+                }, 1000);
+            }
+
+            updateTimerDisplay() {
+                document.getElementById('time-left').textContent = this.timeLeft;
+            }
+
+            timeUp() {
+                if (this.selectedAnswer === null) {
+                    this.selectedAnswer = -1; // Indicates time up
+                    const options = document.querySelectorAll('.option');
+                    options.forEach(opt => opt.classList.add('disabled'));
+                    
+                    this.checkAnswer();
+                }
+            }
+
+            showCountdown() {
+                document.getElementById('countdown-message').classList.remove('hidden');
+                this.countdownTime = 5;
+                document.getElementById('countdown-timer').textContent = this.countdownTime;
+                
+                this.countdownTimer = setInterval(() => {
+                    this.countdownTime--;
+                    document.getElementById('countdown-timer').textContent = this.countdownTime;
+                    
+                    if (this.countdownTime <= 0) {
+                        clearInterval(this.countdownTimer);
+                        this.countdownTimer = null;
+                        document.getElementById('countdown-message').classList.add('hidden');
+                        this.nextQuestion();
+                    }
+                }, 1000);
+            }
+
+            clearTimer() {
+                if (this.timer) {
+                    clearInterval(this.timer);
+                    this.timer = null;
+                }
+                if (this.countdownTimer) {
+                    clearInterval(this.countdownTimer);
+                    this.countdownTimer = null;
+                }
+                document.getElementById('timer').classList.remove('warning');
+            }
+
+            updateProgress() {
+                document.getElementById('correct-count').textContent = this.correctAnswers;
+                document.getElementById('pool-count').textContent = this.currentPool.length;
+            }
+
+            endQuiz() {
+                document.getElementById('quiz-content').classList.add('hidden');
+                document.getElementById('final-result').classList.remove('hidden');
+            }
+
+            restart() {
+                this.clearTimer();
+                this.correctAnswers = 0;
+                this.currentPool = [];
+                this.questions = [];
+                
+                document.getElementById('file-upload').classList.remove('hidden');
+                document.getElementById('quiz-content').classList.add('hidden');
+                document.getElementById('final-result').classList.add('hidden');
+                document.getElementById('start-screen').classList.add('hidden');
+                document.getElementById('json-file').value = '';
+            }
+        }
+
+        new QuizApp();
+    </script>
+</body>
+</html>
