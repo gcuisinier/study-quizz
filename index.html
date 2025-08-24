@@ -75,18 +75,36 @@
             font-size: 0.9em;
         }
 
-        .timer {
-            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
-            color: white;
-            padding: 15px;
-            border-radius: 10px;
+        .timer-progress {
             margin-bottom: 30px;
-            font-size: 1.5em;
-            font-weight: bold;
+            height: 8px;
         }
 
-        .timer.warning {
-            animation: pulse 1s infinite;
+        .progress-bar {
+            width: 100%;
+            height: 100%;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(45deg, #2ed573, #1dd1a1);
+            border-radius: 4px;
+            transition: width 1s linear;
+            width: 100%;
+        }
+
+        .progress-fill.warning {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            animation: pulse-fill 1s infinite;
+        }
+
+        @keyframes pulse-fill {
+            0% { opacity: 1; }
+            50% { opacity: 0.7; }
+            100% { opacity: 1; }
         }
 
         @keyframes pulse {
@@ -218,55 +236,6 @@
             display: none;
         }
 
-        .result-message {
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            font-size: 1.2em;
-            font-weight: bold;
-        }
-
-        .result-correct {
-            background: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-        }
-
-        .result-incorrect {
-            background: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-        }
-
-        .countdown {
-            background: #667eea;
-            color: white;
-            padding: 15px;
-            border-radius: 10px;
-            margin-top: 15px;
-            font-size: 1.1em;
-            font-weight: bold;
-        }
-
-        .explanation {
-            background: #e3f2fd;
-            border: 1px solid #bbdefb;
-            border-radius: 10px;
-            padding: 15px;
-            margin-top: 15px;
-            color: #1565c0;
-        }
-
-        .explanation-title {
-            font-weight: bold;
-            margin-bottom: 8px;
-            color: #0d47a1;
-        }
-
-        .explanation-text {
-            line-height: 1.4;
-            font-size: 0.95em;
-        }
 
         .final-score {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -292,6 +261,169 @@
         .loading {
             text-align: center;
             padding: 40px;
+        }
+
+        /* Modal styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-overlay.hidden {
+            display: none !important;
+        }
+
+        .modal {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+            text-align: center;
+            transform: scale(0.8);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .modal.show {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        .modal-result-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .modal-result-title {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .modal-result-title.correct {
+            color: #2ed573;
+        }
+
+        .modal-result-title.incorrect {
+            color: #ff3742;
+        }
+
+        .modal-result-message {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .modal-explanation {
+            background: #e3f2fd;
+            border: 1px solid #bbdefb;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            color: #1565c0;
+            text-align: left;
+        }
+
+        .modal-explanation-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #0d47a1;
+            font-size: 1.1em;
+        }
+
+        .modal-explanation-text {
+            line-height: 1.5;
+        }
+
+        .modal-countdown {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            font-size: 1.3em;
+            font-weight: bold;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .modal-countdown-number {
+            font-size: 2em;
+            color: #ffd700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .modal-button-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .modal-button-container .btn {
+            font-size: 1.2em;
+            padding: 15px 30px;
+            min-width: 200px;
+        }
+
+        /* Toast styles */
+        .toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            font-size: 1.1em;
+            font-weight: bold;
+            z-index: 2000;
+            transform: translateX(400px);
+            transition: transform 0.3s ease;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .toast.show {
+            transform: translateX(0);
+        }
+
+        .toast.streak-5 {
+            background: linear-gradient(135deg, #2ed573 0%, #1dd1a1 100%);
+        }
+
+        .toast.streak-10 {
+            background: linear-gradient(135deg, #ff9f43 0%, #ee5a24 100%);
+        }
+
+        .toast.streak-20 {
+            background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
+        }
+
+        .toast-icon {
+            font-size: 1.5em;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .toast-title {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .toast-message {
+            font-size: 0.9em;
+            opacity: 0.9;
         }
 
         .spinner {
@@ -340,8 +472,10 @@
                 </div>
             </div>
 
-            <div id="timer" class="timer">
-                ⏱️ Temps restant: <span id="time-left">20</span> secondes
+            <div id="timer" class="timer-progress">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
             </div>
 
             <div id="question-container" class="question-card">
@@ -349,14 +483,6 @@
                 <div id="options-container" class="options"></div>
             </div>
 
-            <div id="result-message" class="hidden"></div>
-            <div id="explanation-message" class="explanation hidden">
-                <div class="explanation-title">💡 Explication</div>
-                <div id="explanation-text" class="explanation-text"></div>
-            </div>
-            <div id="countdown-message" class="countdown hidden">
-                ⏳ Prochaine question dans <span id="countdown-timer">5</span> secondes
-            </div>
 
             <div class="buttons">
                 <button id="restart-btn" class="btn btn-secondary">Recommencer</button>
@@ -390,22 +516,55 @@
         </div>
     </div>
 
+    <!-- Modal for results -->
+    <div id="result-modal" class="modal-overlay hidden">
+        <div class="modal">
+            <div id="modal-icon" class="modal-result-icon"></div>
+            <div id="modal-title" class="modal-result-title"></div>
+            <div id="modal-message" class="modal-result-message"></div>
+            
+            <div id="modal-explanation" class="modal-explanation hidden">
+                <div class="modal-explanation-title">💡 Explication</div>
+                <div id="modal-explanation-text" class="modal-explanation-text"></div>
+            </div>
+            
+            <div id="modal-next-button-container" class="modal-button-container">
+                <button id="modal-next-button" class="btn btn-primary">
+                    ➡️ Prochaine question
+                </button>
+            </div>
+        </div>
+    </div>
+
     <script>
         class QuizApp {
             constructor() {
                 this.questions = [];
                 this.currentPool = [];
+                this.seenQuestions = new Set(); // Track questions that have been shown
                 this.correctAnswers = 0;
+                this.currentStreak = 0;
                 this.targetCorrect = 25;
                 this.timeLimit = 20;
                 this.currentQuestion = null;
                 this.selectedAnswer = null;
                 this.timer = null;
                 this.timeLeft = 20;
-                this.countdownTimer = null;
-                this.countdownTime = 5;
                 
                 this.initializeEventListeners();
+                this.initializeModal();
+            }
+
+            initializeModal() {
+                // S'assurer que la modale est masquée au démarrage
+                const modal = document.getElementById('result-modal');
+                if (modal) {
+                    modal.classList.add('hidden');
+                    const modalInner = modal.querySelector('.modal');
+                    if (modalInner) {
+                        modalInner.classList.remove('show');
+                    }
+                }
             }
 
             initializeEventListeners() {
@@ -414,6 +573,7 @@
                 document.getElementById('change-file-btn').addEventListener('click', () => this.changeFile());
                 document.getElementById('restart-btn').addEventListener('click', () => this.restart());
                 document.getElementById('play-again-btn').addEventListener('click', () => this.restart());
+                document.getElementById('modal-next-button').addEventListener('click', () => this.goToNextQuestion());
             }
 
             async loadQuestions(event) {
@@ -434,7 +594,7 @@
                     this.initializePool();
                     this.showStartScreen();
                 } catch (error) {
-                    alert('Erreur lors du chargement du fichier: ' + error.message);
+                    alert('Oops ! Problème avec le fichier: ' + error.message);
                 } finally {
                     document.getElementById('loading').classList.add('hidden');
                 }
@@ -476,7 +636,9 @@
                 document.getElementById('json-file').value = '';
                 this.questions = [];
                 this.currentPool = [];
+                this.seenQuestions.clear();
                 this.correctAnswers = 0;
+                this.currentStreak = 0;
             }
 
             nextQuestion() {
@@ -496,12 +658,13 @@
                 const randomIndex = Math.floor(Math.random() * this.currentPool.length);
                 this.currentQuestion = this.currentPool[randomIndex];
                 
+                // Marquer cette question comme vue
+                this.seenQuestions.add(this.currentQuestion.id || this.getQuestionId(this.currentQuestion));
+                
                 this.displayQuestion();
                 this.startTimer();
                 
-                document.getElementById('result-message').classList.add('hidden');
-                document.getElementById('explanation-message').classList.add('hidden');
-                document.getElementById('countdown-message').classList.add('hidden');
+                // Plus besoin de masquer les anciens éléments car ils n'existent plus
             }
 
             displayQuestion() {
@@ -541,52 +704,87 @@
                 options[correctIndex].classList.add('correct');
                 
                 if (this.selectedAnswer === correctIndex) {
+                    this.currentStreak++;
                     this.showResult(true, 'Excellente réponse ! 🎉');
                     this.correctAnswers++;
                     this.removeQuestionFromPool();
                     this.addQuestionToPool();
+                    this.checkStreakMilestones();
                 } else {
+                    this.currentStreak = 0; // Reset streak on wrong answer
                     if (this.selectedAnswer !== null && this.selectedAnswer >= 0) {
                         options[this.selectedAnswer].classList.add('incorrect');
                     }
                     const message = this.selectedAnswer === -1 ? 
-                        `⏰ Temps écoulé ! La bonne réponse était: ${this.currentQuestion.options[correctIndex]}` :
-                        `Mauvaise réponse. La bonne réponse était: ${this.currentQuestion.options[correctIndex]}`;
+                        `⏰ Pas de souci ! La bonne réponse était: ${this.currentQuestion.options[correctIndex]}` :
+                        `Presque ! La bonne réponse était: ${this.currentQuestion.options[correctIndex]}`;
                     this.showResult(false, message);
                 }
 
                 this.updateProgress();
-                
-                // Affichage du countdown et passage automatique après 5 secondes
-                this.showCountdown();
             }
 
             showResult(isCorrect, message) {
-                const resultElement = document.getElementById('result-message');
-                resultElement.textContent = message;
-                resultElement.className = isCorrect ? 'result-message result-correct' : 'result-message result-incorrect';
-                resultElement.classList.remove('hidden');
-                
+                this.showResultModal(isCorrect, message);
+            }
+
+            showResultModal(isCorrect, message) {
+                const modal = document.getElementById('result-modal');
+                const modalIcon = document.getElementById('modal-icon');
+                const modalTitle = document.getElementById('modal-title');
+                const modalMessage = document.getElementById('modal-message');
+                const modalExplanation = document.getElementById('modal-explanation');
+                const modalExplanationText = document.getElementById('modal-explanation-text');
+
+                // Configuration des icônes et titres selon le résultat
+                if (isCorrect) {
+                    modalIcon.textContent = '🎉';
+                    modalTitle.textContent = 'Bonne réponse !';
+                    modalTitle.className = 'modal-result-title correct';
+                } else {
+                    modalIcon.textContent = '💡';
+                    modalTitle.textContent = 'Continuez comme ça !';
+                    modalTitle.className = 'modal-result-title incorrect';
+                }
+
+                modalMessage.textContent = message;
+
                 // Afficher l'explication si disponible
                 if (this.currentQuestion.explanation) {
-                    const explanationElement = document.getElementById('explanation-message');
-                    const explanationText = document.getElementById('explanation-text');
-                    explanationText.textContent = this.currentQuestion.explanation;
-                    explanationElement.classList.remove('hidden');
+                    modalExplanationText.textContent = this.currentQuestion.explanation;
+                    modalExplanation.classList.remove('hidden');
+                } else {
+                    modalExplanation.classList.add('hidden');
                 }
+
+                // Afficher la modale avec animation
+                modal.classList.remove('hidden');
+                setTimeout(() => {
+                    modal.querySelector('.modal').classList.add('show');
+                }, 10);
             }
 
             removeQuestionFromPool() {
-                const index = this.currentPool.findIndex(q => q.id === this.currentQuestion.id);
+                const currentQuestionId = this.getQuestionId(this.currentQuestion);
+                const index = this.currentPool.findIndex(q => this.getQuestionId(q) === currentQuestionId);
                 if (index > -1) {
                     this.currentPool.splice(index, 1);
                 }
             }
 
+            getQuestionId(question) {
+                // Si la question n'a pas d'ID, créer un ID basé sur le contenu
+                return question.id || `q_${question.question.substring(0, 50).replace(/\s+/g, '_')}`;
+            }
+
             addQuestionToPool() {
-                const availableQuestions = this.questions.filter(q => 
-                    !this.currentPool.some(poolQ => poolQ.id === q.id)
-                );
+                // Filtrer les questions qui ne sont ni dans la pool actuelle ni déjà vues
+                const availableQuestions = this.questions.filter(q => {
+                    const questionId = this.getQuestionId(q);
+                    const isInPool = this.currentPool.some(poolQ => this.getQuestionId(poolQ) === questionId);
+                    const hasBeenSeen = this.seenQuestions.has(questionId);
+                    return !isInPool && !hasBeenSeen;
+                });
                 
                 if (availableQuestions.length > 0) {
                     const randomQuestion = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
@@ -602,9 +800,6 @@
                     this.timeLeft--;
                     this.updateTimerDisplay();
                     
-                    if (this.timeLeft <= 5) {
-                        document.getElementById('timer').classList.add('warning');
-                    }
                     
                     if (this.timeLeft <= 0) {
                         this.timeUp();
@@ -613,7 +808,15 @@
             }
 
             updateTimerDisplay() {
-                document.getElementById('time-left').textContent = this.timeLeft;
+                const progressPercentage = (this.timeLeft / this.timeLimit) * 100;
+                const progressFill = document.getElementById('progress-fill');
+                progressFill.style.width = progressPercentage + '%';
+                
+                if (this.timeLeft <= 5) {
+                    progressFill.classList.add('warning');
+                } else {
+                    progressFill.classList.remove('warning');
+                }
             }
 
             timeUp() {
@@ -626,22 +829,58 @@
                 }
             }
 
-            showCountdown() {
-                document.getElementById('countdown-message').classList.remove('hidden');
-                this.countdownTime = 5;
-                document.getElementById('countdown-timer').textContent = this.countdownTime;
+            checkStreakMilestones() {
+                if (this.currentStreak === 5) {
+                    this.showToast('🔥', 'Série de 5 !', 'Vous êtes en feu !', 'streak-5');
+                } else if (this.currentStreak === 10) {
+                    this.showToast('⚡', 'Série de 10 !', 'Incroyable performance !', 'streak-10');
+                } else if (this.currentStreak === 20) {
+                    this.showToast('👑', 'Série de 20 !', 'Vous êtes un champion !', 'streak-20');
+                }
+            }
+
+            showToast(icon, title, message, className) {
+                // Créer l'élément toast
+                const toast = document.createElement('div');
+                toast.className = `toast ${className}`;
+                toast.innerHTML = `
+                    <div class="toast-icon">${icon}</div>
+                    <div class="toast-title">${title}</div>
+                    <div class="toast-message">${message}</div>
+                `;
+
+                // Ajouter au body
+                document.body.appendChild(toast);
+
+                // Animation d'apparition
+                setTimeout(() => {
+                    toast.classList.add('show');
+                }, 100);
+
+                // Suppression automatique après 4 secondes
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                    setTimeout(() => {
+                        if (toast.parentNode) {
+                            toast.parentNode.removeChild(toast);
+                        }
+                    }, 300);
+                }, 4000);
+            }
+
+            goToNextQuestion() {
+                this.hideResultModal();
+                this.nextQuestion();
+            }
+
+            hideResultModal() {
+                const modal = document.getElementById('result-modal');
+                const modalInner = modal.querySelector('.modal');
                 
-                this.countdownTimer = setInterval(() => {
-                    this.countdownTime--;
-                    document.getElementById('countdown-timer').textContent = this.countdownTime;
-                    
-                    if (this.countdownTime <= 0) {
-                        clearInterval(this.countdownTimer);
-                        this.countdownTimer = null;
-                        document.getElementById('countdown-message').classList.add('hidden');
-                        this.nextQuestion();
-                    }
-                }, 1000);
+                modalInner.classList.remove('show');
+                setTimeout(() => {
+                    modal.classList.add('hidden');
+                }, 300);
             }
 
             clearTimer() {
@@ -649,11 +888,8 @@
                     clearInterval(this.timer);
                     this.timer = null;
                 }
-                if (this.countdownTimer) {
-                    clearInterval(this.countdownTimer);
-                    this.countdownTimer = null;
-                }
-                document.getElementById('timer').classList.remove('warning');
+                const progressFill = document.getElementById('progress-fill');
+                progressFill.classList.remove('warning');
             }
 
             updateProgress() {
@@ -669,7 +905,9 @@
             restart() {
                 this.clearTimer();
                 this.correctAnswers = 0;
+                this.currentStreak = 0;
                 this.currentPool = [];
+                this.seenQuestions.clear();
                 this.questions = [];
                 
                 document.getElementById('file-upload').classList.remove('hidden');
