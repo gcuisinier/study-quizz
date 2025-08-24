@@ -426,6 +426,201 @@
             opacity: 0.9;
         }
 
+        /* Responsive design pour mobile */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                min-height: 100vh;
+                display: flex;
+                align-items: flex-start;
+            }
+
+            .container {
+                padding: 20px 15px;
+                margin: 0;
+                border-radius: 15px;
+                max-width: 100%;
+            }
+
+            .header {
+                margin-bottom: 15px;
+            }
+
+            .title {
+                font-size: 2em;
+                margin-bottom: 5px;
+            }
+
+            .subtitle {
+                font-size: 1em;
+            }
+
+            .progress {
+                padding: 15px;
+                margin-bottom: 15px;
+                border-radius: 8px;
+            }
+
+            .progress-item {
+                padding: 10px;
+                border-radius: 8px;
+            }
+
+            .progress-number {
+                font-size: 1.5em;
+            }
+
+            .timer-progress {
+                margin-bottom: 15px;
+                height: 6px;
+            }
+
+            .question-card {
+                padding: 20px 15px;
+                margin-bottom: 15px;
+                border-radius: 12px;
+            }
+
+            .question-text {
+                font-size: 1.1em;
+                margin-bottom: 15px;
+            }
+
+            .options {
+                gap: 10px;
+            }
+
+            .option {
+                padding: 12px 15px;
+                border-radius: 8px;
+                font-size: 1em;
+            }
+
+            .buttons {
+                gap: 10px;
+                flex-direction: column;
+            }
+
+            .btn {
+                padding: 12px 25px;
+                font-size: 1em;
+                border-radius: 8px;
+                width: 100%;
+            }
+
+            /* Masquer les boutons "Recommencer" sur mobile */
+            #restart-btn {
+                display: none;
+            }
+
+            /* Masquer le bouton "Réinitialiser l'historique" sur mobile */
+            #reset-history-btn {
+                display: none;
+            }
+
+            .predefined-quizzes {
+                margin-bottom: 20px;
+            }
+
+            .quiz-list {
+                gap: 10px;
+                margin-bottom: 15px;
+            }
+
+            .quiz-card {
+                padding: 15px;
+                border-radius: 12px;
+            }
+
+            .quiz-card-name {
+                font-size: 1.1em;
+                margin-bottom: 5px;
+            }
+
+            .quiz-card-description {
+                font-size: 0.85em;
+            }
+
+            .file-input {
+                margin-bottom: 20px;
+            }
+
+            .file-label {
+                padding: 12px 25px;
+                border-radius: 8px;
+                font-size: 1em;
+                width: 100%;
+                text-align: center;
+                display: block;
+            }
+
+            .final-score {
+                padding: 25px 15px;
+                border-radius: 15px;
+                margin-top: 15px;
+            }
+
+            .final-score h2 {
+                font-size: 2em;
+                margin-bottom: 10px;
+            }
+
+            .final-score p {
+                font-size: 1.1em;
+                margin-bottom: 8px;
+            }
+
+            .modal {
+                padding: 25px 15px;
+                border-radius: 15px;
+                width: 95%;
+            }
+
+            .modal-result-icon {
+                font-size: 3em;
+                margin-bottom: 15px;
+            }
+
+            .modal-result-title {
+                font-size: 1.5em;
+                margin-bottom: 15px;
+            }
+
+            .modal-result-message {
+                font-size: 1em;
+                margin-bottom: 15px;
+            }
+
+            .modal-explanation {
+                padding: 15px;
+                margin: 15px 0;
+                border-radius: 12px;
+            }
+
+            .modal-button-container {
+                margin-top: 20px;
+            }
+
+            .modal-button-container .btn {
+                font-size: 1em;
+                padding: 12px 25px;
+                min-width: auto;
+                width: 100%;
+            }
+
+            .toast {
+                top: 10px;
+                right: 10px;
+                left: 10px;
+                max-width: none;
+                transform: translateY(-100px);
+            }
+
+            .toast.show {
+                transform: translateY(0);
+            }
+        }
+
         .spinner {
             border: 4px solid #f3f3f3;
             border-top: 4px solid #667eea;
@@ -582,10 +777,11 @@
         <div id="start-screen" class="hidden">
             <div class="header">
                 <h2>🎯 Quiz prêt à démarrer !</h2>
-                <p class="subtitle">Objectif: 25 bonnes réponses en moins de 20 secondes par question</p>
+                <p class="subtitle">Choisissez votre mode de jeu</p>
             </div>
             <div class="buttons">
-                <button id="start-quiz-btn" class="btn btn-primary">🚀 Démarrer le Quiz</button>
+                <button id="start-quiz-btn" class="btn btn-primary">🚀 Mode Entraînement</button>
+                <button id="start-test-btn" class="btn btn-primary">📝 Mode Test (10 questions)</button>
                 <button id="change-file-btn" class="btn btn-secondary">📁 Changer de fichier</button>
             </div>
         </div>
@@ -635,6 +831,9 @@
                 this.availableQuizzes = [];
                 this.selectedQuiz = null;
                 this.currentQuizKey = null; // Clé pour identifier le quiz actuel dans localStorage
+                this.isTestMode = false; // Mode test (10 questions)
+                this.testQuestions = []; // Questions pour le mode test
+                this.currentTestIndex = 0; // Index actuel dans le test
                 
                 this.initializeEventListeners();
                 this.initializeModal();
@@ -717,6 +916,7 @@
             initializeEventListeners() {
                 document.getElementById('json-file').addEventListener('change', (e) => this.loadQuestions(e));
                 document.getElementById('start-quiz-btn').addEventListener('click', () => this.startQuiz());
+                document.getElementById('start-test-btn').addEventListener('click', () => this.startTest());
                 document.getElementById('change-file-btn').addEventListener('click', () => this.changeFile());
                 document.getElementById('restart-btn').addEventListener('click', () => this.restart());
                 document.getElementById('play-again-btn').addEventListener('click', () => this.restart());
@@ -857,9 +1057,28 @@
             }
 
             startQuiz() {
+                this.isTestMode = false;
                 document.getElementById('start-screen').classList.add('hidden');
                 document.getElementById('quiz-content').classList.remove('hidden');
                 document.querySelector('.header').classList.add('hidden'); // Masquer le header principal
+                this.updateProgress();
+                this.nextQuestion();
+            }
+
+            startTest() {
+                if (this.questions.length < 10) {
+                    alert('Il faut au moins 10 questions pour démarrer un test.');
+                    return;
+                }
+                
+                this.isTestMode = true;
+                this.testQuestions = this.shuffleArray([...this.questions]).slice(0, 10);
+                this.currentTestIndex = 0;
+                this.correctAnswers = 0;
+                
+                document.getElementById('start-screen').classList.add('hidden');
+                document.getElementById('quiz-content').classList.remove('hidden');
+                document.querySelector('.header').classList.add('hidden');
                 this.updateProgress();
                 this.nextQuestion();
             }
@@ -883,29 +1102,45 @@
             }
 
             nextQuestion() {
-                if (this.correctAnswers >= this.targetCorrect) {
-                    this.endQuiz();
-                    return;
-                }
+                if (this.isTestMode) {
+                    // Mode test: 10 questions fixes
+                    if (this.currentTestIndex >= this.testQuestions.length) {
+                        this.endTest();
+                        return;
+                    }
+                    
+                    this.clearTimer();
+                    this.selectedAnswer = null;
+                    
+                    this.currentQuestion = this.testQuestions[this.currentTestIndex];
+                    this.currentTestIndex++;
+                    
+                    this.displayQuestion();
+                    this.startTimer();
+                } else {
+                    // Mode entraînement: logique originale
+                    if (this.correctAnswers >= this.targetCorrect) {
+                        this.endQuiz();
+                        return;
+                    }
 
-                if (this.currentPool.length === 0) {
-                    alert('Plus de questions disponibles!');
-                    return;
-                }
+                    if (this.currentPool.length === 0) {
+                        alert('Plus de questions disponibles!');
+                        return;
+                    }
 
-                this.clearTimer();
-                this.selectedAnswer = null;
-                
-                const randomIndex = Math.floor(Math.random() * this.currentPool.length);
-                this.currentQuestion = this.currentPool[randomIndex];
-                
-                // Marquer cette question comme vue
-                this.seenQuestions.add(this.currentQuestion.id || this.getQuestionId(this.currentQuestion));
-                
-                this.displayQuestion();
-                this.startTimer();
-                
-                // Plus besoin de masquer les anciens éléments car ils n'existent plus
+                    this.clearTimer();
+                    this.selectedAnswer = null;
+                    
+                    const randomIndex = Math.floor(Math.random() * this.currentPool.length);
+                    this.currentQuestion = this.currentPool[randomIndex];
+                    
+                    // Marquer cette question comme vue
+                    this.seenQuestions.add(this.currentQuestion.id || this.getQuestionId(this.currentQuestion));
+                    
+                    this.displayQuestion();
+                    this.startTimer();
+                }
             }
 
             displayQuestion() {
@@ -959,12 +1194,13 @@
                     this.showResult(true, 'Excellente réponse ! 🎉');
                     this.correctAnswers++;
                     
-                    // Sauvegarder la question comme vue SEULEMENT si la réponse est correcte
-                    this.markQuestionAsSeen();
-                    
-                    this.removeQuestionFromPool();
-                    this.addQuestionToPool();
-                    this.checkStreakMilestones();
+                    // Sauvegarder la question comme vue SEULEMENT si la réponse est correcte ET en mode entraînement
+                    if (!this.isTestMode) {
+                        this.markQuestionAsSeen();
+                        this.removeQuestionFromPool();
+                        this.addQuestionToPool();
+                        this.checkStreakMilestones();
+                    }
                 } else {
                     this.currentStreak = 0; // Reset streak on wrong answer
                     if (this.selectedAnswer !== null && this.selectedAnswer >= 0) {
@@ -1219,12 +1455,58 @@
             }
 
             updateProgress() {
-                document.getElementById('score-display').textContent = `${this.correctAnswers} / ${this.targetCorrect}`;
+                if (this.isTestMode) {
+                    document.getElementById('score-display').textContent = `${this.currentTestIndex} / 10`;
+                } else {
+                    document.getElementById('score-display').textContent = `${this.correctAnswers} / ${this.targetCorrect}`;
+                }
             }
 
             endQuiz() {
                 document.getElementById('quiz-content').classList.add('hidden');
                 document.getElementById('final-result').classList.remove('hidden');
+            }
+
+            endTest() {
+                document.getElementById('quiz-content').classList.add('hidden');
+                this.showTestResult();
+            }
+
+            showTestResult() {
+                const finalScore = document.getElementById('final-result');
+                const scoreContent = finalScore.querySelector('.final-score');
+                
+                const note = this.correctAnswers;
+                const percentage = (note / 10 * 100).toFixed(0);
+                
+                let message = '';
+                let emoji = '';
+                
+                if (note >= 8) {
+                    message = 'Excellente maîtrise du sujet !';
+                    emoji = '🏆';
+                } else if (note >= 6) {
+                    message = 'Bonne compréhension, continuez vos efforts !';
+                    emoji = '👏';
+                } else if (note >= 4) {
+                    message = 'C\'est un début, il faut réviser !';
+                    emoji = '📚';
+                } else {
+                    message = 'Il faut revoir les bases !';
+                    emoji = '💪';
+                }
+                
+                scoreContent.innerHTML = `
+                    <h2>${emoji} Test terminé !</h2>
+                    <p>Votre note: <strong>${note}/10</strong> (${percentage}%)</p>
+                    <p>${message}</p>
+                    <button id="play-again-btn" class="btn btn-secondary" style="margin-top: 20px;">Recommencer</button>
+                `;
+                
+                // Réattacher l'event listener au nouveau bouton
+                document.getElementById('play-again-btn').addEventListener('click', () => this.restart());
+                
+                finalScore.classList.remove('hidden');
             }
 
             resetQuestionHistory() {
@@ -1248,6 +1530,9 @@
                 this.seenQuestions.clear();
                 this.questions = [];
                 this.currentQuizKey = null;
+                this.isTestMode = false;
+                this.testQuestions = [];
+                this.currentTestIndex = 0;
                 
                 // Désélectionner les quizz prédéfinis
                 document.querySelectorAll('.quiz-card').forEach(card => {
