@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Que signifie l’acronyme ONE ?",
+      "options": [
+        "Office National de l’Emploi",
+        "Office de la Naissance et de l’Enfance",
+        "Organisation Nationale de l’Enfance",
+        "Office National de l’Éducation"
+      ],
+      "correct_answer": 1,
+      "explanation": "L’ONE signifie Office de la Naissance et de l’Enfance : santé, accueil et bien-être des enfants/familles en FWB."
+    },
+    {
+      "id": 2,
+      "question": "Que signifie l’acronyme AVIQ ?",
+      "options": [
+        "Agence pour une Vie de Qualité",
+        "Association des Victimes d’Incendies et de Quarantaine",
+        "Agence de Valorisation Internationale de la Qualité",
+        "Association Vie et Quotidien"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’AVIQ est l’Agence pour une Vie de Qualité : santé, handicap, bien-être et aînés (Wallonie)."
+    },
+    {
+      "id": 3,
+      "question": "Quel est le rôle principal d’un centre PMS ?",
+      "options": [
+        "Assurer la gestion financière de l’école",
+        "Accompagner les élèves (psycho-médico-social) et l’orientation",
+        "Remplacer les enseignants absents",
+        "Organiser les examens certificatifs"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le PMS offre un soutien psychologique, social et d’orientation, et sert de relais si nécessaire."
+    },
+    {
+      "id": 4,
+      "question": "Quel dispositif permet à un jeune MENA d’intégrer l’enseignement de plein exercice et d’apprendre le français ?",
+      "options": [
+        "FLA",
+        "DIAS",
+        "DASPA",
+        "SAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le DASPA accueille les primo-arrivants (dont MENA) avec apprentissage intensif du français et intégration progressive."
+    },
+    {
+      "id": 5,
+      "question": "Laquelle de ces affirmations décrit correctement la différence entre DASPA et FLA ?",
+      "options": [
+        "DASPA = soutien linguistique dans la classe ordinaire ; FLA = classe d’accueil séparée",
+        "DASPA = dispositif d’accueil pour primo-arrivants ; FLA = soutien linguistique dans l’ordinaire",
+        "DASPA = uniquement pour majeurs ; FLA = uniquement pour mineurs",
+        "DASPA = pour élèves en décrochage ; FLA = pour élèves en échec"
+      ],
+      "correct_answer": 1,
+      "explanation": "DASPA = accueil spécifique des primo-arrivants ; FLA = appui linguistique pour élèves non francophones en ordinaire."
+    },
+    {
+      "id": 6,
+      "question": "Jusqu’à quel âge l’obligation scolaire à temps plein est-elle effective en FWB ?",
+      "options": [
+        "Jusqu’à 12 ans",
+        "Jusqu’à 15 ans (ou 16 si le 1er cycle secondaire n’est pas réussi)",
+        "Jusqu’à 16 ans pour tous",
+        "Jusqu’à 18 ans pour tous"
+      ],
+      "correct_answer": 1,
+      "explanation": "Temps plein jusqu’à 15 ans (ou 16 si 1er cycle non réussi), puis temps partiel possible jusqu’à 18 ans."
+    },
+    {
+      "id": 7,
+      "question": "Julien, 15 ans, a terminé ses deux premières années du secondaire et veut une formation en alternance. Quelle structure est la plus adaptée ?",
+      "options": [
+        "IFAPME",
+        "Université",
+        "CEFA",
+        "SAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "À 15 ans avec 1er cycle terminé, l’alternance se fait via le CEFA (secondaire à temps partiel)."
+    },
+    {
+      "id": 8,
+      "question": "Quel est l’objectif des pôles territoriaux ?",
+      "options": [
+        "Remplacer les enseignants absents",
+        "Aider l’école ordinaire à inclure les élèves à besoins spécifiques (aménagements raisonnables)",
+        "Organiser des activités extrascolaires",
+        "Gérer les inscriptions en 1re secondaire"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les pôles territoriaux, rattachés au spécialisé, soutiennent l’inclusion en ordinaire et les aménagements raisonnables."
+    },
+    {
+      "id": 9,
+      "question": "Lequel N’EST PAS un dispositif d’accrochage scolaire ?",
+      "options": [
+        "Médiation scolaire",
+        "Équipes mobiles",
+        "École de devoirs",
+        "SAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’école de devoirs est un dispositif de soutien scolaire, pas un dispositif d’accrochage comme SAS/DIAS/médiation/équipes mobiles."
+    },
+    {
+      "id": 10,
+      "question": "La médiation scolaire vise principalement à…",
+      "options": [
+        "Attribuer des sanctions disciplinaires",
+        "Prévenir conflits, violence, absentéisme et décrochage par une intervention neutre",
+        "Remplacer le PMS",
+        "Recruter des enseignants"
+      ],
+      "correct_answer": 1,
+      "explanation": "Intervenants externes et neutres pour restaurer le climat et prévenir le décrochage."
+    },
+    {
+      "id": 11,
+      "question": "Scénario : Rosalie, 16 ans, révèle sa grossesse au PMS et refuse d’en parler à ses parents. Première bonne démarche ?",
+      "options": [
+        "Informer immédiatement les parents",
+        "Lui conseiller l’IVG sans autre discussion",
+        "Respecter le secret pro, informer sur ses droits et orienter vers un planning familial",
+        "La renvoyer vers la direction"
+      ],
+      "correct_answer": 2,
+      "explanation": "Écoute, neutralité, information sur les droits et orientation vers un centre de planning familial."
+    },
+    {
+      "id": 12,
+      "question": "Scénario : Logan, 3 ans, arrive sale, vêtements inadaptés, mère peu engagée. Démarche appropriée du PMS ?",
+      "options": [
+        "Ignorer, ce n’est pas du ressort de l’école",
+        "Évaluer, rencontrer la mère ; si négligence, relais SAJ/SOS Enfants",
+        "Exclure l’enfant de la classe",
+        "Appeler la police immédiatement sans évaluation"
+      ],
+      "correct_answer": 1,
+      "explanation": "Évaluation et dialogue d’abord ; si indices de négligence, relais vers services de protection."
+    },
+    {
+      "id": 13,
+      "question": "Parmi ces propositions, laquelle correspond le mieux à une activité d’une école de devoirs ?",
+      "options": [
+        "Sanction disciplinaire pour absentéisme",
+        "Soutien aux apprentissages et aide aux devoirs",
+        "Contrôle des présences en classe",
+        "Inspection pédagogique"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les écoles de devoirs aident aux apprentissages et renforcent les compétences des élèves."
+    },
+    {
+      "id": 14,
+      "question": "En alternance (CEFA/IFAPME), le “référent” a pour rôle principal de…",
+      "options": [
+        "Signer les diplômes",
+        "Construire le plan de formation, suivre le contrat et faire le lien école-entreprise",
+        "Recruter les tuteurs en entreprise",
+        "Décider des exclusions disciplinaires"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le référent suit le jeune, coordonne avec le tuteur et veille au respect du contrat et du plan de formation."
+    },
+    {
+      "id": 15,
+      "question": "Laquelle de ces affirmations N’EST PAS un constat récurrent des enquêtes PISA en Belgique ?",
+      "options": [
+        "Les résultats dépendent fortement de l’origine sociale",
+        "Culture du redoublement qui alimente l’échec",
+        "Relégation entre ‘bonnes’ et ‘mauvaises’ écoles",
+        "Les résultats sont indépendants de l’origine sociale"
+      ],
+      "correct_answer": 3,
+      "explanation": "PISA montre au contraire une forte dépendance des résultats à l’origine sociale ; c’est donc la proposition fausse."
+    },
+    {
+      "id": 16,
+      "question": "Quelle est la durée maximale d’un accueil dans un SAS (Service d’Accrochage Scolaire) ?",
+      "options": [
+        "3 mois par an",
+        "6 mois par an",
+        "9 mois par an",
+        "1 an complet"
+      ],
+      "correct_answer": 1,
+      "explanation": "Un SAS accueille temporairement un jeune en rupture, pour maximum 6 mois/an."
+    },
+    {
+      "id": 17,
+      "question": "Quelle est l’une des missions principales de l’enseignement en FWB ?",
+      "options": [
+        "Assurer uniquement la transmission de savoirs",
+        "Former des citoyens responsables et solidaires",
+        "Préparer uniquement au marché du travail",
+        "Remplacer le rôle des familles"
+      ],
+      "correct_answer": 1,
+      "explanation": "L’une des 4 missions légales est de former des citoyens responsables et solidaires."
+    },
+    {
+      "id": 18,
+      "question": "À quel âge débute l’obligation scolaire en FWB ?",
+      "options": [
+        "3 ans",
+        "4 ans",
+        "5 ans",
+        "6 ans"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’obligation scolaire commence à 5 ans en Fédération Wallonie-Bruxelles."
+    },
+    {
+      "id": 19,
+      "question": "Quel est le rôle principal des équipes mobiles ?",
+      "options": [
+        "Remplacer le PMS",
+        "Intervenir en cas de crise et prévenir le décrochage",
+        "Assurer la gestion administrative des écoles",
+        "Organiser des voyages scolaires"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les équipes mobiles interviennent en situation de crise (suicide, drame, absentéisme) ou en prévention du décrochage."
+    },
+    {
+      "id": 20,
+      "question": "Quel sigle correspond à un dispositif interne d’accrochage scolaire ?",
+      "options": [
+        "SAS",
+        "DASPA",
+        "DIAS",
+        "FLA"
+      ],
+      "correct_answer": 2,
+      "explanation": "DIAS = Dispositif interne d’accrochage scolaire, plan personnalisé pour réintégrer l’élève."
+    },
+    {
+      "id": 21,
+      "question": "Scénario : Hugo, 7 ans, a des difficultés de lecture. Sa maman consulte le PMS. Quelle action peut être proposée ?",
+      "options": [
+        "Exclusion immédiate de l’école",
+        "Bilan neuropsychologique ou logopédique",
+        "Placement en DASPA",
+        "Orientation directe vers un SAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le PMS peut proposer des bilans (neuropsychologique, logopédique) pour évaluer et soutenir Hugo."
+    },
+    {
+      "id": 22,
+      "question": "Quel organisme organise principalement la formation des indépendants et PME en alternance ?",
+      "options": [
+        "CEFA",
+        "ONEM",
+        "IFAPME",
+        "ONE"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’IFAPME s’adresse aux jeunes et adultes souhaitant une formation orientée PME/indépendants."
+    },
+    {
+      "id": 23,
+      "question": "Quel est l’un des constats principaux de PISA concernant les inégalités en Belgique ?",
+      "options": [
+        "Les résultats ne dépendent pas de l’origine sociale",
+        "Les résultats dépendent fortement de l’origine sociale",
+        "Tous les élèves réussissent également bien",
+        "Le redoublement a disparu"
+      ],
+      "correct_answer": 1,
+      "explanation": "PISA montre que l’origine sociale influence fortement la réussite scolaire en Belgique."
+    },
+    {
+      "id": 24,
+      "question": "Scénario : Marion, 5 ans, régresse (pipi au lit) et refuse d’embrasser son institutrice. Quelle est la bonne démarche du PMS ?",
+      "options": [
+        "Punir Marion pour son comportement",
+        "Observer, rencontrer les parents, proposer un suivi psychologique",
+        "Ne rien faire, ce n’est pas grave",
+        "La renvoyer dans une autre école"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le PMS doit observer, dialoguer avec les parents et proposer un suivi adapté si nécessaire."
+    },
+    {
+      "id": 25,
+      "question": "Quelle est la finalité du Pacte d’excellence en cours de mise en place ?",
+      "options": [
+        "Supprimer le secondaire",
+        "Instaurer un tronc commun plus long et progressif",
+        "Limiter l’accès à l’enseignement supérieur",
+        "Favoriser uniquement les écoles privées"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le Pacte d’excellence vise un tronc commun progressif pour améliorer l’égalité et les acquis."
+    },
+    {
+      "id": 26,
+      "question": "Quelle structure propose des animations à l’école pour faciliter l’orientation des élèves de fin de secondaire ?",
+      "options": [
+        "Infor Jeunes",
+        "ONE",
+        "AVIQ",
+        "ONEM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Infor Jeunes propose des animations et outils pour orienter les élèves en fin de secondaire."
+    },
+    {
+      "id": 27,
+      "question": "Scénario : Julie, 3 ans, s’isole, joue de manière répétitive et a des difficultés d’intégration. Quelle démarche de l’enseignant ?",
+      "options": [
+        "Punir Julie pour désobéissance",
+        "L’ignorer car elle est timide",
+        "Alerter le PMS et envisager une orientation vers un dépistage (neuropsy/logopédie)",
+        "L’exclure de la classe"
+      ],
+      "correct_answer": 2,
+      "explanation": "Isolement et jeux répétitifs sont des signaux d’alerte → orientation vers PMS et dépistages."
+    },
+    {
+      "id": 28,
+      "question": "Quelle est la différence entre CEFA et IFAPME ?",
+      "options": [
+        "CEFA = enseignement secondaire à temps partiel ; IFAPME = formation aux métiers (PME/indépendants)",
+        "CEFA = uniquement pour adultes ; IFAPME = uniquement pour mineurs",
+        "CEFA = formation universitaire ; IFAPME = apprentissage de base",
+        "Il n’y a pas de différence"
+      ],
+      "correct_answer": 0,
+      "explanation": "CEFA relève du secondaire, IFAPME forme aux métiers liés aux indépendants/PME."
+    },
+    {
+      "id": 29,
+      "question": "Quelle est une des missions principales des écoles de devoirs ?",
+      "options": [
+        "Former les enseignants",
+        "Soutenir les apprentissages et favoriser la créativité et la citoyenneté",
+        "Remplacer les cours de mathématiques",
+        "Gérer les inscriptions scolaires"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les écoles de devoirs offrent soutien scolaire mais aussi créativité, socialisation et citoyenneté."
+    },
+    {
+      "id": 30,
+      "question": "Scénario : Un directeur cherche un service pour gérer un cas grave de conflit élève-enseignant entraînant un décrochage. Vers qui se tourner ?",
+      "options": [
+        "Médiation scolaire",
+        "ONEM",
+        "AVIQ",
+        "CEFA"
+      ],
+      "correct_answer": 0,
+      "explanation": "La médiation scolaire intervient en cas de conflit, absentéisme et décrochage scolaire."
+    }
+  ]
+}

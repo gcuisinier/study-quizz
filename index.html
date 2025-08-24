@@ -52,9 +52,9 @@
             border-radius: 10px;
             padding: 20px;
             margin-bottom: 30px;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .progress-item {
@@ -548,16 +548,8 @@
         <div id="quiz-content" class="hidden">
             <div class="progress">
                 <div class="progress-item">
-                    <div class="progress-number" id="correct-count">0</div>
-                    <div class="progress-label">Bonnes réponses</div>
-                </div>
-                <div class="progress-item">
-                    <div class="progress-number" id="pool-count">0</div>
-                    <div class="progress-label">Questions en attente</div>
-                </div>
-                <div class="progress-item">
-                    <div class="progress-number">25</div>
-                    <div class="progress-label">Objectif</div>
+                    <div class="progress-number" id="score-display">0 / 25</div>
+                    <div class="progress-label">Score</div>
                 </div>
             </div>
 
@@ -646,6 +638,7 @@
                 
                 this.initializeEventListeners();
                 this.initializeModal();
+                this.initializeAudio();
                 this.loadAvailableQuizzes();
             }
 
@@ -658,6 +651,66 @@
                     if (modalInner) {
                         modalInner.classList.remove('show');
                     }
+                }
+            }
+
+            initializeAudio() {
+                // Créer un contexte audio pour les sons de réussite
+                this.audioContext = null;
+                this.initAudioContext();
+            }
+
+            initAudioContext() {
+                try {
+                    this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                } catch (error) {
+                    console.warn('Audio context non supporté:', error);
+                }
+            }
+
+            playSuccessSound() {
+                if (!this.audioContext) return;
+
+                // Si le contexte est suspendu (politique des navigateurs), le reprendre
+                if (this.audioContext.state === 'suspended') {
+                    this.audioContext.resume();
+                }
+
+                try {
+                    // Créer un oscillateur pour une mélodie de succès
+                    const oscillator = this.audioContext.createOscillator();
+                    const gainNode = this.audioContext.createGain();
+                    
+                    oscillator.connect(gainNode);
+                    gainNode.connect(this.audioContext.destination);
+                    
+                    // Mélodie de succès (Do - Mi - Sol)
+                    const notes = [523.25, 659.25, 783.99]; // C5, E5, G5
+                    let noteIndex = 0;
+                    
+                    oscillator.type = 'sine';
+                    oscillator.frequency.setValueAtTime(notes[0], this.audioContext.currentTime);
+                    
+                    // Volume progressif
+                    gainNode.gain.setValueAtTime(0, this.audioContext.currentTime);
+                    gainNode.gain.linearRampToValueAtTime(0.1, this.audioContext.currentTime + 0.05);
+                    
+                    // Séquence des notes
+                    const noteTime = 0.15;
+                    notes.forEach((note, index) => {
+                        const startTime = this.audioContext.currentTime + (index * noteTime);
+                        oscillator.frequency.setValueAtTime(note, startTime);
+                    });
+                    
+                    // Fondu de sortie
+                    gainNode.gain.setValueAtTime(0.1, this.audioContext.currentTime + (notes.length * noteTime) - 0.05);
+                    gainNode.gain.linearRampToValueAtTime(0, this.audioContext.currentTime + (notes.length * noteTime));
+                    
+                    oscillator.start(this.audioContext.currentTime);
+                    oscillator.stop(this.audioContext.currentTime + (notes.length * noteTime));
+                    
+                } catch (error) {
+                    console.warn('Erreur lors de la lecture du son:', error);
                 }
             }
 
@@ -806,6 +859,7 @@
             startQuiz() {
                 document.getElementById('start-screen').classList.add('hidden');
                 document.getElementById('quiz-content').classList.remove('hidden');
+                document.querySelector('.header').classList.add('hidden'); // Masquer le header principal
                 this.updateProgress();
                 this.nextQuestion();
             }
@@ -901,6 +955,7 @@
                 
                 if (this.selectedAnswer === correctIndex) {
                     this.currentStreak++;
+                    this.playSuccessSound(); // Jouer le son de réussite
                     this.showResult(true, 'Excellente réponse ! 🎉');
                     this.correctAnswers++;
                     
@@ -1164,8 +1219,7 @@
             }
 
             updateProgress() {
-                document.getElementById('correct-count').textContent = this.correctAnswers;
-                document.getElementById('pool-count').textContent = this.currentPool.length;
+                document.getElementById('score-display').textContent = `${this.correctAnswers} / ${this.targetCorrect}`;
             }
 
             endQuiz() {
@@ -1206,6 +1260,7 @@
                 document.getElementById('final-result').classList.add('hidden');
                 document.getElementById('start-screen').classList.add('hidden');
                 document.getElementById('json-file').value = '';
+                document.querySelector('.header').classList.remove('hidden'); // Réafficher le header principal
             }
         }
 
