@@ -125,13 +125,13 @@
       "question": "Quels sont les 4 rôles de l’AVIQ ?",
       "options": [
         "Contrôler",
-        "Accorder des allocations",
+        "Conseiller",
         "Subventionner",
         "Agréer",
         "Accompagner les CPAS"
       ],
       "correct_answers": [0, 1, 2, 3],
-      "explanation": "Les rôles de l’AVIQ sont de contrôler, subventionner, agréer et octroyer des allocations."
+      "explanation": "Les rôles de l’AVIQ sont de contrôler, subventionner, agréer et conseiller."
     }
   ]
 }
