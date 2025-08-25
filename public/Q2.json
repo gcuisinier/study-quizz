@@ -1,0 +1,702 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Jimmy, 35 ans, est expulsé de son logement et n’a personne chez qui aller. Il est incapable de vivre de façon autonome et n’est pas reconnu porteur d’un handicap. Quelle structure peut l’accueillir et l’héberger pour quelques mois ?",
+      "options": [
+        "Maison d’accueil",
+        "Abri de nuit",
+        "SASPE",
+        "SLSP"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les maisons d’accueil hébergent les personnes sans logement pour plusieurs mois avec accompagnement social. Les abris de nuit n’offrent qu’un hébergement provisoire d’une nuit."
+    },
+    {
+      "id": 2,
+      "question": "Un propriétaire décide de confier son immeuble à une Agence Immobilière Sociale. Quels avantages peut-il en retirer ?",
+      "options": [
+        "Garantie de paiement du loyer même si le logement est vide",
+        "Gestion administrative et technique assurée par l’AIS",
+        "Loyers plus élevés que dans le privé",
+        "Exonération totale d’impôts"
+      ],
+      "correct_answers": [
+        0,
+        1
+      ],
+      "explanation": "L’AIS garantit au propriétaire la perception des loyers et gère le bien. Les loyers sont adaptés aux revenus des locataires, donc pas plus élevés."
+    },
+    {
+      "id": 3,
+      "question": "Un couple de 26 et 29 ans souhaite obtenir un crédit social pour rénover leur maison. Quel organisme peut-il contacter ?",
+      "options": [
+        "SWCS",
+        "SWL",
+        "AIS",
+        "CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "La Société Wallonne du Crédit Social (SWCS) octroie des prêts sociaux pour l’achat, la construction et la rénovation de logements."
+    },
+    {
+      "id": 4,
+      "question": "Une mère au RIS quitte une maison d’accueil avec ses 3 enfants pour louer un logement privé. Quelles aides peuvent l’aider à s’installer ?",
+      "options": [
+        "Allocation de déménagement et d’installation (ADI)",
+        "Garantie locative",
+        "Crédit hypothécaire",
+        "Allocation de loyer (ADeL)"
+      ],
+      "correct_answers": [
+        0,
+        1
+      ],
+      "explanation": "Dans ce cas, elle peut bénéficier de l’ADI et d’une aide pour la garantie locative. L’ADeL concerne les logements inadaptés ou insalubres, pas la sortie d’une maison d’accueil."
+    },
+    {
+      "id": 5,
+      "question": "Une famille avec 4 enfants perd son logement suite à des dégâts des eaux. Vers quel organisme public peut-elle se tourner pour un prêt ou un logement social ?",
+      "options": [
+        "SWL",
+        "SWCS",
+        "AIS",
+        "CPAS",
+        "FLFNW"
+      ],
+      "correct_answer": 4,
+      "explanation": "FLFNW – Fonds du Logement des Familles Nombreuses de Wallonie, propose des prêts sociaux, ou des locations pour les familles nombreuses"
+    },
+    {
+      "id": 6,
+      "question": "Une personne sans-abri est délogée d’un squat par la police. Où peut-elle dormir la prochaine nuit ?",
+      "options": [
+        "Maison d’accueil",
+        "Abri de nuit",
+        "SASPE",
+        "SLSP"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les abris de nuit accueillent gratuitement et provisoirement les personnes sans-abri pour une ou plusieurs nuits."
+    },
+    {
+      "id": 7,
+      "question": "Comment s’appelle la mesure visant à reloger les habitants de campings résidentiels ?",
+      "options": [
+        "Plan HP (Habitat Permanent)",
+        "Plan HLM",
+        "Programme AIS+",
+        "Plan logement jeunesse"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Plan Habitat Permanent (Plan HP) accompagne les personnes vivant dans des campings résidentiels vers un logement adapté."
+    },
+    {
+      "id": 8,
+      "question": "Comment s’appellent les organismes publics qui mettent en location des logements publics à loyers adaptés aux revenus ?",
+      "options": [
+        "AIS",
+        "SLSP",
+        "CPAS",
+        "SWCS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les Sociétés de Logement de Service Public (SLSP) gèrent les logements sociaux avec loyers adaptés aux revenus."
+    },
+    {
+      "id": 9,
+      "question": "Comment s’appelle un service agréé par la Région wallonne qui mène des actions collectives contre l’exclusion ?",
+      "options": [
+        "Service social mutualiste",
+        "CPAS",
+        "Centre d’Action Sociale Globale (CASG)",
+        "AIS"
+      ],
+      "correct_answer": 2,
+      "explanation": "Les CASG sont agréés pour agir collectivement avec les personnes en situation d’exclusion sociale."
+    },
+    {
+      "id": 10,
+      "question": "Quel est le service de la mutuelle reconnu par la Région wallonne où travaillent des assistants sociaux assurant accueil et accompagnement ?",
+      "options": [
+        "Service social mutualiste",
+        "Maison médicale",
+        "Service d’aide sociale générale (SASG)",
+        "CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les services sociaux mutualistes, agréés par la RW, assurent accueil, écoute et accompagnement des affiliés en difficulté."
+    },
+    {
+      "id": 11,
+      "question": "Les enquêtes menées dans différentes grandes villes de Wallonie ont montré qu’il y a environ combien de personnes 'sans chez soi' ?",
+      "options": [
+        "10 000",
+        "3 000",
+        "20 000",
+        "5 000"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les enquêtes estiment à environ 10 000 le nombre de personnes en situation de 'sans chez soi' en Wallonie."
+    },
+    {
+      "id": 12,
+      "question": "Quelles sont 4 tâches que peut réaliser un/e assistant social travaillant dans un SAFA ?",
+      "options": [
+        "Établir le dossier sur base de la situation de la personne",
+        "Expliquer les offres de services et les tarifs",
+        "Effectuer le suivi du dossier et adapter si besoin",
+        "Coordonner l’intervention avec les aides familiales et autres intervenants",
+        "Préparer les repas et faire la toilette",
+        "Nettoyer le logement"
+      ],
+      "correct_answers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L’AS du SAFA a un rôle administratif, organisationnel et de suivi. Les tâches d’aide directe (repas, toilette, ménage) sont assurées par les aides familiales."
+    },
+    {
+      "id": 13,
+      "question": "À quel service de la Région wallonne un AS peut-il s’adresser pour mener une animation sur les écrans et les technologies numériques auprès des parents ?",
+      "options": [
+        "Centre Local de Promotion de la Santé (CLPS)",
+        "Service de Santé Mentale (SSM)",
+        "Service d’Aide aux Familles et aux Aînés (SAFA)",
+        "Maison médicale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les CLPS accompagnent les professionnels dans la mise en place d’animations de promotion de la santé, dont la prévention des usages numériques."
+    },
+    {
+      "id": 14,
+      "question": "Quel service organise le suivi médical des élèves à l’école ?",
+      "options": [
+        "PSE",
+        "Centre PMS",
+        "Maison médicale",
+        "Service CLPS"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le suivi médical scolaire est pris en charge par le PSE (Promotion de la Santé à l’École)."
+    },
+    {
+      "id": 15,
+      "question": "Quel service assure la coordination des prestataires de soins lorsqu’une personne âgée rentre à domicile avec une prise en charge pluridisciplinaire ?",
+      "options": [
+        "Maison médicale",
+        "Service de coordination des soins à domicile",
+        "Centre PMS",
+        "SAFA"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le service de coordination des soins à domicile coordonne médecins, infirmiers, kinés, aides familiales, etc."
+    },
+    {
+      "id": 16,
+      "question": "Citez 4 prestations apportées par les SAFA via les aides familiales.",
+      "options": [
+        "Aide à la toilette et à l’hygiène",
+        "Préparation et aide aux repas",
+        "Entretien du logement et du linge",
+        "Aide aux courses et accompagnement",
+        "Organisation du retour hospitalier",
+        "Coordination avec l’équipe médicale"
+      ],
+      "correct_answers": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les aides familiales interviennent au domicile , les repas, l’entretien et l’accompagnement quotidien. <br/>Pour la toilette, ce sont les infirmiers"
+    },
+    {
+      "id": 17,
+      "question": "Dans quels lieux peuvent se pratiquer les soins palliatifs ?",
+      "options": [
+        "À domicile",
+        "Maison de repos et de soins (MR/MRS)",
+        "Hôpital (unité de soins palliatifs)",
+        "Centre PMS",
+        "Maison médicale"
+      ],
+      "correct_answers": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les soins palliatifs se pratiquent à domicile, en MR/MRS et à l’hôpital dans des unités spécialisées."
+    },
+    {
+      "id": 18,
+      "question": "Un directeur d’école apprend un risque d’épidémie d’oreillons. Quel service doit-il contacter ?",
+      "options": [
+        "Centre PMS",
+        "Service PSE",
+        "Maison médicale",
+        "CLPS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le PSE est chargé du suivi médical et de la prévention des maladies transmissibles dans les écoles."
+    },
+    {
+      "id": 19,
+      "question": "Comment s’appelle le statut permettant de suspendre son activité professionnelle pour soutenir à domicile une personne en perte d’autonomie ?",
+      "options": [
+        "Statut d’aidant proche",
+        "Congé parental",
+        "Chômage temporaire",
+        "Volontariat social"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le statut d’aidant proche (congé pour assistance médicale ou congé d’aidant proche) permet de soutenir un proche dépendant."
+    },
+    {
+      "id": 20,
+      "question": "Quelles sont 4 tâches d’un AS travaillant dans un service social en milieu hospitalier ?",
+      "options": [
+        "Accueil et soutien des patients/familles",
+        "Aide administrative (mutuelles, allocations, CPAS…)",
+        "Organisation du retour à domicile ou orientation",
+        "Collaboration avec l’équipe médicale",
+        "Réalisation de soins infirmiers",
+        "Distribution des médicaments"
+      ],
+      "correct_answers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L’AS en hôpital accompagne les patients et familles sur le plan social et administratif, et collabore à l’organisation des soins mais n’exerce pas d’actes médicaux."
+    },
+    {
+      "id": 21,
+      "question": "Quel est le seul critère pour s’inscrire en maison médicale ?",
+      "options": [
+        "Avoir moins de 65 ans",
+        "Être domicilié dans la zone géographique de la maison médicale",
+        "Être reconnu comme malade chronique",
+        "Être orienté par le CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le critère unique est le domicile dans la zone couverte par la maison médicale."
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "question": "Au FOREM, quelles affirmations sont correctes ?",
+      "options": [
+        "L’évaluateur contrôle que le demandait est bien actif dans ses démarches et évalue",
+        "Le conseiller référent accompagne la personne dans un parcours d’insertion et oriente vers offres/formations",
+        "Le FOREM est l’organisme fédéral qui paie les allocations de chômage",
+        "Le FOREM est le service public wallon de l’emploi et de la formation"
+      ],
+      "correct_answers": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "L’évaluateur réalise bilans/évaluations. Le conseiller référent suit la personne, fixe des étapes et oriente. Le FOREM est un service public de la Région wallonne (pas fédéral) dédié à l’emploi et la formation ; l’organisme fédéral qui gère les allocations est l’ONEM."
+    },
+    {
+      "id": 23,
+      "type": "single",
+      "question": "Quelle est la mission centrale de l’ONEM ?",
+      "options": [
+        "Gérer l’assurance chômage et contrôler l’octroi des allocations",
+        "Organiser la formation professionnelle en Wallonie",
+        "Aligner les salaires minimums sectoriels",
+        "Attribuer le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (fédéral) gère l’assurance chômage et les mesures d’activation. La formation wallonne relève du FOREM ; le RIS relève des CPAS."
+    },
+    {
+      "id": 24,
+      "type": "single",
+      "question": "Que signifie l’acronyme FOREM ?",
+      "options": [
+        "Fonds wallon pour l’Emploi",
+        "Office wallon de la Formation professionnelle et de l’Emploi",
+        "Fédération de l’Orientation et de l’Emploi en Moyenne entreprise",
+        "Front office de l’Emploi et de la Mobilité"
+      ],
+      "correct_answer": 1,
+      "explanation": "FOREM = Office wallon de la Formation professionnelle et de l’Emploi."
+    },
+    {
+      "id": 25,
+      "type": "single",
+      "question": "Quel organisme de la Fédération Wallonie-Bruxelles (autre que l’IFAPME) organise la formation en alternance pour les < 18 ans ?",
+      "options": [
+        "CEFA",
+        "SIEP",
+        "CPAS",
+        "ONEM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les CEFA (Centre d’Éducation et de Formation en Alternance) organisent l’enseignement en alternance pour les mineurs (au sein des établissements scolaires de la FWB)."
+    },
+    {
+      "id": 26,
+      "type": "single",
+      "question": "Léon, 30 ans, sans CESS, souhaite s’orienter vers une formation. Quel service régional l’aide à s’orienter ?",
+      "options": [
+        "CEFO (Carrefour Emploi Formation Orientation)",
+        "CPAS",
+        "SPF Emploi",
+        "ONE"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CEFO (service FOREM) informe et oriente vers études, métiers et formations en Wallonie."
+    },
+    {
+      "id": 27,
+      "type": "single",
+      "question": "Quel organisme wallon propose des formations par mises en situation réelles de travail (ateliers/production) ?",
+      "options": [
+        "EFT (Entreprise de Formation par le Travail)",
+        "Bibliothèque communale",
+        "ONEM",
+        "ONE"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les EFT (et parfois les OISP avec ateliers) forment en conditions proches du réel (production, chantiers, etc.)."
+    },
+    {
+      "id": 28,
+      "type": "single",
+      "question": "Avant une formation qualifiante, quelle structure est la plus indiquée pour une remise à niveau (français/math, TIC, etc.) ?",
+      "options": [
+        "OISP (Organisme d’Insertion Socio-Professionnelle)",
+        "Maison médicale",
+        "ONEM",
+        "SAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les OISP proposent souvent des remises à niveau, préformations et modules de base avant la qualification."
+    },
+    {
+      "id": 29,
+      "type": "single",
+      "question": "Un élève en décrochage après conflit avec des enseignants : quel service de la FWB (autre que PMS) contacter en priorité ?",
+      "options": [
+        "Service de médiation scolaire (FWB)",
+        "SAJ (Service de l’Aide à la Jeunesse)",
+        "ONEM",
+        "SPF Intérieur"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Service de médiation scolaire intervient dans les situations de conflit/décrochage au sein des établissements."
+    },
+    {
+      "id": 30,
+      "type": "single",
+      "question": "Jeune de 16 ans, toujours inscrit mais décroché, souhaitant se « rescolariser » : quel dispositif mobiliser ?",
+      "options": [
+        "Dispositif Relais",
+        "CPAS",
+        "DASPA",
+        "EFT"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les Dispositifs Relais proposent un accompagnement temporaire pour reconstruire un projet de rescolarisation."
+    },
+    {
+      "id": 31,
+      "type": "single",
+      "question": "Jean est exclu et non réinscriptible immédiatement. Quel dispositif de jour proposer ?",
+      "options": [
+        "SAS (Service d’Accrochage Scolaire)",
+        "CEFA",
+        "IFAPME",
+        "ONEM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SAS accueillent temporairement les jeunes exclus/décrocheurs pour maintenir un cadre et travailler le projet."
+    },
+    {
+      "id": 32,
+      "type": "multiple",
+      "question": "Deux activités typiques d’une École de devoirs (EDD) sont…",
+      "options": [
+        "Aide méthodologique et soutien aux devoirs",
+        "Animations culturelles/citoyennes et activités créatives",
+        "Versement d’allocations de chômage",
+        "Instruction officielle des exclusions scolaires"
+      ],
+      "correct_answers": [
+        0,
+        1
+      ],
+      "explanation": "Les EDD combinent soutien scolaire, méthodes de travail et activités éducatives/citoyennes. Elles ne traitent ni allocations ni procédures disciplinaires."
+    },
+    {
+      "id": 33,
+      "type": "multiple",
+      "question": "Citez deux activités concrètes menées par une Maison de l’Emploi.",
+      "options": [
+        "Ateliers CV/lettre et simulation d’entretien",
+        "Orientation vers offres/formations FOREM",
+        "Délivrance du RIS",
+        "Fixation des cotisations sociales patronales"
+      ],
+      "correct_answers": [
+        0,
+        1
+      ],
+      "explanation": "Les Maisons de l’Emploi informent, conseillent et orientent (CV, entretiens, offres/formations). Le RIS = CPAS ; cotisations = ONSS."
+    },
+    {
+      "id": 34,
+      "type": "single",
+      "question": "Quel organisme wallon allie redynamisation des quartiers sociaux et insertion socio-professionnelle de leurs habitants ?",
+      "options": [
+        "Régies de quartier",
+        "ONEM",
+        "ONE",
+        "SPF Justice"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les Régies de quartier mènent des actions de proximité (chantiers, propreté, petites rénovations) et de l’insertion pour les résidents."
+    },
+    {
+      "id": 35,
+      "type": "single",
+      "question": "À 16 ans, Louise veut une formation en coiffure en alternance. Peut-elle s’inscrire à l’IFAPME ?",
+      "options": [
+        "Oui, via un contrat d’apprentissage en alternance",
+        "Non, l’IFAPME est réservé aux +18 ans",
+        "Seulement avec un CESS",
+        "Non, l’IFAPME ne forme pas aux métiers de services"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’IFAPME accepte des jeunes dès 15-16 ans sous conditions (alternance, présence d’un maître de stage, etc.)."
+    },
+    {
+      "id": 36,
+      "type": "single",
+      "question": "Quel service propose des animations d’orientation pour les élèves de fin du secondaire ?",
+      "options": [
+        "SIEP (Service d’Information sur les Études et Professions)",
+        "SPF Finances",
+        "CPAS",
+        "ONEM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SIEP réalise des séances d’information/orientation sur les études, métiers et filières."
+    },
+    {
+      "id": 37,
+      "type": "single",
+      "question": "Vers quel organisme référer une personne en situation d’analphabétisme ?",
+      "options": [
+        "Lire et Écrire",
+        "ONSS",
+        "SPF Intérieur",
+        "SAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "« Lire et Écrire » est un acteur majeur de l’alphabétisation en Fédération Wallonie-Bruxelles."
+    },
+    {
+      "id": 38,
+      "type": "single",
+      "question": "Part estimée de la population adulte en situation d’illettrisme en Belgique francophone (ordre de grandeur) ?",
+      "options": [
+        "≈ 10 %",
+        "≈ 1 %",
+        "≈ 35 %",
+        "≈ 60 %"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les estimations situent l’illettrisme fonctionnel autour de 10 % des adultes (ordre de grandeur retenu dans de nombreux cours)."
+    },
+    {
+      "id": 39,
+      "type": "single",
+      "question": "Dénomination officielle d’un organisme agréé par la RW qui propose des formations d’alphabétisation (cadre insertion) :",
+      "options": [
+        "OISP (Organisme d’Insertion Socio-Professionnelle)",
+        "CPAS",
+        "ONEM",
+        "SPF Santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "De nombreuses actions d’alphabétisation sont portées par des OISP agréés (ou par Lire et Écrire), dans une logique d’insertion."
+    },
+    {
+      "id": 40,
+      "type": "single",
+      "question": "Dispositif permettant à un jeune MENA d’intégrer l’enseignement de plein exercice tout en apprenant le français :",
+      "options": [
+        "DASPA ",
+        "CPAS",
+        "SAS",
+        "ONEM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le DASPA (Dispositif d’Accueil et de Scolarisation des Primo-Arrivants) organise l’accueil, l’apprentissage du FLE et l’intégration progressive dans l’enseignement ordinaire."
+    },
+    {
+      "id": 41,
+      "type": "single",
+      "question": "Pour un MENA très peu scolarisé auparavant, quel dispositif de la FWB favorise un accueil avec d’autres primo-arrivants ?",
+      "options": [
+        "Classes passerelles (au sein du DASPA)",
+        "École des Devoirs",
+        "EFT",
+        "Maison de l’Emploi"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les classes passerelles (DASPA) regroupent temporairement des primo-arrivants afin de travailler le FLE et les prérequis scolaires."
+    },
+    {
+      "id": 42,
+      "question": "Quelle structure de l'A.V.I.Q peut accueillir en journée Madison, 28 ans, reconnue comme personne porteuse d'un handicap ?",
+      "options": [
+        "Service Résidentiel pour Adultes (SRA)",
+        "Service de Santé Mentale (SSM)",
+        "Service de Jour pour Adultes (SJA)",
+        "Service Résidentiel pour Jeunes (SRJ)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le Service de Jour pour Adultes (SJA) accueille en journée les adultes en situation de handicap."
+    },
+    {
+      "id": 43,
+      "question": "Quel service de l’AVIQ propose à des personnes adultes porteuses d’un handicap un accompagnement social, administratif, budgétaire et professionnel ?",
+      "options": [
+        "Service d’Accompagnement (SA)",
+        "Service Résidentiel de Nuit pour Adultes (SRNA)",
+        "Service de Réadaptation Fonctionnelle",
+        "Service Résidentiel pour Adultes (SRA)"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Service d’Accompagnement (SA) accompagne les adultes handicapés dans leurs démarches sociales et administratives."
+    },
+    {
+      "id": 44,
+      "question": "Maggy, 50 ans, devient malvoyante et doit utiliser une canne blanche. Quel organisme de la Région wallonne peut prendre en charge ses frais ?",
+      "options": [
+        "AVIQ – Département Handicap",
+        "INAMI",
+        "ONEM",
+        "CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’AVIQ (Département Handicap) prend en charge les frais liés au handicap comme les aides techniques (canne blanche)."
+    },
+    {
+      "id": 45,
+      "question": "Quels sont les 2 services de l’AVIQ pouvant accueillir ponctuellement Jules, 8 ans, porteur d’un handicap mental lourd, pour offrir du répit à ses parents ?",
+      "options": [
+        "Service Résidentiel pour Jeunes (SRJ)",
+        "Service Résidentiel pour Adultes (SRA)",
+        "Service Accueil de Jour pour Enfants (SAJE)",
+        "Service Accueil Familial de Jour (SAFJ)"
+      ],
+      "correct_answers": [
+        0,
+        2
+      ],
+      "explanation": "Les SRJ et SAJE accueillent ponctuellement les enfants handicapés pour offrir du répit aux parents."
+    },
+    {
+      "id": 46,
+      "question": "Coralie, 26 ans, handicap mental, veut se loger seule avec un accompagnement. Quel service de l’AVIQ offre cette possibilité ?",
+      "options": [
+        "Service Résidentiel de Nuit pour Adultes (SRNA)",
+        "Service d’Accompagnement (SA)",
+        "Service de Santé Mentale (SSM)",
+        "Service Résidentiel pour Adultes (SRA)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le Service d’Accompagnement (SA) soutient les personnes handicapées vivant seules ou en logement autonome."
+    },
+    {
+      "id": 47,
+      "question": "Léa, 6 ans, handicap mental léger, scolarisée en ordinaire mais en difficulté. Quelles deux solutions scolaires possibles ?",
+      "options": [
+        "Enseignement spécialisé de type 2",
+        "Maintien dans l’enseignement ordinaire avec l'aide de l'integration sociale",
+        "Enseignement spécialisé de type 1",
+        "Enseignement à domicile obligatoire"
+      ],
+      "correct_answers": [
+        0,
+        2
+      ],
+      "explanation": "Les enfants peuvent être orientés vers l’enseignement spécialisé type 1 (retard léger) ou aidé dans l'enseignement ordinaire avec l'aide de l'integration sociale"
+    },
+    {
+      "id": 48,
+      "question": "Quelle structure de l'AVIQ peut accueillir et héberger Jacob, 14 ans, porteur d’un handicap ?",
+      "options": [
+        "Service Résidentiel pour Adultes (SRA)",
+        "Service Résidentiel pour Jeunes (SRJ)",
+        "Service d’Accompagnement (SA)",
+        "Service Résidentiel de Nuit pour Adultes (SRNA)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les Services Résidentiels pour Jeunes (SRJ) accueillent et hébergent les enfants et adolescents handicapés."
+    },
+    {
+      "id": 49,
+      "question": "Jérémy, 26 ans, a suivi une formation dans un CFISPA. Dans quel type d’entreprise peut-il postuler ?",
+      "options": [
+        "Entreprise ordinaire sans aide",
+        "Entreprise de Travail Adapté (ETA)",
+        "Maison d’accueil",
+        "CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les Entreprises de Travail Adapté (ETA) emploient des personnes handicapées dans des conditions adaptées."
+    },
+    {
+      "id": 50,
+      "question": "Marc travaille en entreprise de parcs et jardins avec prime de compensation, mais ne vit pas de façon autonome. Dans quel service de l’AVIQ peut-il être hébergé en sachant qu’il travaille en journée ?",
+      "options": [
+        "Service Résidentiel pour Adultes (SRA)",
+        "Service Résidentiel de Nuit pour Adultes (SRNA)",
+        "Service d’Accompagnement (SA)",
+        "Service Accueil Familial"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les SRNA accueillent la nuit des adultes handicapés qui travaillent en journée."
+    },
+    {
+      "id": 51,
+      "question": "Qu’est-ce qu’une société capacitante ?",
+      "options": [
+        "Une société qui favorise l’intégration des personnes vulnérables en misant sur leurs compétences et capacités",
+        "Une société qui exclut les personnes handicapées des services communs",
+        "Une société où seuls les plus performants trouvent une place",
+        "Une société de soins uniquement médicalisée"
+      ],
+      "correct_answer": 0,
+      "explanation": "Une société capacitante met en avant les compétences des individus et favorise leur inclusion."
+    },
+    {
+      "id": 52,
+      "question": "Quels sont les 4 rôles de l’AVIQ ?",
+      "options": [
+        "Contrôler",
+        "Accorder des allocations",
+        "Subventionner",
+        "Agréer",
+        "Accompagner les CPAS"
+      ],
+      "correct_answers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les rôles de l’AVIQ sont de contrôler, subventionner, agréer et octroyer des allocations."
+    }
+  ]
+}

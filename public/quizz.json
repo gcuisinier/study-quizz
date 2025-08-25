@@ -1,5 +1,10 @@
 {
   "quizzes": [
+        {
+      "name": "Quizz Q2 - Question du cours",
+      "description": "A REVOIR !",
+      "file": "Q2.json"
+    },
     {
       "name": "Quizz Scenario",
       "description": "Choisi la bonne institution pour répondre au besoin",
@@ -39,12 +44,17 @@
       "name": "Q1 - Santé mentale",
       "description": "Question Santé mentale",
       "file": "Q1_SanteMentale_Complet.json"
-    }
-    ,
+    },
     {
       "name": "Q1 - Aide Famille",
       "description": "Question Aide aux familles",
       "file": "Q1_AideFamille.json"
+    },
+    {
+      "name": "Q1 - Education permanente",
+      "description": "Question Aide aux familles",
+      "file": "Q1_EducationPermanente.json"
     }
+
   ]
 }

@@ -1,0 +1,81 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelles sont les capitales européennes ?",
+      "options": ["Paris", "Londres", "Tokyo", "Berlin"],
+      "correct_answers": [0, 1, 3],
+      "explanation": "Paris, Londres et Berlin sont des capitales européennes, mais Tokyo est la capitale du Japon."
+    },
+    {
+      "id": 2,
+      "question": "Quels sont les langages de programmation orientés objet ?",
+      "options": ["JavaScript", "C", "Python", "Assembly"],
+      "correct_answers": [0, 2],
+      "explanation": "JavaScript et Python supportent la programmation orientée objet. C est procédural et Assembly est de bas niveau."
+    },
+    {
+      "id": 3,
+      "question": "Quelle est la couleur du ciel par beau temps ?",
+      "options": ["Bleu", "Rouge", "Vert", "Jaune"],
+      "correct_answer": 0,
+      "explanation": "Le ciel est bleu par beau temps à cause de la diffusion de Rayleigh."
+    },
+    {
+      "id": 4,
+      "question": "Quels sont les océans de la planète Terre ?",
+      "options": ["Atlantique", "Pacifique", "Méditerranée", "Indien", "Arctique"],
+      "correct_answers": [0, 1, 3, 4],
+      "explanation": "Il y a cinq océans : Atlantique, Pacifique, Indien, Arctique et Austral. La Méditerranée est une mer."
+    },
+    {
+      "id": 5,
+      "question": "Quels sont les océans de la planète Terre ?",
+      "options": ["Atlantique", "Pacifique", "Méditerranée", "Indien", "Arctique"],
+      "correct_answers": [0, 1, 3, 4],
+      "explanation": "Il y a cinq océans : Atlantique, Pacifique, Indien, Arctique et Austral. La Méditerranée est une mer."
+    },
+    {
+      "id": 6,
+      "question": "Quels sont les océans de la planète Terre ?",
+      "options": ["Atlantique", "Pacifique", "Méditerranée", "Indien", "Arctique"],
+      "correct_answers": [0, 1, 3, 4],
+      "explanation": "Il y a cinq océans : Atlantique, Pacifique, Indien, Arctique et Austral. La Méditerranée est une mer."
+    },
+    {
+      "id": 7,
+      "question": "Quels sont les océans de la planète Terre ?",
+      "options": ["Atlantique", "Pacifique", "Méditerranée", "Indien", "Arctique"],
+      "correct_answers": [0, 1, 3, 4],
+      "explanation": "Il y a cinq océans : Atlantique, Pacifique, Indien, Arctique et Austral. La Méditerranée est une mer."
+    },
+    {
+      "id": 8,
+      "question": "Quels sont les océans de la planète Terre ?",
+      "options": ["Atlantique", "Pacifique", "Méditerranée", "Indien", "Arctique"],
+      "correct_answers": [0, 1, 3, 4],
+      "explanation": "Il y a cinq océans : Atlantique, Pacifique, Indien, Arctique et Austral. La Méditerranée est une mer."
+    },
+    {
+      "id": 9,
+      "question": "Quels sont les océans de la planète Terre ?",
+      "options": ["Atlantique", "Pacifique", "Méditerranée", "Indien", "Arctique"],
+      "correct_answers": [0, 1, 3, 4],
+      "explanation": "Il y a cinq océans : Atlantique, Pacifique, Indien, Arctique et Austral. La Méditerranée est une mer."
+    },
+    {
+      "id": 10,
+      "question": "Quels sont les océans de la planète Terre ?",
+      "options": ["Atlantique", "Pacifique", "Méditerranée", "Indien", "Arctique"],
+      "correct_answers": [0, 1, 3, 4],
+      "explanation": "Il y a cinq océans : Atlantique, Pacifique, Indien, Arctique et Austral. La Méditerranée est une mer."
+    },
+    {
+      "id": 11,
+      "question": "Quels sont les océans de la planète Terre ?",
+      "options": ["Atlantique", "Pacifique", "Méditerranée", "Indien", "Arctique"],
+      "correct_answers": [0, 1, 3, 4],
+      "explanation": "Il y a cinq océans : Atlantique, Pacifique, Indien, Arctique et Austral. La Méditerranée est une mer."
+    }
+  ]
+}

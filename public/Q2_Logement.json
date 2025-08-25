@@ -1,0 +1,96 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Jimmy, 35 ans, est expulsé de son logement et n’a personne chez qui aller. Il est incapable de vivre de façon autonome et n’est pas reconnu porteur d’un handicap. Quelle structure peut l’accueillir et l’héberger pour quelques mois ?",
+      "options": ["Maison d’accueil", "Abri de nuit", "SASPE", "SLSP"],
+      "correct_answer": 0,
+      "explanation": "Les maisons d’accueil hébergent les personnes sans logement pour plusieurs mois avec accompagnement social. Les abris de nuit n’offrent qu’un hébergement provisoire d’une nuit."
+    },
+    {
+      "id": 2,
+      "question": "Un propriétaire décide de confier son immeuble à une Agence Immobilière Sociale. Quels avantages peut-il en retirer ?",
+      "options": [
+        "Garantie de paiement du loyer même si le logement est vide",
+        "Gestion administrative et technique assurée par l’AIS",
+        "Loyers plus élevés que dans le privé",
+        "Exonération totale d’impôts"
+      ],
+      "correct_answers": [0, 1],
+      "explanation": "L’AIS garantit au propriétaire la perception des loyers et gère le bien. Les loyers sont adaptés aux revenus des locataires, donc pas plus élevés."
+    },
+    {
+      "id": 3,
+      "question": "Un couple de 26 et 29 ans souhaite obtenir un crédit social pour rénover leur maison. Quel organisme peut-il contacter ?",
+      "options": ["SWCS", "SWL", "AIS", "CPAS"],
+      "correct_answer": 0,
+      "explanation": "La Société Wallonne du Crédit Social (SWCS) octroie des prêts sociaux pour l’achat, la construction et la rénovation de logements."
+    },
+    {
+      "id": 4,
+      "question": "Une mère au RIS quitte une maison d’accueil avec ses 3 enfants pour louer un logement privé. Quelles aides peuvent l’aider à s’installer ?",
+      "options": [
+        "Allocation de déménagement et d’installation (ADI)",
+        "Garantie locative",
+        "Crédit hypothécaire",
+        "Allocation de loyer (ADeL)"
+      ],
+      "correct_answers": [0, 1],
+      "explanation": "Dans ce cas, elle peut bénéficier de l’ADI et d’une aide pour la garantie locative. L’ADeL concerne les logements inadaptés ou insalubres, pas la sortie d’une maison d’accueil."
+    },
+    {
+      "id": 5,
+      "question": "Une famille avec 4 enfants perd son logement suite à des dégâts des eaux. Vers quel organisme public peut-elle se tourner pour un prêt ou un logement social ?",
+      "options": ["SWL", "SWCS", "AIS", "CPAS", "FLFNW"],
+      "correct_answer": 4,
+      "explanation": "FLFNW – Fonds du Logement des Familles Nombreuses de Wallonie, propose des prêts sociaux, ou des locations pour les familles nombreuses"
+    },
+    {
+      "id": 6,
+      "question": "Une personne sans-abri est délogée d’un squat par la police. Où peut-elle dormir la prochaine nuit ?",
+      "options": ["Maison d’accueil", "Abri de nuit", "SASPE", "SLSP"],
+      "correct_answer": 1,
+      "explanation": "Les abris de nuit accueillent gratuitement et provisoirement les personnes sans-abri pour une ou plusieurs nuits."
+    },
+    {
+      "id": 7,
+      "question": "Comment s’appelle la mesure visant à reloger les habitants de campings résidentiels ?",
+      "options": ["Plan HP (Habitat Permanent)", "Plan HLM", "Programme AIS+", "Plan logement jeunesse"],
+      "correct_answer": 0,
+      "explanation": "Le Plan Habitat Permanent (Plan HP) accompagne les personnes vivant dans des campings résidentiels vers un logement adapté."
+    },
+    {
+      "id": 8,
+      "question": "Comment s’appellent les organismes publics qui mettent en location des logements publics à loyers adaptés aux revenus ?",
+      "options": ["AIS", "SLSP", "CPAS", "SWCS"],
+      "correct_answer": 1,
+      "explanation": "Les Sociétés de Logement de Service Public (SLSP) gèrent les logements sociaux avec loyers adaptés aux revenus."
+    },
+    {
+      "id": 9,
+      "question": "Comment s’appelle un service agréé par la Région wallonne qui mène des actions collectives contre l’exclusion ?",
+      "options": ["Service social mutualiste", "CPAS", "Centre d’Action Sociale Globale (CASG)", "AIS"],
+      "correct_answer": 2,
+      "explanation": "Les CASG sont agréés pour agir collectivement avec les personnes en situation d’exclusion sociale."
+    },
+    {
+      "id": 10,
+      "question": "Quel est le service de la mutuelle reconnu par la Région wallonne où travaillent des assistants sociaux assurant accueil et accompagnement ?",
+      "options": [
+        "Service social mutualiste",
+        "Maison médicale",
+        "Service d’aide sociale générale (SASG)",
+        "CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les services sociaux mutualistes, agréés par la RW, assurent accueil, écoute et accompagnement des affiliés en difficulté."
+    },
+    {
+      "id": 11,
+      "question": "Les enquêtes menées dans différentes grandes villes de Wallonie ont montré qu’il y a environ combien de personnes 'sans chez soi' ?",
+      "options": ["10 000", "3 000", "20 000", "5 000"],
+      "correct_answer": 0,
+      "explanation": "Les enquêtes estiment à environ 10 000 le nombre de personnes en situation de 'sans chez soi' en Wallonie."
+    }
+  ]
+}

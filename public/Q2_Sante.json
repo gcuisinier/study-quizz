@@ -1,0 +1,131 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelles sont 4 tâches que peut réaliser un/e assistant social travaillant dans un SAFA ?",
+      "options": [
+        "Établir le dossier sur base de la situation de la personne",
+        "Expliquer les offres de services et les tarifs",
+        "Effectuer le suivi du dossier et adapter si besoin",
+        "Coordonner l’intervention avec les aides familiales et autres intervenants",
+        "Préparer les repas et faire la toilette",
+        "Nettoyer le logement"
+      ],
+      "correct_answers": [0, 1, 2, 3],
+      "explanation": "L’AS du SAFA a un rôle administratif, organisationnel et de suivi. Les tâches d’aide directe (repas, toilette, ménage) sont assurées par les aides familiales."
+    },
+    {
+      "id": 2,
+      "question": "À quel service de la Région wallonne un AS peut-il s’adresser pour mener une animation sur les écrans et les technologies numériques auprès des parents ?",
+      "options": [
+        "Centre Local de Promotion de la Santé (CLPS)",
+        "Service de Santé Mentale (SSM)",
+        "Service d’Aide aux Familles et aux Aînés (SAFA)",
+        "Maison médicale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les CLPS accompagnent les professionnels dans la mise en place d’animations de promotion de la santé, dont la prévention des usages numériques."
+    },
+    {
+      "id": 3,
+      "question": "Quel service organise le suivi médical des élèves à l’école ?",
+      "options": [
+        "PSE",
+        "Centre PMS",
+        "Maison médicale",
+        "Service CLPS"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le suivi médical scolaire est pris en charge par le PSE (Promotion de la Santé à l’École)."
+    },
+    {
+      "id": 4,
+      "question": "Quel service assure la coordination des prestataires de soins lorsqu’une personne âgée rentre à domicile avec une prise en charge pluridisciplinaire ?",
+      "options": [
+        "Maison médicale",
+        "Service de coordination des soins à domicile",
+        "Centre PMS",
+        "SAFA"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le service de coordination des soins à domicile coordonne médecins, infirmiers, kinés, aides familiales, etc."
+    },
+    {
+      "id": 5,
+      "question": "Citez 4 prestations apportées par les SAFA via les aides familiales.",
+      "options": [
+        "Aide à la toilette et à l’hygiène",
+        "Préparation et aide aux repas",
+        "Entretien du logement et du linge",
+        "Aide aux courses et accompagnement",
+        "Organisation du retour hospitalier",
+        "Coordination avec l’équipe médicale"
+      ],
+      "correct_answers": [1, 2, 3],
+      "explanation": "Les aides familiales interviennent au domicile , les repas, l’entretien et l’accompagnement quotidien. <br/>Pour la toilette, ce sont les infirmiers"
+    },
+    {
+      "id": 6,
+      "question": "Dans quels lieux peuvent se pratiquer les soins palliatifs ?",
+      "options": [
+        "À domicile",
+        "Maison de repos et de soins (MR/MRS)",
+        "Hôpital (unité de soins palliatifs)",
+        "Centre PMS",
+        "Maison médicale"
+      ],
+      "correct_answers": [0, 1, 2],
+      "explanation": "Les soins palliatifs se pratiquent à domicile, en MR/MRS et à l’hôpital dans des unités spécialisées."
+    },
+    {
+      "id": 7,
+      "question": "Un directeur d’école apprend un risque d’épidémie d’oreillons. Quel service doit-il contacter ?",
+      "options": [
+        "Centre PMS",
+        "Service PSE",
+        "Maison médicale",
+        "CLPS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le PSE est chargé du suivi médical et de la prévention des maladies transmissibles dans les écoles."
+    },
+    {
+      "id": 8,
+      "question": "Comment s’appelle le statut permettant de suspendre son activité professionnelle pour soutenir à domicile une personne en perte d’autonomie ?",
+      "options": [
+        "Statut d’aidant proche",
+        "Congé parental",
+        "Chômage temporaire",
+        "Volontariat social"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le statut d’aidant proche (congé pour assistance médicale ou congé d’aidant proche) permet de soutenir un proche dépendant."
+    },
+    {
+      "id": 9,
+      "question": "Quelles sont 4 tâches d’un AS travaillant dans un service social en milieu hospitalier ?",
+      "options": [
+        "Accueil et soutien des patients/familles",
+        "Aide administrative (mutuelles, allocations, CPAS…)",
+        "Organisation du retour à domicile ou orientation",
+        "Collaboration avec l’équipe médicale",
+        "Réalisation de soins infirmiers",
+        "Distribution des médicaments"
+      ],
+      "correct_answers": [0, 1, 2, 3],
+      "explanation": "L’AS en hôpital accompagne les patients et familles sur le plan social et administratif, et collabore à l’organisation des soins mais n’exerce pas d’actes médicaux."
+    },
+    {
+      "id": 10,
+      "question": "Quel est le seul critère pour s’inscrire en maison médicale ?",
+      "options": [
+        "Avoir moins de 65 ans",
+        "Être domicilié dans la zone géographique de la maison médicale",
+        "Être reconnu comme malade chronique",
+        "Être orienté par le CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le critère unique est le domicile dans la zone couverte par la maison médicale."
+    }
+  ]
+}

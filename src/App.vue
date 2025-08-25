@@ -75,22 +75,32 @@
         </div>
 
         <div v-if="currentQuestion" id="question-container" class="question-card">
-          <div id="question-text" class="question-text">{{ questionText }}</div>
+          <div id="question-text" class="question-text">
+            <span v-if="isMultipleChoiceQuestion" class="multi-tag">multi</span>
+            {{ questionText }}
+          </div>
           <div id="options-container" class="options">
             <div 
               v-for="(option, index) in shuffledOptions" 
               :key="index"
               class="option"
               :class="{
-                selected: selectedAnswer === option.originalIndex,
-                correct: showResults && option.originalIndex === currentQuestion.correct_answer,
-                incorrect: showResults && selectedAnswer === option.originalIndex && selectedAnswer !== currentQuestion.correct_answer,
-                disabled: selectedAnswer !== null
+                selected: isMultipleChoiceQuestion ? selectedAnswers.includes(option.originalIndex) : selectedAnswer === option.originalIndex,
+                correct: showResults && isCorrectAnswer(option.originalIndex),
+                incorrect: showResults && ((isMultipleChoiceQuestion && selectedAnswers.includes(option.originalIndex)) || (!isMultipleChoiceQuestion && selectedAnswer === option.originalIndex)) && !isCorrectAnswer(option.originalIndex),
+                disabled: !isMultipleChoiceQuestion && selectedAnswer !== null
               }"
               @click="selectAnswer(option.originalIndex)"
             >
               {{ option.text }}
             </div>
+          </div>
+          
+          <!-- Bouton de validation pour les questions à réponses multiples -->
+          <div v-if="isMultipleChoiceQuestion && !showResults" class="validate-button-container">
+            <button @click="validateMultipleChoice" class="btn btn-validate" :disabled="selectedAnswers.length === 0">
+              ✓ Valider ({{ selectedAnswers.length }} réponse(s))
+            </button>
           </div>
         </div>
 
@@ -236,6 +246,7 @@ export default {
       targetCorrect,
       currentQuestion,
       selectedAnswer,
+      selectedAnswers,
       availableQuizzes,
       selectedQuiz,
       currentQuizKey,
@@ -269,6 +280,7 @@ export default {
       changeFile,
       nextQuestion,
       selectAnswer,
+      validateMultipleChoice,
       checkAnswer,
       restart,
       resetQuestionHistory,
@@ -288,7 +300,8 @@ export default {
       resultEmoji,
       resultTitle,
       testPercentage,
-      testMessage
+      testMessage,
+      isMultipleChoiceQuestion
     } = useQuizLogic()
 
     const {
@@ -309,7 +322,18 @@ export default {
 
     // Watch for correct answers to play sound and check streaks
     watch([correctAnswers, currentStreak], () => {
-      if (selectedAnswer.value === currentQuestion.value?.correct_answer) {
+      let isAnswerCorrect = false
+      
+      if (isMultipleChoiceQuestion.value) {
+        const correctAnswersArray = currentQuestion.value?.correct_answers || []
+        isAnswerCorrect = correctAnswersArray.length === selectedAnswers.value.length && 
+                         correctAnswersArray.every(answer => selectedAnswers.value.includes(answer))
+      } else {
+        const correctAnswersArray = currentQuestion.value?.correct_answers || [currentQuestion.value?.correct_answer]
+        isAnswerCorrect = correctAnswersArray.includes(selectedAnswer.value)
+      }
+      
+      if (isAnswerCorrect) {
         playSuccessSound()
         checkStreakMilestones()
       }
@@ -347,6 +371,12 @@ export default {
       }
     }
 
+    const isCorrectAnswer = (answerIndex) => {
+      if (!currentQuestion.value) return false
+      const correctAnswers = currentQuestion.value.correct_answers || [currentQuestion.value.correct_answer]
+      return correctAnswers.includes(answerIndex)
+    }
+
     return {
       // State
       questions,
@@ -357,6 +387,7 @@ export default {
       targetCorrect,
       currentQuestion,
       selectedAnswer,
+      selectedAnswers,
       availableQuizzes,
       selectedQuiz,
       currentQuizKey,
@@ -398,6 +429,7 @@ export default {
       changeFile,
       nextQuestion,
       selectAnswer,
+      validateMultipleChoice,
       checkAnswer,
       restart,
       resetQuestionHistory,
@@ -405,6 +437,7 @@ export default {
       closeModal,
       showWrongAnswers,
       backToResults,
+      isCorrectAnswer,
       
       // Computed
       displayScore,
@@ -417,7 +450,8 @@ export default {
       resultEmoji,
       resultTitle,
       testPercentage,
-      testMessage
+      testMessage,
+      isMultipleChoiceQuestion
     }
   }
 }
@@ -1098,6 +1132,51 @@ input[type="file"] {
     color: #666;
     font-weight: bold;
     font-size: 0.9em;
+}
+
+/* Styles pour le tag multi */
+.multi-tag {
+  background: #ff9800;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.75em;
+  font-weight: bold;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.validate-button-container {
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 2px solid #f0f0f0;
+}
+
+.btn-validate {
+  background: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  min-width: 200px;
+}
+
+.btn-validate:hover:not(:disabled) {
+  background: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+}
+
+.btn-validate:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
 }
 
 /* Responsive design pour mobile */

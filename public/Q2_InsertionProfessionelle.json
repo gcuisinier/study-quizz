@@ -1,0 +1,264 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple",
+      "question": "Au FOREM, quelles affirmations sont correctes ?",
+      "options": [
+        "L’évaluateur contrôle que le demandait est bien actif dans ses démarches et évalue",
+        "Le conseiller référent accompagne la personne dans un parcours d’insertion et oriente vers offres/formations",
+        "Le FOREM est l’organisme fédéral qui paie les allocations de chômage",
+        "Le FOREM est le service public wallon de l’emploi et de la formation"
+      ],
+      "correct_answers": [0, 1, 3],
+      "explanation": "L’évaluateur réalise bilans/évaluations. Le conseiller référent suit la personne, fixe des étapes et oriente. Le FOREM est un service public de la Région wallonne (pas fédéral) dédié à l’emploi et la formation ; l’organisme fédéral qui gère les allocations est l’ONEM."
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "question": "Quelle est la mission centrale de l’ONEM ?",
+      "options": [
+        "Gérer l’assurance chômage et contrôler l’octroi des allocations",
+        "Organiser la formation professionnelle en Wallonie",
+        "Aligner les salaires minimums sectoriels",
+        "Attribuer le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (fédéral) gère l’assurance chômage et les mesures d’activation. La formation wallonne relève du FOREM ; le RIS relève des CPAS."
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "question": "Que signifie l’acronyme FOREM ?",
+      "options": [
+        "Fonds wallon pour l’Emploi",
+        "Office wallon de la Formation professionnelle et de l’Emploi",
+        "Fédération de l’Orientation et de l’Emploi en Moyenne entreprise",
+        "Front office de l’Emploi et de la Mobilité"
+      ],
+      "correct_answer": 1,
+      "explanation": "FOREM = Office wallon de la Formation professionnelle et de l’Emploi."
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "question": "Quel organisme de la Fédération Wallonie-Bruxelles (autre que l’IFAPME) organise la formation en alternance pour les < 18 ans ?",
+      "options": [
+        "CEFA",
+        "SIEP",
+        "CPAS",
+        "ONEM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les CEFA (Centre d’Éducation et de Formation en Alternance) organisent l’enseignement en alternance pour les mineurs (au sein des établissements scolaires de la FWB)."
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "question": "Léon, 30 ans, sans CESS, souhaite s’orienter vers une formation. Quel service régional l’aide à s’orienter ?",
+      "options": [
+        "CEFO (Carrefour Emploi Formation Orientation)",
+        "CPAS",
+        "SPF Emploi",
+        "ONE"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CEFO (service FOREM) informe et oriente vers études, métiers et formations en Wallonie."
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "question": "Quel organisme wallon propose des formations par mises en situation réelles de travail (ateliers/production) ?",
+      "options": [
+        "EFT (Entreprise de Formation par le Travail)",
+        "Bibliothèque communale",
+        "ONEM",
+        "ONE"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les EFT (et parfois les OISP avec ateliers) forment en conditions proches du réel (production, chantiers, etc.)."
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "question": "Avant une formation qualifiante, quelle structure est la plus indiquée pour une remise à niveau (français/math, TIC, etc.) ?",
+      "options": [
+        "OISP (Organisme d’Insertion Socio-Professionnelle)",
+        "Maison médicale",
+        "ONEM",
+        "SAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les OISP proposent souvent des remises à niveau, préformations et modules de base avant la qualification."
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "question": "Un élève en décrochage après conflit avec des enseignants : quel service de la FWB (autre que PMS) contacter en priorité ?",
+      "options": [
+        "Service de médiation scolaire (FWB)",
+        "SAJ (Service de l’Aide à la Jeunesse)",
+        "ONEM",
+        "SPF Intérieur"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Service de médiation scolaire intervient dans les situations de conflit/décrochage au sein des établissements."
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "question": "Jeune de 16 ans, toujours inscrit mais décroché, souhaitant se « rescolariser » : quel dispositif mobiliser ?",
+      "options": [
+        "Dispositif Relais",
+        "CPAS",
+        "DASPA",
+        "EFT"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les Dispositifs Relais proposent un accompagnement temporaire pour reconstruire un projet de rescolarisation."
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "question": "Jean est exclu et non réinscriptible immédiatement. Quel dispositif de jour proposer ?",
+      "options": [
+        "SAS (Service d’Accrochage Scolaire)",
+        "CEFA",
+        "IFAPME",
+        "ONEM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SAS accueillent temporairement les jeunes exclus/décrocheurs pour maintenir un cadre et travailler le projet."
+    },
+    {
+      "id": 11,
+      "type": "multiple",
+      "question": "Deux activités typiques d’une École de devoirs (EDD) sont…",
+      "options": [
+        "Aide méthodologique et soutien aux devoirs",
+        "Animations culturelles/citoyennes et activités créatives",
+        "Versement d’allocations de chômage",
+        "Instruction officielle des exclusions scolaires"
+      ],
+      "correct_answers": [0, 1],
+      "explanation": "Les EDD combinent soutien scolaire, méthodes de travail et activités éducatives/citoyennes. Elles ne traitent ni allocations ni procédures disciplinaires."
+    },
+    {
+      "id": 12,
+      "type": "multiple",
+      "question": "Citez deux activités concrètes menées par une Maison de l’Emploi.",
+      "options": [
+        "Ateliers CV/lettre et simulation d’entretien",
+        "Orientation vers offres/formations FOREM",
+        "Délivrance du RIS",
+        "Fixation des cotisations sociales patronales"
+      ],
+      "correct_answers": [0, 1],
+      "explanation": "Les Maisons de l’Emploi informent, conseillent et orientent (CV, entretiens, offres/formations). Le RIS = CPAS ; cotisations = ONSS."
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "question": "Quel organisme wallon allie redynamisation des quartiers sociaux et insertion socio-professionnelle de leurs habitants ?",
+      "options": [
+        "Régies de quartier",
+        "ONEM",
+        "ONE",
+        "SPF Justice"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les Régies de quartier mènent des actions de proximité (chantiers, propreté, petites rénovations) et de l’insertion pour les résidents."
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "question": "À 16 ans, Louise veut une formation en coiffure en alternance. Peut-elle s’inscrire à l’IFAPME ?",
+      "options": [
+        "Oui, via un contrat d’apprentissage en alternance",
+        "Non, l’IFAPME est réservé aux +18 ans",
+        "Seulement avec un CESS",
+        "Non, l’IFAPME ne forme pas aux métiers de services"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’IFAPME accepte des jeunes dès 15-16 ans sous conditions (alternance, présence d’un maître de stage, etc.)."
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "question": "Quel service propose des animations d’orientation pour les élèves de fin du secondaire ?",
+      "options": [
+        "SIEP (Service d’Information sur les Études et Professions)",
+        "SPF Finances",
+        "CPAS",
+        "ONEM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SIEP réalise des séances d’information/orientation sur les études, métiers et filières."
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "question": "Vers quel organisme référer une personne en situation d’analphabétisme ?",
+      "options": [
+        "Lire et Écrire",
+        "ONSS",
+        "SPF Intérieur",
+        "SAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "« Lire et Écrire » est un acteur majeur de l’alphabétisation en Fédération Wallonie-Bruxelles."
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "question": "Part estimée de la population adulte en situation d’illettrisme en Belgique francophone (ordre de grandeur) ?",
+      "options": [
+        "≈ 10 %",
+        "≈ 1 %",
+        "≈ 35 %",
+        "≈ 60 %"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les estimations situent l’illettrisme fonctionnel autour de 10 % des adultes (ordre de grandeur retenu dans de nombreux cours)."
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "question": "Dénomination officielle d’un organisme agréé par la RW qui propose des formations d’alphabétisation (cadre insertion) :",
+      "options": [
+        "OISP (Organisme d’Insertion Socio-Professionnelle)",
+        "CPAS",
+        "ONEM",
+        "SPF Santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "De nombreuses actions d’alphabétisation sont portées par des OISP agréés (ou par Lire et Écrire), dans une logique d’insertion."
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "question": "Dispositif permettant à un jeune MENA d’intégrer l’enseignement de plein exercice tout en apprenant le français :",
+      "options": [
+        "DASPA ",
+        "CPAS",
+        "SAS",
+        "ONEM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le DASPA (Dispositif d’Accueil et de Scolarisation des Primo-Arrivants) organise l’accueil, l’apprentissage du FLE et l’intégration progressive dans l’enseignement ordinaire."
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "question": "Pour un MENA très peu scolarisé auparavant, quel dispositif de la FWB favorise un accueil avec d’autres primo-arrivants ?",
+      "options": [
+        "Classes passerelles (au sein du DASPA)",
+        "École des Devoirs",
+        "EFT",
+        "Maison de l’Emploi"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les classes passerelles (DASPA) regroupent temporairement des primo-arrivants afin de travailler le FLE et les prérequis scolaires."
+    }
+  ]
+}

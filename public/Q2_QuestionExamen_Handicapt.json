@@ -1,0 +1,137 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle structure de l'A.V.I.Q peut accueillir en journée Madison, 28 ans, reconnue comme personne porteuse d'un handicap ?",
+      "options": [
+        "Service Résidentiel pour Adultes (SRA)",
+        "Service de Santé Mentale (SSM)",
+        "Service de Jour pour Adultes (SJA)",
+        "Service Résidentiel pour Jeunes (SRJ)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le Service de Jour pour Adultes (SJA) accueille en journée les adultes en situation de handicap."
+    },
+    {
+      "id": 2,
+      "question": "Quel service de l’AVIQ propose à des personnes adultes porteuses d’un handicap un accompagnement social, administratif, budgétaire et professionnel ?",
+      "options": [
+        "Service d’Accompagnement (SA)",
+        "Service Résidentiel de Nuit pour Adultes (SRNA)",
+        "Service de Réadaptation Fonctionnelle",
+        "Service Résidentiel pour Adultes (SRA)"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Service d’Accompagnement (SA) accompagne les adultes handicapés dans leurs démarches sociales et administratives."
+    },
+    {
+      "id": 3,
+      "question": "Maggy, 50 ans, devient malvoyante et doit utiliser une canne blanche. Quel organisme de la Région wallonne peut prendre en charge ses frais ?",
+      "options": [
+        "AVIQ – Département Handicap",
+        "INAMI",
+        "ONEM",
+        "CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’AVIQ (Département Handicap) prend en charge les frais liés au handicap comme les aides techniques (canne blanche)."
+    },
+    {
+      "id": 4,
+      "question": "Quels sont les 2 services de l’AVIQ pouvant accueillir ponctuellement Jules, 8 ans, porteur d’un handicap mental lourd, pour offrir du répit à ses parents ?",
+      "options": [
+        "Service Résidentiel pour Jeunes (SRJ)",
+        "Service Résidentiel pour Adultes (SRA)",
+        "Service Accueil de Jour pour Enfants (SAJE)",
+        "Service Accueil Familial de Jour (SAFJ)"
+      ],
+      "correct_answers": [0, 2],
+      "explanation": "Les SRJ et SAJE accueillent ponctuellement les enfants handicapés pour offrir du répit aux parents."
+    },
+    {
+      "id": 5,
+      "question": "Coralie, 26 ans, handicap mental, veut se loger seule avec un accompagnement. Quel service de l’AVIQ offre cette possibilité ?",
+      "options": [
+        "Service Résidentiel de Nuit pour Adultes (SRNA)",
+        "Service d’Accompagnement (SA)",
+        "Service de Santé Mentale (SSM)",
+        "Service Résidentiel pour Adultes (SRA)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le Service d’Accompagnement (SA) soutient les personnes handicapées vivant seules ou en logement autonome."
+    },
+    {
+      "id": 6,
+      "question": "Léa, 6 ans, handicap mental léger, scolarisée en ordinaire mais en difficulté. Quelles deux solutions scolaires possibles ?",
+      "options": [
+        "Enseignement spécialisé de type 2",
+        "Maintien dans l’enseignement ordinaire avec l'aide de l'integration sociale",
+        "Enseignement spécialisé de type 1",
+        "Enseignement à domicile obligatoire"
+      ],
+      "correct_answers": [0, 2],
+      "explanation": "Les enfants peuvent être orientés vers l’enseignement spécialisé type 1 (retard léger) ou aidé dans l'enseignement ordinaire avec l'aide de l'integration sociale"
+    },
+    {
+      "id": 7,
+      "question": "Quelle structure de l'AVIQ peut accueillir et héberger Jacob, 14 ans, porteur d’un handicap ?",
+      "options": [
+        "Service Résidentiel pour Adultes (SRA)",
+        "Service Résidentiel pour Jeunes (SRJ)",
+        "Service d’Accompagnement (SA)",
+        "Service Résidentiel de Nuit pour Adultes (SRNA)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les Services Résidentiels pour Jeunes (SRJ) accueillent et hébergent les enfants et adolescents handicapés."
+    },
+    {
+      "id": 8,
+      "question": "Jérémy, 26 ans, a suivi une formation dans un CFISPA. Dans quel type d’entreprise peut-il postuler ?",
+      "options": [
+        "Entreprise ordinaire sans aide",
+        "Entreprise de Travail Adapté (ETA)",
+        "Maison d’accueil",
+        "CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les Entreprises de Travail Adapté (ETA) emploient des personnes handicapées dans des conditions adaptées."
+    },
+    {
+      "id": 9,
+      "question": "Marc travaille en entreprise de parcs et jardins avec prime de compensation, mais ne vit pas de façon autonome. Dans quel service de l’AVIQ peut-il être hébergé en sachant qu’il travaille en journée ?",
+      "options": [
+        "Service Résidentiel pour Adultes (SRA)",
+        "Service Résidentiel de Nuit pour Adultes (SRNA)",
+        "Service d’Accompagnement (SA)",
+        "Service Accueil Familial"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les SRNA accueillent la nuit des adultes handicapés qui travaillent en journée."
+    },
+    {
+      "id": 10,
+      "question": "Qu’est-ce qu’une société capacitante ?",
+      "options": [
+        "Une société qui favorise l’intégration des personnes vulnérables en misant sur leurs compétences et capacités",
+        "Une société qui exclut les personnes handicapées des services communs",
+        "Une société où seuls les plus performants trouvent une place",
+        "Une société de soins uniquement médicalisée"
+      ],
+      "correct_answer": 0,
+      "explanation": "Une société capacitante met en avant les compétences des individus et favorise leur inclusion."
+    },
+    {
+      "id": 11,
+      "question": "Quels sont les 4 rôles de l’AVIQ ?",
+      "options": [
+        "Contrôler",
+        "Accorder des allocations",
+        "Subventionner",
+        "Agréer",
+        "Accompagner les CPAS"
+      ],
+      "correct_answers": [0, 1, 2, 3],
+      "explanation": "Les rôles de l’AVIQ sont de contrôler, subventionner, agréer et octroyer des allocations."
+    }
+  ]
+}

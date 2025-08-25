@@ -1,0 +1,252 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quels sont les rôles de l’ONE (Office de la Naissance et de l’Enfance) ?",
+      "options": [
+        "Suivi préventif de la santé des enfants",
+        "Gestion des pensions",
+        "Contrôle et agrément des milieux d’accueil",
+        "Attribution des allocations de chômage",
+        "Vaccination",
+        "Soutien à la parentalité"
+      ],
+      "correct_answers": [0, 2, 4, 5],
+      "explanation": "L’ONE s’occupe de santé, contrôle, vaccination et soutien parental, mais pas des pensions ni du chômage."
+    },
+    {
+      "id": 2,
+      "question": "À quel âge un enfant peut-il légalement être accueilli en crèche en Belgique ?",
+      "options": [
+        "Dès la naissance",
+        "À partir de 2 mois et demi",
+        "À partir de 6 mois",
+        "À partir de 1 an"
+      ],
+      "correct_answer": 1,
+      "explanation": "L’accueil en crèche est légalement possible dès 2 mois et demi."
+    },
+    {
+      "id": 3,
+      "question": "Quels types de milieux d’accueil sont considérés comme collectifs ?",
+      "options": [
+        "Crèches",
+        "Maisons d’enfants",
+        "Accueillants autonomes",
+        "Prégardiennats (18 à 36 mois)",
+        "Gardiennes conventionnées",
+        "Centres PMS"
+      ],
+      "correct_answers": [0, 1, 3],
+      "explanation": "Les crèches, maisons d’enfants et prégardiennats sont des structures collectives."
+    },
+    {
+      "id": 5,
+      "question": "Quels objectifs poursuit le Code de qualité de l’accueil ?",
+      "options": [
+        "Bien-être de l’enfant",
+        "Développement global",
+        "Accessibilité financière",
+        "Intégration sociale",
+        "Privatisation des crèches",
+        "Surveillance policière"
+      ],
+      "correct_answers": [0, 1, 2, 3],
+      "explanation": "Le Code vise bien-être, développement, accessibilité et intégration, pas privatisation ni police."
+    },
+    {
+      "id": 6,
+      "question": "Qui assure l’inspection et le contrôle des milieux d’accueil en Fédération Wallonie-Bruxelles ?",
+      "options": [
+        "L’ONE",
+        "L’AVIQ",
+        "Les communes",
+        "Les provinces"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONE est compétente pour l’inspection des milieux d’accueil."
+    },
+    {
+      "id": 7,
+      "question": "Quels services peuvent accompagner les parents dans leurs compétences éducatives ?",
+      "options": [
+        "Maisons de la parentalité",
+        "Consultations ONE",
+        "Services d’aide préventive à domicile",
+        "Centres PMS",
+        "PSE",
+        "Mediation Familliale"
+      ],
+      "correct_answers": [0, 1, 2, 3],
+      "explanation": "Plusieurs services accompagnent les parents, chacun selon une spécialité."
+    },
+    {
+      "id": 8,
+      "question": "Quel est l’objectif du décret ‘Accueil Temps Libre’ (ATL) ?",
+      "options": [
+        "Améliorer la qualité de l’accueil hors temps scolaire",
+        "Encadrer la formation des accueillants familiaux",
+        "Développer l’accessibilité de l’accueil extrascolaire",
+        "Encadrer les pensions alimentaires"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ATL vise la qualité de l’accueil hors temps scolaire."
+    },
+    {
+      "id": 9,
+      "question": "Quels sont les âges encadrés par les structures d’accueil de la petite enfance ?",
+      "options": [
+        "0 à 3 ans",
+        "0 à 6 ans",
+        "18 à 36 mois",
+        "2,5 à 12 ans",
+        "12 à 21 ans",
+        "18 à 25 ans"
+      ],
+      "correct_answers": [0, 1, 2, 3],
+      "explanation": "Crèche : 0-3 ans, prégardiennat : 18-36 mois, gardienne conventionnée 0 à 6 ans,  accueil extrascolaire : 2,5-12 ans."
+    },
+    {
+      "id": 10,
+      "question": "Quel diplôme est obligatoire pour s'occuper des enfants en crèche ?",
+      "options": [
+        "Puériculteur/puéricultrice",
+        "Assistant social",
+        "Educateur",
+        "Infirmière"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le diplôme de puériculteur est requis pour travailler directement auprès des enfants."
+    },
+    {
+      "id": 11,
+      "question": "Quels services accueillent des enfants placés dans un cadre spécialisé ?",
+      "options": [
+        "Services d’Accueil Spécialisé de la Petite Enfance (SASPE)",
+        "Crèches privées",
+        "Abri de nuit",
+        "Maison d’enfants",
+        "Familles d’accueil",
+        "Prégardiennat"
+      ],
+      "correct_answers": [0, 4],
+      "explanation": "Les SASPE et familles d’accueil prennent en charge les enfants placés."
+    },
+    {
+      "id": 12,
+      "question": "Quelle institution organise les consultations pour la santé des enfants ?",
+      "options": [
+        "ONE",
+        "INAMI",
+        "ONEM",
+        "AVIQ"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les consultations sont organisées par l’ONE."
+    },
+    {
+      "id": 13,
+      "question": "Quels documents sont nécessaires pour l’inscription d’un enfant en crèche ?",
+      "options": [
+        "Carnet de vaccination",
+        "Preuve de domicile",
+        "Certificat médical d’aptitude",
+        "Preuve d’inscription à l’école",
+        "Fiche fiscale des parents",
+        "Composition de ménage"
+      ],
+      "correct_answers": [0, 2],
+      "explanation": "Le carnet de vaccination et le certificat médical sont obligatoires."
+    },
+    {
+      "id": 14,
+      "question": "Quel est le public accueilli en maison d’enfants ?",
+      "options": [
+        "0-3 ans",
+        "18-36 mois",
+        "Adultes handicapés",
+        "Personnes âgées"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les maisons d’enfants (prégardiennats) accueillent principalement les enfants de 18 à 36 mois."
+    },
+    {
+      "id": 15,
+      "question": "Quels principes guident l’action de l’ONE ?",
+      "options": [
+        "Égalité des chances",
+        "Promotion de la santé",
+        "Neutralité politique",
+        "Privatisation de l’accueil",
+        "Soutien à la parentalité",
+        "Surveillance policière"
+      ],
+      "correct_answers": [0, 1, 2, 4],
+      "explanation": "Les principes incluent égalité, santé, neutralité et soutien parental."
+    },
+    {
+      "id": 16,
+      "question": "Qui assure le suivi des enfants dans le cadre scolaire (orientation, soutien) ?",
+      "options": [
+        "PMS",
+        "ONE",
+        "ONEM",
+        "CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les centres PMS assurent l’accompagnement dans le cadre scolaire."
+    },
+    {
+      "id": 17,
+      "question": "Quels soutiens peut offrir une consultation ONE ?",
+      "options": [
+        "Suivi médical préventif",
+        "Vaccination",
+        "Allocation de chômage",
+        "Soutien parental",
+        "Aide alimentaire",
+        "Orientation vers des services spécialisés"
+      ],
+      "correct_answers": [0, 1, 3, 5],
+      "explanation": "Les consultations offrent suivi, vaccination, soutien et orientation."
+    },
+    {
+      "id": 18,
+      "question": "Quelle institution n’a AUCUN rôle spécifique dans la petite enfance ?",
+      "options": [
+        "ONE",
+        "ONEM",
+        "PMS",
+        "Consultations prénatales"
+      ],
+      "correct_answer": 1,
+      "explanation": "L’ONEM s’occupe de chômage, pas de petite enfance."
+    },
+    {
+      "id": 19,
+      "question": "Quels sont les critères pour qu’un milieu d’accueil reçoive un subside de l’ONE ?",
+      "options": [
+        "Respecter le Code de qualité",
+        "Embaucher du personnel qualifié",
+        "Offrir des repas équilibrés",
+        "Offrir un nombre minimal de places",
+        "Subventionner directement les familles",
+        "Être exclusivement public"
+      ],
+      "correct_answers": [0, 1, 3],
+      "explanation": "Le subventionnement dépend du respect du Code, du personnel qualifié et de la capacité."
+    },
+    {
+      "id": 20,
+      "question": "Quel service organise la formation en alternance pour les jeunes ?",
+      "options": [
+        "IFAPME",
+        "ONEM",
+        "CPAS",
+        "Mutuelle"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’IFAPME organise la formation en alternance."
+    }
+  ]
+}

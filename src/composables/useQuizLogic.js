@@ -10,6 +10,7 @@ export function useQuizLogic() {
   const targetCorrect = ref(25)
   const currentQuestion = ref(null)
   const selectedAnswer = ref(null)
+  const selectedAnswers = ref([])
   const availableQuizzes = ref([])
   const selectedQuiz = ref(null)
   const currentQuizKey = ref(null)
@@ -104,6 +105,11 @@ export function useQuizLogic() {
     if (note >= 6) return 'Bonne compréhension, continuez vos efforts !'
     if (note >= 4) return 'C\'est un début, il faut réviser !'
     return 'Il faut revoir les bases !'
+  })
+
+  const isMultipleChoiceQuestion = computed(() => {
+    if (!currentQuestion.value) return false
+    return Array.isArray(currentQuestion.value.correct_answers) && currentQuestion.value.correct_answers.length > 1
   })
 
   // Methods
@@ -334,6 +340,7 @@ export function useQuizLogic() {
       }
       
       selectedAnswer.value = null
+      selectedAnswers.value = []
       showResults.value = false
       isProcessingAnswer.value = false // Reset processing flag
       currentQuestion.value = testQuestions.value[currentTestIndex.value]
@@ -351,6 +358,7 @@ export function useQuizLogic() {
       }
 
       selectedAnswer.value = null
+      selectedAnswers.value = []
       showResults.value = false
       isProcessingAnswer.value = false // Reset processing flag
       
@@ -374,9 +382,29 @@ export function useQuizLogic() {
   }
 
   const selectAnswer = (index) => {
-    if (selectedAnswer.value !== null) return
+    if (isMultipleChoiceQuestion.value) {
+      // Mode sélection multiple
+      if (selectedAnswers.value.includes(index)) {
+        // Désélectionner si déjà sélectionné
+        selectedAnswers.value = selectedAnswers.value.filter(i => i !== index)
+      } else {
+        // Ajouter à la sélection
+        selectedAnswers.value.push(index)
+      }
+      // Ne pas valider automatiquement en mode multiple
+    } else {
+      // Mode sélection simple (existant)
+      if (selectedAnswer.value !== null) return
+      selectedAnswer.value = index
+      checkAnswer()
+    }
+  }
 
-    selectedAnswer.value = index
+  const validateMultipleChoice = () => {
+    if (selectedAnswers.value.length === 0) {
+      alert('Veuillez sélectionner au moins une réponse.')
+      return
+    }
     checkAnswer()
   }
 
@@ -388,13 +416,38 @@ export function useQuizLogic() {
     
     isProcessingAnswer.value = true
     
-    if (selectedAnswer.value === null) {
-      selectedAnswer.value = -1 // Time up
+    let isCorrect = false
+    let userAnswerText = ''
+    
+    if (isMultipleChoiceQuestion.value) {
+      // Mode réponses multiples
+      if (selectedAnswers.value.length === 0) {
+        selectedAnswers.value = [-1] // Time up
+      }
+      
+      const correctAnswersArray = currentQuestion.value.correct_answers || []
+      // Vérifier que toutes les bonnes réponses sont sélectionnées et aucune mauvaise
+      isCorrect = correctAnswersArray.length === selectedAnswers.value.length && 
+                  correctAnswersArray.every(answer => selectedAnswers.value.includes(answer))
+      
+      userAnswerText = selectedAnswers.value.includes(-1) 
+        ? 'Pas de réponse (temps écoulé)'
+        : selectedAnswers.value.map(idx => currentQuestion.value.options[idx]).join(', ')
+    } else {
+      // Mode réponse simple
+      if (selectedAnswer.value === null) {
+        selectedAnswer.value = -1 // Time up
+      }
+      
+      const correctAnswersArray = currentQuestion.value.correct_answers || [currentQuestion.value.correct_answer]
+      isCorrect = correctAnswersArray.includes(selectedAnswer.value)
+      
+      userAnswerText = selectedAnswer.value >= 0 
+        ? currentQuestion.value.options[selectedAnswer.value] 
+        : 'Pas de réponse (temps écoulé)'
     }
 
     showResults.value = true
-    const correctIndex = currentQuestion.value.correct_answer
-    const isCorrect = selectedAnswer.value === correctIndex
 
     if (isCorrect) {
       currentStreak.value++
@@ -415,10 +468,11 @@ export function useQuizLogic() {
       
       if (isTestMode.value) {
         questionResults.value[currentTestIndex.value - 1] = false
+        const correctAnswersArray = currentQuestion.value.correct_answers || [currentQuestion.value.correct_answer]
         wrongAnswersFirstTry.value.push({
           question: currentQuestion.value,
-          userAnswer: selectedAnswer.value >= 0 ? currentQuestion.value.options[selectedAnswer.value] : 'Pas de réponse (temps écoulé)',
-          correctAnswer: currentQuestion.value.options[correctIndex],
+          userAnswer: userAnswerText,
+          correctAnswer: correctAnswersArray.map(idx => currentQuestion.value.options[idx]).join(', '),
           explanation: currentQuestion.value.explanation || null
         })
       } else {
@@ -430,18 +484,22 @@ export function useQuizLogic() {
         )
         
         if (!alreadyFailed) {
+          const correctAnswersArray = currentQuestion.value.correct_answers || [currentQuestion.value.correct_answer]
           wrongAnswersFirstTry.value.push({
             question: currentQuestion.value,
-            userAnswer: selectedAnswer.value >= 0 ? currentQuestion.value.options[selectedAnswer.value] : 'Pas de réponse (temps écoulé)',
-            correctAnswer: currentQuestion.value.options[correctIndex],
+            userAnswer: userAnswerText,
+            correctAnswer: correctAnswersArray.map(idx => currentQuestion.value.options[idx]).join(', '),
             explanation: currentQuestion.value.explanation || null
           })
         }
       }
       
-      const message = selectedAnswer.value === -1 ? 
-        `⏰ Pas de souci ! La bonne réponse était: ${currentQuestion.value.options[correctIndex]}` :
-        `Presque ! La bonne réponse était: ${currentQuestion.value.options[correctIndex]}`
+      const correctAnswersArray = currentQuestion.value.correct_answers || [currentQuestion.value.correct_answer]
+      const correctAnswerText = correctAnswersArray.map(idx => currentQuestion.value.options[idx]).join(', ')
+      
+      const message = (isMultipleChoiceQuestion.value && selectedAnswers.value.includes(-1)) || selectedAnswer.value === -1 ? 
+        `⏰ Pas de souci ! La bonne réponse était: ${correctAnswerText}` :
+        `Presque ! La bonne réponse était: ${correctAnswerText}`
       showResultModal(false, message)
     }
   }
@@ -669,6 +727,7 @@ export function useQuizLogic() {
     targetCorrect,
     currentQuestion,
     selectedAnswer,
+    selectedAnswers,
     availableQuizzes,
     selectedQuiz,
     currentQuizKey,
@@ -703,6 +762,7 @@ export function useQuizLogic() {
     changeFile,
     nextQuestion,
     selectAnswer,
+    validateMultipleChoice,
     checkAnswer,
     restart,
     resetQuestionHistory,
@@ -722,6 +782,7 @@ export function useQuizLogic() {
     resultEmoji,
     resultTitle,
     testPercentage,
-    testMessage
+    testMessage,
+    isMultipleChoiceQuestion
   }
 }
