@@ -19,13 +19,14 @@
         "Garantie de paiement du loyer même si le logement est vide",
         "Gestion administrative et technique assurée par l’AIS",
         "Loyers plus élevés que dans le privé",
-        "Exonération totale d’impôts"
+        "Exonération fiscale"
       ],
       "correct_answers": [
         0,
-        1
+        1,
+        3
       ],
-      "explanation": "L’AIS garantit au propriétaire la perception des loyers et gère le bien. Les loyers sont adaptés aux revenus des locataires, donc pas plus élevés."
+      "explanation": "L’AIS garantit au propriétaire la perception des loyers et gère le bien. Les loyers sont adaptés aux revenus des locataires, donc pas plus élevés. Il peut aussi bénéficier d'avantage fiscaux"
     },
     {
       "id": 3,
