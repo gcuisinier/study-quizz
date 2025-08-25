@@ -6,7 +6,7 @@ export default defineConfig({
   // Base URL pour GitHub Pages - sera adapté selon l'environnement
   base: process.env.NODE_ENV === 'production' 
     ? (process.env.GITHUB_REPOSITORY 
-        ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/study-quizz/`  // GitHub Pages
+        ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/`  // GitHub Pages
         : '/study-quizz/')  // Serveur personnalisé
     : '/',  // Development
   server: {
