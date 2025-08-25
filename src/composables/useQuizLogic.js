@@ -27,6 +27,7 @@ export function useQuizLogic() {
   const showModal = ref(false)
   const showResults = ref(false)
   const shuffledOptions = ref([])
+  const isProcessingAnswer = ref(false)
 
   // Modal state
   const modalIcon = ref('')
@@ -334,6 +335,7 @@ export function useQuizLogic() {
       
       selectedAnswer.value = null
       showResults.value = false
+      isProcessingAnswer.value = false // Reset processing flag
       currentQuestion.value = testQuestions.value[currentTestIndex.value]
       currentTestIndex.value++
       displayQuestion()
@@ -350,6 +352,7 @@ export function useQuizLogic() {
 
       selectedAnswer.value = null
       showResults.value = false
+      isProcessingAnswer.value = false // Reset processing flag
       
       const randomIndex = Math.floor(Math.random() * currentPool.value.length)
       currentQuestion.value = currentPool.value[randomIndex]
@@ -378,6 +381,13 @@ export function useQuizLogic() {
   }
 
   const checkAnswer = () => {
+    // Prevent multiple simultaneous answer processing
+    if (isProcessingAnswer.value) {
+      return
+    }
+    
+    isProcessingAnswer.value = true
+    
     if (selectedAnswer.value === null) {
       selectedAnswer.value = -1 // Time up
     }
@@ -559,6 +569,7 @@ export function useQuizLogic() {
 
   const goToNextQuestion = () => {
     closeModal()
+    isProcessingAnswer.value = false // Reset the processing flag
     nextTick(() => {
       nextQuestion()
     })
@@ -639,6 +650,7 @@ export function useQuizLogic() {
     showModal,
     showResults,
     shuffledOptions,
+    isProcessingAnswer,
     
     // Modal state
     modalIcon,

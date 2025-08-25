@@ -467,6 +467,286 @@
       ],
       "correct_answer": 0,
       "explanation": "Les équipes SOS-Enfants prennent en charge les situations de maltraitance."
+    },
+    {
+      "id": 41,
+      "question": "Que signifie l’acronyme ONE ?",
+      "options": [
+        "Office National de l’Enfance",
+        "Organisation de la Naissance et de l’Éducation",
+        "Office de la Naissance et de l’Enfance",
+        "Organisation Nationale des Enfants"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’ONE signifie Office de la Naissance et de l’Enfance, créé en 1919 pour promouvoir le bien-être des enfants et soutenir les familles."
+    },
+    {
+      "id": 42,
+      "question": "Quelle tranche d’âge est visée par les consultations pour enfants de l’ONE ?",
+      "options": ["0 à 3 ans", "0 à 6 ans", "3 à 12 ans", "6 à 18 ans"],
+      "correct_answer": 1,
+      "explanation": "Les consultations pour enfants de l’ONE concernent les enfants de 0 à 6 ans."
+    },
+    {
+      "id": 43,
+      "question": "Que signifie l’acronyme MCAE ?",
+      "options": [
+        "Maison Communale d’Accueil de l’Enfance",
+        "Milieu Collectif d’Accueil Éducatif",
+        "Maison de Coordination pour l’Accueil de l’Enfant",
+        "Milieu Communautaire d’Appui à l’Enfance"
+      ],
+      "correct_answer": 0,
+      "explanation": "La MCAE est la Maison Communale d’Accueil de l’Enfance, destinée aux enfants de 0 à 36 mois."
+    },
+    {
+      "id": 44,
+      "question": "Quelle tranche d’âge est accueillie en crèche ?",
+      "options": ["0 à 12 mois", "0 à 24 mois", "0 à 36 mois", "0 à 6 ans"],
+      "correct_answer": 2,
+      "explanation": "Les crèches accueillent les enfants de 0 à 36 mois."
+    },
+    {
+      "id": 45,
+      "question": "Que signifie le terme 'prégardiennat' ?",
+      "options": [
+        "Accueil collectif d’enfants de 18 à 36 mois avec accès restreint",
+        "Accueil en école maternelle",
+        "Accueil en maison ouverte",
+         "Accueil collectif d’enfants de 0 à 36 mois avec accès restreint"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le prégardiennat est un accueil collectif pour enfants de 18 à 36 mois, avec accès limité."
+    },
+    {
+      "id": 46,
+      "question": "Que signifie l’acronyme SASPe ?",
+      "options": [
+        "Service d’Accueil Spécialisé de la Petite Enfance",
+        "Structure d’Appui Social Petite Enfance",
+        "Service d’Assistance Sociale Préventive",
+        "Soutien Administratif Sanitaire Petite Enfance"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SASPe prend en charge les enfants de moins de 6 ans placés pour raisons sociales."
+    },
+    {
+      "id": 47,
+      "question": "Quelle est la durée maximale d’un hébergement en SASPe ?",
+      "options": ["3 mois", "6 mois", "12 mois", "24 mois"],
+      "correct_answer": 2,
+      "explanation": "Un enfant peut être accueilli en SASPe pour une durée maximale de 12 mois, prolongeable une fois."
+    },
+    {
+      "id": 48,
+      "question": "À quel âge la halte-accueil peut-elle recevoir des enfants ?",
+      "options": ["0 à 3 ans", "0 à 6 ans", "3 à 12 ans", "0 à 12 ans"],
+      "correct_answer": 1,
+      "explanation": "La halte-accueil est prévue pour les enfants de 0 à 6 ans pour des besoins ponctuels."
+    },
+    {
+      "id": 49,
+      "question": "Quelle est la durée maximale d’accueil par jour en halte-accueil ?",
+      "options": ["1 heure", "2 heures", "3 heures", "4 heures"],
+      "correct_answer": 2,
+      "explanation": "Une halte-accueil fonctionne généralement pour maximum 3 heures par jour."
+    },
+    {
+      "id": 50,
+      "question": "Que signifie l’acronyme LREP ?",
+      "options": [
+        "Lieu de Rencontre Enfants et Parents",
+        "Lieu Régional d’Encadrement Parental",
+        "Lieu de Référence Enfance-Parents",
+        "Lieu d’Accueil pour Parents séparés"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les LREP accueillent conjointement enfants (jusqu’à 6 ans) et parents dans un cadre informel et de qualité."
+    },
+    {
+      "id": 51,
+      "question": "Que signifie l’acronyme EPS dans le cadre de l’ONE ?",
+      "options": [
+        "Espace Parents dans la Séparation",
+        "Encadrement Pédagogique Scolaire",
+        "Équipe Préventive de Santé",
+        "Espace de Prévention Sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’EPS est un service qui soutient les parents en difficulté lors d’une séparation."
+    },
+    {
+      "id": 52,
+      "question": "À quel âge prend fin l’accueil dans une crèche parentale ?",
+      "options": ["12 mois", "24 mois", "36 mois", "6 ans"],
+      "correct_answer": 2,
+      "explanation": "La crèche parentale accueille les enfants jusqu’à 36 mois."
+    },
+    {
+      "id": 53,
+      "question": "Quel service est chargé de la prévention et du traitement des situations de maltraitance ?",
+      "options": ["SASPe", "SOS-Enfants", "LREP", "EPS"],
+      "correct_answer": 1,
+      "explanation": "Les équipes SOS-Enfants interviennent dans les situations de maltraitance."
+    },
+    {
+      "id": 54,
+      "question": "Quel est le numéro gratuit de la ligne « Écoute-Enfants » ?",
+      "options": ["100", "101", "103", "112"],
+      "correct_answer": 2,
+      "explanation": "La ligne verte Écoute-Enfants est accessible au 103, 24h/24 et 7j/7."
+    },
+    {
+      "id": 55,
+      "question": "Jusqu’à quel âge un enfant peut-il bénéficier de l’accueil extrascolaire ?",
+      "options": ["6 ans", "10 ans", "12 ans", "18 ans"],
+      "correct_answer": 2,
+      "explanation": "L’accueil extrascolaire s’adresse aux enfants de la maternelle et du primaire jusqu’à 12 ans."
+    },
+    {
+      "id": 56,
+      "question": "Que signifie l’acronyme SAEMD ?",
+      "options": [
+        "Service d’Accueil d’Enfants Malades à Domicile",
+        "Service d’Appui Enfance et Maternité Domicile",
+        "Service Administratif Enfance et Maladie Domicile",
+        "Structure d’Aide Éducative pour Mineurs Dépendants"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SAEMD assure l’accueil temporaire d’enfants malades à domicile."
+    },
+    {
+      "id": 57,
+      "question": "Quelle tranche d’âge est couverte par les services d’accueillant(e)s conventionné(e)s ?",
+      "options": ["0 à 3 ans", "0 à 6 ans", "3 à 12 ans", "0 à 18 ans"],
+      "correct_answer": 1,
+      "explanation": "Les accueillant(e)s d’enfants conventionné(e)s accueillent les enfants de 0 à 6 ans."
+    },
+    {
+      "id": 58,
+      "question": "Quel est l’objectif principal des maisons ouvertes ?",
+      "options": [
+        "Offrir une solution d’accueil d’urgence",
+        "Permettre aux enfants de socialiser et aux parents de trouver écoute et soutien",
+        "Substituer l’école maternelle",
+        "Accueillir les enfants malades"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les maisons ouvertes permettent la socialisation précoce des enfants et offrent un espace d’échange aux parents."
+    },
+    {
+      "id": 59,
+      "question": "Quelle est la mission des services périnataux ?",
+      "options": [
+        "Accompagner les familles jusqu’au 3e anniversaire de l’enfant",
+        "Soutenir les familles jusqu’à la scolarisation obligatoire",
+        "Assurer un suivi médical jusqu’à 18 ans",
+        "Offrir uniquement un suivi postnatal immédiat"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les services d’accompagnement périnatal accompagnent les familles durant la grossesse et jusqu’au 3e anniversaire de l’enfant."
+    },
+    {
+      "id": 60,
+      "question": "Quel est le rôle principal des consultations prénatales de l’ONE ?",
+      "options": [
+        "Soigner les maladies infantiles",
+        "Guider psycho-médico-socialement la grossesse",
+        "Accueillir les enfants de 0 à 6 ans",
+        "Former les éducateurs de crèches"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les consultations prénatales assurent un guidage psycho-médico-social préventif de la grossesse."
+    },
+    {
+      "id": 61,
+      "question": "Quel service assure l’hébergement temporaire pour des enfants en danger de moins de 6 ans ?",
+      "options": ["LREP", "SASPe", "EPS", "Halte-accueil"],
+      "correct_answer": 1,
+      "explanation": "Le SASPe héberge temporairement les enfants de moins de 6 ans en situation de crise."
+    },
+    {
+      "id": 62,
+      "question": "Quel service est basé sur le principe du double anonymat ?",
+      "options": ["SASPe", "Écoute-Enfants (103)", "SOS-Enfants", "Maison ouverte"],
+      "correct_answer": 1,
+      "explanation": "La ligne 103 fonctionne sur le principe du double anonymat pour protéger appelants et écoutants."
+    },
+    {
+      "id": 63,
+      "question": "Que signifie l’acronyme SAE (lié à la petite enfance) ?",
+      "options": [
+        "Service d’Accueil d’Enfants",
+        "Service d’Aide Éducative",
+        "Structure d’Accueil Extra-scolaire",
+        "Soutien Administratif pour l’Enfance"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SAE est un Service d’Accueil d’Enfants lié aux structures agréées par l’ONE."
+    },
+    {
+      "id": 64,
+      "question": "À quel âge prend fin la possibilité d’être accueilli en extrascolaire pendant les vacances scolaires ?",
+      "options": ["10 ans", "12 ans", "14 ans", "18 ans"],
+      "correct_answer": 1,
+      "explanation": "Les activités extrascolaires sont accessibles aux enfants jusqu’à 12 ans."
+    },
+    {
+      "id": 65,
+      "question": "Quelle est la mission principale des équipes SOS-Enfants ?",
+      "options": [
+        "Prendre en charge les enfants placés",
+        "Prévenir et traiter les situations de maltraitance",
+        "Organiser des activités sportives",
+        "Gérer l’accueil extrascolaire"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les équipes SOS-Enfants sont spécialisées dans la prévention et le traitement des situations de maltraitance."
+    },
+    {
+      "id": 66,
+      "question": "Quel âge maximum un enfant peut-il avoir pour être pris en charge dans un LREP ?",
+      "options": ["3 ans", "6 ans", "10 ans", "12 ans"],
+      "correct_answer": 1,
+      "explanation": "Les LREP accueillent les enfants jusqu’à 6 ans avec leurs parents."
+    },
+    {
+      "id": 67,
+      "question": "Quel service accompagne les familles les plus vulnérables dès la grossesse ?",
+      "options": ["MCAE", "Service périnatal", "SOS-Enfants", "EPS"],
+      "correct_answer": 1,
+      "explanation": "Les services d’accompagnement périnatal suivent les familles dès la grossesse, en particulier les plus vulnérables."
+    },
+    {
+      "id": 68,
+      "question": "Que signifie l’acronyme Pep’s dans les équipes de l’ONE ?",
+      "options": [
+        "Parent Educateur de Proximité",
+        "Prévention et Soutien à la Parentalité",
+        "Programme éducatif pour scolaires",
+        "Professionnel encadrant pédagogique"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les Pep’s sont des soutiens à la parentalité présents dans les consultations pour enfants."
+    },
+    {
+      "id": 69,
+      "question": "Quelle est la mission des maisons ouvertes inspirées par Dolto ?",
+      "options": [
+        "Accueillir uniquement les parents séparés",
+        "Offrir un espace de socialisation et d’écoute pour enfants et parents",
+        "Remplacer les écoles maternelles",
+        "Accueillir les enfants malades"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les maisons ouvertes permettent aux enfants de jouer librement et aux parents de trouver écoute et soutien."
+    },
+    {
+      "id": 70,
+      "question": "Quel âge maximum un enfant peut-il avoir pour être accueilli par un(e) accueillant(e) conventionné(e) ?",
+      "options": ["3 ans", "6 ans", "10 ans", "12 ans"],
+      "correct_answer": 1,
+      "explanation": "Les accueillant(e)s d’enfants conventionné(e)s accueillent les enfants de 0 à 6 ans."
     }
   ]
 }

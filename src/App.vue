@@ -317,7 +317,20 @@ export default {
 
     // Watch for question changes to start timer
     watch(currentQuestion, (newQuestion) => {
-      if (newQuestion) {
+      if (newQuestion && !showModal.value) {
+        nextTick(() => {
+          clearTimer() // Clear any existing timer first
+          startTimer()
+        })
+      }
+    })
+
+    // Clear timer when modal is shown, restart when closed
+    watch(showModal, (isModalVisible, oldValue) => {
+      if (isModalVisible) {
+        clearTimer()
+      } else if (oldValue && currentQuestion.value && currentView.value === 'quiz') {
+        // Modal was just closed and we have a current question
         nextTick(() => {
           startTimer()
         })
