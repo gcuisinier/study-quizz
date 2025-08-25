@@ -1,8 +1,8 @@
 import { ref, computed } from 'vue'
 
 export function useTimer(onTimeUp) {
-  const timeLeft = ref(20)
-  const timeLimit = ref(20)
+  const timeLeft = ref(40)
+  const timeLimit = ref(40)
   const timer = ref(null)
 
   const progressPercentage = computed(() => {

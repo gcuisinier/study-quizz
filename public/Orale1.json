@@ -2,123 +2,363 @@
   "questions": [
     {
       "id": 1,
-      "question": "Quel organe adopte les lois au niveau fédéral ?",
+      "question": "Quel organe exerce le pouvoir législatif au niveau fédéral ?",
       "options": [
         "Parlement + Roi",
         "Parlement de la Communauté française",
         "Parlement wallon",
-        "Gouvernement fédéral"
+        "Conseil régional flamand"
       ],
       "correct_answer": 0,
-      "explanation": "Bonne réponse : au niveau fédéral, ce sont le Parlement et le Roi qui adoptent les lois. ❌ Mauvaises réponses : le Parlement de la Communauté française adopte des décrets, le Parlement wallon adopte aussi des décrets, et le Gouvernement fédéral exécute mais ne légifère pas."
+      "explanation": "Bonne réponse : le Parlement fédéral et le Roi exercent ensemble le pouvoir législatif. ❌ Mauvaises réponses : le Parlement de la Communauté française et le Parlement wallon exercent un pouvoir législatif mais adoptent des décrets, pas des lois."
     },
     {
       "id": 2,
-      "question": "Quel genre de texte est adopté par le Parlement de la Communauté française ?",
+      "question": "Quel genre de texte est adopté par le Parlement fédéral ?",
       "options": [
         "Lois",
         "Décrets",
         "Ordonnances",
-        "Arrêtés royaux"
+        "Arrêtés"
       ],
-      "correct_answer": 1,
-      "explanation": "Bonne réponse : le Parlement de la Communauté française adopte des décrets. ❌ Mauvaises réponses : les lois relèvent du Parlement fédéral, les ordonnances concernent Bruxelles-Capitale, et les arrêtés royaux sont pris par le Roi et le Gouvernement fédéral."
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : le Parlement fédéral adopte des lois. ❌ Mauvaises réponses : les décrets sont adoptés par les Communautés et Régions, les ordonnances par Bruxelles-Capitale, et les arrêtés par les gouvernements exécutifs."
     },
     {
       "id": 3,
-      "question": "Quel genre de texte est adopté par le Gouvernement fédéral avec le Roi ?",
-      "options": [
-        "Lois",
-        "Arrêtés royaux",
-        "Ordonnances",
-        "Décrets"
-      ],
-      "correct_answer": 1,
-      "explanation": "Bonne réponse : les arrêtés royaux sont adoptés par le Roi et le Gouvernement fédéral. ❌ Mauvaises réponses : les lois sont votées par le Parlement fédéral, les décrets par les parlements communautaires ou régionaux, et les ordonnances par Bruxelles-Capitale."
-    },
-    {
-      "id": 4,
-      "question": "Quelle compétence relève du niveau fédéral ?",
-      "options": [
-        "Logement",
-        "Sécurité sociale",
-        "Petite enfance (ONE)",
-        "Santé mentale"
-      ],
-      "correct_answer": 1,
-      "explanation": "Bonne réponse : la sécurité sociale est une compétence fédérale. ❌ Mauvaises réponses : le logement et la santé mentale relèvent de la Région wallonne, la petite enfance (ONE) relève de la Communauté française."
-    },
-    {
-      "id": 5,
-      "question": "Quelle compétence relève de la Communauté française ?",
-      "options": [
-        "Justice",
-        "Aménagement du territoire",
-        "Enseignement et soutien scolaire",
-        "Sécurité sociale"
-      ],
-      "correct_answer": 2,
-      "explanation": "Bonne réponse : l’enseignement et le soutien scolaire relèvent de la Communauté française. ❌ Mauvaises réponses : la justice et la sécurité sociale sont fédérales, l’aménagement du territoire est régional (Région wallonne)."
-    },
-    {
-      "id": 6,
-      "question": "Quelle compétence relève de la Région wallonne ?",
-      "options": [
-        "Affaires étrangères",
-        "Défense et maintien de l’ordre",
-        "Formation professionnelle",
-        "CPAS"
-      ],
-      "correct_answer": 2,
-      "explanation": "Bonne réponse : la formation professionnelle est une compétence régionale (Région wallonne). ❌ Mauvaises réponses : les affaires étrangères et la défense relèvent du fédéral, les CPAS dépendent aussi du fédéral (sécurité sociale et aide sociale)."
-    },
-    {
-      "id": 7,
       "question": "Quel organe adopte des décrets en Région wallonne ?",
       "options": [
         "Parlement wallon",
+        "Gouvernement wallon",
         "Parlement fédéral",
-        "Conseil de la Communauté française",
         "Roi"
       ],
       "correct_answer": 0,
-      "explanation": "Bonne réponse : c’est le Parlement wallon qui adopte des décrets. ❌ Mauvaises réponses : le Parlement fédéral adopte des lois, le Conseil de la Communauté française adopte aussi des décrets mais pour la Communauté, et le Roi ne légifère pas seul."
+      "explanation": "Bonne réponse : le Parlement wallon adopte des décrets. ❌ Mauvaises réponses : le Gouvernement wallon exécute mais n’adopte pas de décrets, le Parlement fédéral adopte des lois, et le Roi intervient au niveau fédéral."
     },
     {
-      "id": 8,
-      "question": "Quelle institution est compétente pour la petite enfance (ONE) ?",
+      "id": 4,
+      "question": "Quel genre de texte est adopté par le Parlement de la Communauté française ?",
+      "options": [
+        "Décrets",
+        "Lois",
+        "Ordonnances",
+        "Arrêtés royaux"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : le Parlement de la Communauté française adopte des décrets. ❌ Mauvaises réponses : les lois relèvent du fédéral, les ordonnances de Bruxelles-Capitale, et les arrêtés royaux du Roi et du Gouvernement fédéral."
+    },
+    {
+      "id": 5,
+      "question": "Quel genre de texte est adopté par le Gouvernement wallon ?",
+      "options": [
+        "Arrêtés du Gouvernement wallon",
+        "Arrêtés royaux",
+        "Lois",
+        "Décrets"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : le Gouvernement wallon adopte des arrêtés du Gouvernement wallon. ❌ Mauvaises réponses : les arrêtés royaux relèvent du fédéral, les lois du Parlement fédéral, et les décrets des parlements régionaux ou communautaires."
+    },
+    {
+      "id": 6,
+      "question": "Quel genre de texte est adopté par le Gouvernement fédéral avec le Roi ?",
+      "options": [
+        "Arrêtés royaux",
+        "Lois",
+        "Décrets",
+        "Ordonnances"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : le Gouvernement fédéral et le Roi adoptent les arrêtés royaux. ❌ Mauvaises réponses : les lois sont votées par le Parlement fédéral, les décrets par les Communautés et Régions, et les ordonnances par Bruxelles-Capitale."
+    },
+    {
+      "id": 7,
+      "question": "Qui est compétent pour la justice ?",
       "options": [
         "Fédéral",
         "Communauté française",
         "Région wallonne",
         "Union européenne"
       ],
-      "correct_answer": 1,
-      "explanation": "Bonne réponse : la petite enfance (ONE) relève de la Communauté française. ❌ Mauvaises réponses : le fédéral gère la sécurité sociale et la justice, la Région wallonne gère le logement et la santé mentale, l’Union européenne n’intervient pas directement."
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : la justice relève du niveau fédéral. ❌ Mauvaises réponses : la Communauté française gère l’enseignement et la petite enfance, la Région wallonne s’occupe du logement et de la formation professionnelle, l’UE n’a pas de compétence directe en justice nationale."
+    },
+    {
+      "id": 8,
+      "question": "Qui est compétent pour la sécurité sociale ?",
+      "options": [
+        "Fédéral",
+        "Communauté française",
+        "Région wallonne",
+        "Province"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : la sécurité sociale est une compétence fédérale. ❌ Mauvaises réponses : la Communauté française gère l’ONE et l’enseignement, la Région wallonne gère le logement et la santé mentale, les provinces n’ont pas de compétence en sécurité sociale."
     },
     {
       "id": 9,
-      "question": "Quel genre de texte est adopté par le Gouvernement wallon ?",
+      "question": "Qui est compétent pour les affaires étrangères ?",
       "options": [
-        "Arrêtés royaux",
-        "Arrêtés du Gouvernement wallon",
-        "Décrets",
-        "Ordonnances"
+        "Fédéral",
+        "Communauté française",
+        "Région wallonne",
+        "Commune"
       ],
-      "correct_answer": 1,
-      "explanation": "Bonne réponse : le Gouvernement wallon adopte des arrêtés du Gouvernement wallon. ❌ Mauvaises réponses : les arrêtés royaux sont fédéraux, les décrets sont votés par les parlements (pas les gouvernements), et les ordonnances sont spécifiques à Bruxelles-Capitale."
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : les affaires étrangères relèvent du fédéral. ❌ Mauvaises réponses : la Communauté française gère les matières culturelles, la Région wallonne s’occupe de l’emploi et du logement, et les communes ne gèrent pas les relations internationales."
     },
     {
       "id": 10,
-      "question": "Quelle compétence relève de la Région wallonne dans le domaine de l’aide aux personnes ?",
+      "question": "Qui est compétent pour la petite enfance (ONE) ?",
       "options": [
-        "Intégration des personnes d’origine étrangère",
-        "Justice",
-        "Sécurité sociale",
-        "Affaires étrangères"
+        "Communauté française",
+        "Fédéral",
+        "Région wallonne",
+        "Union européenne"
       ],
       "correct_answer": 0,
-      "explanation": "Bonne réponse : l’intégration des personnes d’origine étrangère relève de la Région wallonne. ❌ Mauvaises réponses : la justice et la sécurité sociale relèvent du fédéral, les affaires étrangères relèvent aussi du fédéral."
+      "explanation": "Bonne réponse : la petite enfance relève de la Communauté française (via l’ONE). ❌ Mauvaises réponses : le fédéral gère la sécurité sociale et la justice, la Région wallonne s’occupe du logement et de la santé, l’UE n’intervient pas dans ce domaine."
+    },
+    {
+      "id": 11,
+      "question": "Qui est compétent pour l’enseignement et le soutien scolaire ?",
+      "options": [
+        "Communauté française",
+        "Fédéral",
+        "Région wallonne",
+        "Province"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : l’enseignement et le soutien scolaire relèvent de la Communauté française. ❌ Mauvaises réponses : le fédéral gère la justice et la sécurité sociale, la Région wallonne gère la formation professionnelle et l’emploi, les provinces n’ont pas cette compétence."
+    },
+    {
+      "id": 12,
+      "question": "Qui est compétent pour les matières culturelles ?",
+      "options": [
+        "Communauté française",
+        "Fédéral",
+        "Région wallonne",
+        "Union européenne"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : les matières culturelles relèvent de la Communauté française. ❌ Mauvaises réponses : le fédéral gère la sécurité sociale, la Région wallonne gère l’aménagement du territoire, l’UE n’a pas de compétence culturelle directe nationale."
+    },
+    {
+      "id": 13,
+      "question": "Qui est compétent pour l’aménagement du territoire et l’urbanisme ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Province"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : l’aménagement du territoire et l’urbanisme relèvent de la Région wallonne. ❌ Mauvaises réponses : le fédéral gère la justice et la sécurité sociale, la Communauté française gère l’enseignement et la jeunesse, les provinces n’ont pas cette compétence."
+    },
+    {
+      "id": 14,
+      "question": "Qui est compétent pour le logement ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Union européenne"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : le logement relève de la Région wallonne. ❌ Mauvaises réponses : le fédéral gère la sécurité sociale, la Communauté française gère l’enseignement et la petite enfance, l’UE n’a pas de compétence directe."
+    },
+    {
+      "id": 15,
+      "question": "Qui est compétent pour la formation professionnelle ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Commune"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : la formation professionnelle relève de la Région wallonne. ❌ Mauvaises réponses : le fédéral gère la sécurité sociale, la Communauté française gère l’enseignement, et les communes n’ont pas cette compétence."
+    },
+    {
+      "id": 16,
+      "question": "Qui est compétent pour la politique de l’emploi et l’insertion socio-professionnelle ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Union européenne"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : la politique de l’emploi relève de la Région wallonne. ❌ Mauvaises réponses : le fédéral gère la sécurité sociale, la Communauté française gère la petite enfance et la culture, l’UE n’intervient pas directement dans les politiques d’emploi locales."
+    },
+    {
+      "id": 17,
+      "question": "Qui est compétent pour la santé et la santé mentale ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Province"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : la santé et la santé mentale relèvent de la Région wallonne (via l’AVIQ). ❌ Mauvaises réponses : le fédéral gère les hôpitaux et la sécurité sociale, la Communauté française gère l’enseignement, les provinces n’ont pas cette compétence."
+    },
+    {
+      "id": 18,
+      "question": "Qui est compétent pour l’aide et le soutien aux familles (planning familial, AF) ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Commune"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : l’aide et le soutien aux familles relèvent de la Région wallonne. ❌ Mauvaises réponses : le fédéral gère la sécurité sociale, la Communauté française gère l’ONE et l’éducation, les communes n’ont pas cette compétence."
+    },
+    {
+      "id": 19,
+      "question": "Qui est compétent pour l’intégration des personnes d’origine étrangère ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Union européenne"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : l’intégration des personnes d’origine étrangère relève de la Région wallonne. ❌ Mauvaises réponses : le fédéral gère la justice et les affaires étrangères, la Communauté française gère l’enseignement et la petite enfance, l’UE n’intervient pas directement."
+    },
+    {
+      "id": 20,
+      "question": "Qui est compétent pour les maisons de justice ?",
+      "options": [
+        "Communauté française",
+        "Fédéral",
+        "Région wallonne",
+        "Commune"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : les maisons de justice relèvent de la Communauté française. ❌ Mauvaises réponses : le fédéral gère la justice nationale, la Région wallonne gère la santé et l’emploi, les communes n’ont pas cette compétence."
+    },
+    {
+      "id": 21,
+      "question": "Qui est compétent pour la défense et le maintien de l’ordre ?",
+      "options": [
+        "Fédéral",
+        "Région wallonne",
+        "Communauté française",
+        "Province"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : la défense et le maintien de l’ordre relèvent du fédéral. ❌ Mauvaises réponses : la Région wallonne s’occupe du logement et de l’emploi, la Communauté française gère l’enseignement, les provinces n’ont pas cette compétence."
+    },
+    {
+      "id": 22,
+      "question": "Qui est compétent pour l’accès au territoire ?",
+      "options": [
+        "Fédéral",
+        "Région wallonne",
+        "Communauté française",
+        "Union européenne"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : l’accès au territoire (immigration) relève du fédéral. ❌ Mauvaises réponses : la Région wallonne gère la santé et l’emploi, la Communauté française gère la jeunesse, et l’UE n’a pas de compétence directe sur l’immigration nationale."
+    },
+    {
+      "id": 23,
+      "question": "Qui est compétent pour les CPAS ?",
+      "options": [
+        "Fédéral",
+        "Région wallonne",
+        "Communauté française",
+        "Commune"
+      ],
+      "correct_answer": 1,
+      "explanation": "Bonne réponse : les CPAS dépendent de la Région wallonne depuis le transfert de celle-ci ❌ Mauvaises réponses : Le fédéral n'est plus compétant pour les CPAS depuis le transfert, la Communauté française gère l’ONE et l’enseignement, les communes n’ont pas la compétence générale."
+    },
+    {
+      "id": 24,
+      "question": "Qui est compétent pour les hôpitaux ?",
+      "options": [
+        "Fédéral",
+        "Région wallonne",
+        "Communauté française",
+        "Union européenne"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : les hôpitaux relèvent du fédéral. ❌ Mauvaises réponses : la Région wallonne gère la santé mentale et l’aide sociale, la Communauté française gère l’enseignement et la jeunesse, l’UE n’intervient pas."
+    },
+    {
+      "id": 25,
+      "question": "Qui est compétent pour l’éducation permanente ?",
+      "options": [
+        "Communauté française",
+        "Fédéral",
+        "Région wallonne",
+        "Province"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : l’éducation permanente relève de la Communauté française. ❌ Mauvaises réponses : le fédéral gère la sécurité sociale et la justice, la Région wallonne gère l’emploi et la santé, les provinces n’ont pas cette compétence."
+    },
+    {
+      "id": 26,
+      "question": "Qui est compétent pour l’aide et la protection de la jeunesse ?",
+      "options": [
+        "Communauté française",
+        "Fédéral",
+        "Région wallonne",
+        "Commune"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : l’aide et la protection de la jeunesse relèvent de la Communauté française. ❌ Mauvaises réponses : le fédéral gère la justice et la défense, la Région wallonne gère le logement et la santé, les communes n’ont pas cette compétence."
+    },
+    {
+      "id": 27,
+      "question": "Qui est compétent pour l’accueil des personnes en difficultés sociales ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Province"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : l’accueil des personnes en difficultés sociales relève de la Région wallonne. ❌ Mauvaises réponses : le fédéral gère la justice et la sécurité sociale, la Communauté française gère l’enseignement et l’ONE, les provinces n’ont pas cette compétence."
+    },
+    {
+      "id": 28,
+      "question": "Qui est compétent pour la coordination de la lutte contre la pauvreté ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Union européenne"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : la coordination de la lutte contre la pauvreté relève de la Région wallonne. ❌ Mauvaises réponses : le fédéral gère la sécurité sociale et les CPAS, la Communauté française gère l’éducation, et l’UE n’a pas cette compétence nationale."
+    },
+    {
+      "id": 29,
+      "question": "Qui est compétent pour la politique des aînés ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Commune"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : la politique des aînés relève de la Région wallonne. ❌ Mauvaises réponses : le fédéral gère les pensions et la sécurité sociale, la Communauté française gère l’enseignement et la jeunesse, les communes n’ont pas cette compétence."
+    },
+    {
+      "id": 30,
+      "question": "Qui est compétent pour les personnes handicapées (AVIQ) ?",
+      "options": [
+        "Région wallonne",
+        "Fédéral",
+        "Communauté française",
+        "Province"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : l’AVIQ relève de la Région wallonne et gère les personnes handicapées. ❌ Mauvaises réponses : le fédéral gère la sécurité sociale et les pensions, la Communauté française gère l’éducation et la jeunesse, les provinces n’ont pas cette compétence."
     }
   ]
 }

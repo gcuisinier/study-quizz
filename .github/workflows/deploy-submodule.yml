@@ -8,6 +8,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     
     steps:
     - name: Checkout with submodules
@@ -16,6 +20,7 @@ jobs:
         submodules: recursive
         fetch-depth: 0
         token: ${{ secrets.GITHUB_TOKEN }}
+        persist-credentials: true
     
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -61,8 +66,9 @@ jobs:
           🌿 Branch: ${{ github.ref_name }}
           👤 Author: ${{ github.actor }}"
           
-          # Push avec le token
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git gh-pages
+          # Push avec le token - essayer différentes méthodes
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push origin gh-pages
           
           echo "✅ Successfully deployed!"
         fi

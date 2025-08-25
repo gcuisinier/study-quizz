@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "deploy": "npm run build && echo 'Build terminé! Copiez le contenu du dossier dist/ vers https://www.gcuisinier.net/study-quizz/'",
     "setup-submodule": "./setup-submodule.sh",
-    "deploy-local": "npm run build && cd dist && git add -A && git commit -m '🚀 Manual deploy' && git push"
+    "deploy-local": "npm run build && cd dist && git add -A && git commit -m '🚀 Manual deploy' && git push",
+    "reset-deployment": "./reset-deployment.sh"
   },
   "dependencies": {
     "vue": "^3.4.0"

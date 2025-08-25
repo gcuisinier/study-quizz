@@ -2,38 +2,42 @@
 
 ## 🎯 Objectif
 
-Déployer automatiquement votre application Vue 3 Quiz sur GitHub Pages via un submodule `dist` → branche `gh-pages`.
+Déployer automatiquement votre application Vue 3 Quiz sur GitHub Pages.
 
-## ⚡ Configuration en 3 étapes
+## ⚡ Configuration simple (Recommandé)
 
-### 1. 🔧 Setup initial (une seule fois)
-
-```bash
-# Configurer le submodule automatiquement
-npm run setup-submodule
-
-# OU manuellement
-./setup-submodule.sh
-```
-
-### 2. 📤 Commiter la configuration
+### 1. 📤 Push votre code
 
 ```bash
-# Ajouter les fichiers de configuration
-git add .gitmodules dist .github/
-
-# Commiter
-git commit -m "🚀 Setup GitHub Pages deployment with submodule"
-
-# Pousser vers GitHub
+git add .
+git commit -m "🚀 Ready for GitHub Pages"
 git push origin main
 ```
 
-### 3. ✅ Vérification
+### 2. 🔧 Configurer GitHub Pages
 
-1. **GitHub Actions** : Vérifiez que le workflow se déclenche dans l'onglet "Actions"
-2. **GitHub Pages** : Settings → Pages → Source = gh-pages ✅
-3. **URL live** : `https://[USERNAME].github.io/[REPOSITORY]/study-quizz/`
+1. **Repository** → **Settings** → **Pages**
+2. **Source** → **GitHub Actions** ✅
+3. Sauvegarder
+
+### 3. ✅ C'est tout !
+
+Le workflow `deploy-pages.yml` se déclenche automatiquement et déploie sur :
+**`https://[USERNAME].github.io/[REPOSITORY]/study-quizz/`**
+
+## 🔄 Alternative: Submodule (Avancé)
+
+Si vous préférez utiliser un submodule `dist` → `gh-pages` :
+
+```bash
+# Configuration du submodule
+npm run setup-submodule
+git add .gitmodules dist .github/
+git commit -m "🚀 Setup submodule deployment"
+git push
+```
+
+⚠️ **Note** : En cas de problème de permissions, utilisez la méthode simple ci-dessus.
 
 ## 🎮 Usage quotidien
 
