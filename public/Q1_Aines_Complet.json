@@ -359,6 +359,246 @@
       ],
       "correct_answer": 0,
       "explanation": "L’accompagnement vise à soutenir les aidants et éviter leur épuisement."
+    },
+    {
+      "id": 31,
+      "question": "Quelle spécificité distingue les services G (gériatrie) des autres services hospitaliers ?",
+      "options": [
+        "Ils accueillent uniquement les enfants",
+        "Ils offrent systématiquement une consultation d’un assistant social",
+        "Ils sont réservés aux patients sans pathologie",
+        "Ils n’assurent pas de suivi post-aigu"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les services G sont plus médicalisés, avec davantage de personnel, et comprennent systématiquement une consultation d’assistant social. Ils accueillent aussi des séjours post-aigus."
+    },
+    {
+      "id": 32,
+      "question": "Laquelle de ces missions fait aussi partie du rôle de l’ASBL Aidants Proches ?",
+      "options": [
+        "Octroyer des crédits financiers",
+        "Faire reconnaître les droits et besoins des aidants auprès des institutions",
+        "Remplacer les hôpitaux gériatriques",
+        "Attribuer le revenu d’intégration sociale"
+      ],
+      "correct_answer": 1,
+      "explanation": "L’ASBL Aidants Proches informe, soutient, défend et forme. Elle représente les aidants auprès des institutions."
+    },
+    {
+      "id": 33,
+      "question": "Parmi ces missions, laquelle est assurée par la Ligue Alzheimer ?",
+      "options": [
+        "Préserver l’autonomie de la personne malade",
+        "Attribuer des pensions de retraite",
+        "Accorder un logement social",
+        "Contrôler les MR/MRS"
+      ],
+      "correct_answer": 0,
+      "explanation": "La Ligue Alzheimer a pour mission d’accompagner, informer, défendre et écouter, dont préserver l’autonomie des personnes atteintes."
+    },
+    {
+      "id": 34,
+      "question": "Que proposent les centres d’accueil de soirée/nuit ?",
+      "options": [
+        "Un hébergement permanent",
+        "Un accueil thérapeutique et social durant la soirée ou la nuit",
+        "Uniquement une aide financière",
+        "Des formations pour aidants"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les centres de soirée/nuit accueillent les aînés dépendants le soir ou la nuit, en soutien complémentaire au maintien à domicile."
+    },
+    {
+      "id": 35,
+      "question": "Quelle échelle conditionne l’accès à une MRS ?",
+      "options": [
+        "Échelle de Glasgow",
+        "Échelle de Barthel",
+        "Échelle de Catz",
+        "Échelle de dépendance financière"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’accès en MRS se fait sur base de l’échelle de Catz, qui évalue le degré de dépendance."
+    },
+    {
+      "id": 36,
+      "question": "Quel est le coût d’une résidence-services ?",
+      "options": [
+        "Gratuit",
+        "Élevé",
+        "Remboursé par l’INAMI",
+        "Uniquement 10 €/mois"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les résidences-services sont coûteuses, à charge du résident, contrairement à d’autres structures subventionnées."
+    },
+    {
+      "id": 37,
+      "question": "Quel organisme subventionne la Plateforme Bien Vivre Chez Soi ?",
+      "options": [
+        "ONEM",
+        "AVIQ",
+        "INAMI",
+        "CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "La Plateforme Bien Vivre Chez Soi est gratuite et subventionnée par l’AVIQ."
+    },
+    {
+      "id": 38,
+      "question": "Quel objectif fait partie de l’habitat intergénérationnel « Un toit 2 âges » ?",
+      "options": [
+        "Réduire les coûts de logement",
+        "Proposer des soins médicaux lourds",
+        "Accorder des allocations sociales",
+        "Héberger uniquement des couples âgés"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’habitat intergénérationnel vise à lutter contre l’isolement, favoriser la solidarité et réduire les coûts de logement."
+    },
+    {
+      "id": 39,
+      "question": "Quelle mission supplémentaire est assurée par Respect Seniors ?",
+      "options": [
+        "Former les professionnels de santé",
+        "Attribuer les pensions de retraite",
+        "Gérer les CPAS",
+        "Octroyer des aides au logement"
+      ],
+      "correct_answer": 0,
+      "explanation": "Respect Seniors lutte contre la maltraitance, mais assure aussi prévention, sensibilisation et formation des professionnels."
+    },
+    {
+      "id": 40,
+      "question": "Quel mode de fonctionnement distingue Respect Seniors ?",
+      "options": [
+        "Travail en réseau avec partenaires belges et étrangers",
+        "Accorder directement des allocations sociales",
+        "Proposer un logement collectif aux seniors",
+        "Organiser exclusivement des Cafés Alzheimer"
+      ],
+      "correct_answer": 0,
+      "explanation": "Respect Seniors travaille en réseau avec divers partenaires belges et étrangers, ce qui élargit son champ d’action."
+    },
+    {
+      "id": 41,
+      "question": "Marc, 72 ans, est hospitalisé pour plusieurs pathologies chroniques. Après un séjour aigu, il doit encore être suivi médicalement tout en retrouvant de l’autonomie. Quelle structure est adaptée ?",
+      "options": [
+        "Maison de repos (MR)",
+        "Service G (gériatrie)",
+        "Accueil familial",
+        "Plateforme SAM"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les services G prennent en charge les personnes âgées polypathologiques après un séjour aigu, afin de restaurer leur autonomie."
+    },
+    {
+      "id": 42,
+      "question": "Sophie, 80 ans, valide mais isolée, souhaite quitter sa maison trop grande. Elle veut rester autonome tout en ayant accès à des services sécurisants. Quelle option convient le mieux ?",
+      "options": [
+        "Résidence-services",
+        "MRS",
+        "Centre de soins de jour",
+        "Respect Seniors"
+      ],
+      "correct_answer": 0,
+      "explanation": "La résidence-services offre un logement individuel aux seniors autonomes avec accès à des services collectifs et un environnement sécurisé."
+    },
+    {
+      "id": 43,
+      "question": "Louis, 84 ans, est très dépendant et nécessite des soins infirmiers lourds au quotidien. Quelle structure correspond à sa situation ?",
+      "options": [
+        "Maison de repos (MR)",
+        "Maison de repos et de soins (MRS)",
+        "Habitat intergénérationnel",
+        "Centre d’accueil de jour"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les MRS accueillent les personnes âgées nécessitant des soins lourds et permanents, contrairement aux MR."
+    },
+    {
+      "id": 44,
+      "question": "Julie, 67 ans, accompagne seule son mari atteint d’Alzheimer. Elle commence à s’épuiser et aimerait souffler quelques jours. Quelle aide est adaptée ?",
+      "options": [
+        "Baluchonnage",
+        "Centre d’accueil de jour",
+        "Plateforme Bien Vivre Chez Soi",
+        "Résidence-services"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le baluchonnage remplace l’aidant proche à domicile, jour et nuit, pendant 5 à 14 jours, pour permettre du répit."
+    },
+    {
+      "id": 45,
+      "question": "Nadia, 74 ans, vit seule et devient anxieuse la nuit car elle craint de tomber. Elle est encore assez autonome le jour. Quelle structure pourrait l’aider ?",
+      "options": [
+        "Centre d’accueil de soirée/nuit",
+        "Résidence-services",
+        "Maison de repos",
+        "Respect Seniors"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les centres d’accueil de soirée/nuit accueillent les personnes âgées dépendantes durant la soirée ou la nuit pour renforcer la sécurité."
+    },
+    {
+      "id": 46,
+      "question": "Henri, 79 ans, sort de l’hôpital après une opération. Sa fille, aidante proche, souhaite qu’il soit hébergé quelques semaines le temps de se rétablir. Quelle solution est la plus adaptée ?",
+      "options": [
+        "Court séjour en MR/MRS",
+        "Résidence-services",
+        "Habitat Abbeyfield",
+        "Accueil familial"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le court séjour en MR/MRS permet un hébergement temporaire (max 90 jours/an) pour convalescence ou repos de l’aidant."
+    },
+    {
+      "id": 47,
+      "question": "Claire, 62 ans, aidante proche, se sent dépassée et ne sait pas à quelles aides elle a droit ni comment faire reconnaître son statut. Quelle structure peut l’aider ?",
+      "options": [
+        "ASBL Aidants Proches",
+        "Plateforme SAM",
+        "SENOAH",
+        "Maison de repos"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ASBL Aidants Proches informe, soutient, défend et accompagne les aidants dans leurs démarches, y compris la reconnaissance du statut."
+    },
+    {
+      "id": 48,
+      "question": "Jean, 76 ans, a subi plusieurs chutes à domicile. Il voudrait adapter son logement pour rester autonome. Vers qui peut-il se tourner ?",
+      "options": [
+        "Plateforme Bien Vivre Chez Soi",
+        "Résidence-services",
+        "MRS",
+        "Respect Seniors"
+      ],
+      "correct_answer": 0,
+      "explanation": "La Plateforme Bien Vivre Chez Soi conseille et soutient les personnes âgées pour aménager leur logement et favoriser le maintien à domicile."
+    },
+    {
+      "id": 49,
+      "question": "Maria, 70 ans, est victime de maltraitance psychologique par un proche. Quelle structure doit-elle contacter ?",
+      "options": [
+        "Respect Seniors",
+        "Ligue Alzheimer",
+        "Service G",
+        "Plateforme SAM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Respect Seniors lutte contre toutes les formes de maltraitance envers les personnes âgées de 60 ans et plus, avec écoute, prévention et interventions."
+    },
+    {
+      "id": 50,
+      "question": "Éric, 22 ans, cherche un logement étudiant à prix abordable et aimerait partager un logement avec une personne âgée isolée. Quelle solution existe ?",
+      "options": [
+        "Habitat intergénérationnel Un Toit 2 Âges",
+        "Résidence-services",
+        "Maison de repos",
+        "Centre de soins de jour"
+      ],
+      "correct_answer": 0,
+      "explanation": "Un Toit 2 Âges met en lien un senior disposant d’un logement et un étudiant ou jeune travailleur, pour favoriser solidarité et réduire les coûts."
     }
   ]
 }

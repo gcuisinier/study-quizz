@@ -550,10 +550,34 @@ export function useQuizLogic() {
 
   const getCircleClass = (result, index) => {
     if (isTestMode.value) {
+      if (index === currentTestIndex.value - 1 && result === null && currentQuestion.value) {
+        return 'current-empty'
+      }
       if (result === null) return ''
       return result === true ? 'correct' : 'incorrect'
     } else {
-      if (!result) return ''
+      // Vérifier si la question courante correspond à ce cercle
+      if (currentQuestion.value && result) {
+        const currentQuestionId = getQuestionId(currentQuestion.value)
+        const resultQuestionId = getQuestionId(result.question)
+        if (currentQuestionId === resultQuestionId && selectedAnswer.value === null) {
+          return 'current-empty'
+        }
+      }
+      
+      if (!result) {
+        // Ne créer un nouveau cercle que si la question courante n'existe pas déjà
+        if (index === allAttemptedQuestions.value.length && currentQuestion.value) {
+          const currentQuestionId = getQuestionId(currentQuestion.value)
+          const questionAlreadyExists = allAttemptedQuestions.value.some(
+            attempt => getQuestionId(attempt.question) === currentQuestionId
+          )
+          if (!questionAlreadyExists) {
+            return 'current-empty'
+          }
+        }
+        return ''
+      }
       return result.status
     }
   }
@@ -562,7 +586,19 @@ export function useQuizLogic() {
     if (isTestMode.value) {
       return (index + 1).toString()
     } else {
-      if (!result) return ''
+      if (!result) {
+        // Ne créer un nouveau cercle que si la question courante n'existe pas déjà
+        if (index === allAttemptedQuestions.value.length && currentQuestion.value) {
+          const currentQuestionId = getQuestionId(currentQuestion.value)
+          const questionAlreadyExists = allAttemptedQuestions.value.some(
+            attempt => getQuestionId(attempt.question) === currentQuestionId
+          )
+          if (!questionAlreadyExists) {
+            return getQuestionDisplayId(currentQuestion.value)
+          }
+        }
+        return ''
+      }
       return getQuestionDisplayId(result.question)
     }
   }
