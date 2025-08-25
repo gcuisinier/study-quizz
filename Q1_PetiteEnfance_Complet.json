@@ -510,13 +510,13 @@
       "id": 45,
       "question": "Que signifie le terme 'prégardiennat' ?",
       "options": [
-        "Accueil collectif d’enfants de 0 à 36 mois avec accès restreint",
+        "Accueil collectif d’enfants de 18 à 36 mois avec accès restreint",
         "Accueil en école maternelle",
         "Accueil en maison ouverte",
-        "Accueil d’urgence pour enfants malades"
+         "Accueil collectif d’enfants de 0 à 36 mois avec accès restreint"
       ],
       "correct_answer": 0,
-      "explanation": "Le prégardiennat est un accueil collectif pour enfants de 0 à 36 mois, avec accès limité."
+      "explanation": "Le prégardiennat est un accueil collectif pour enfants de 18 à 36 mois, avec accès limité."
     },
     {
       "id": 46,
