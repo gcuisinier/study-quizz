@@ -1,0 +1,472 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la mission principale des consultations prénatales organisées par l’ONE ?",
+      "options": [
+        "Préparer uniquement l’accouchement",
+        "Suivre la grossesse et dépister les risques pour la mère et l’enfant",
+        "Attribuer des allocations familiales",
+        "Offrir une aide financière"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les consultations prénatales visent à assurer le suivi médical et social de la grossesse et dépister d’éventuels risques."
+    },
+    {
+      "id": 2,
+      "question": "Jusqu’à quel âge les consultations pour enfants de l’ONE sont-elles accessibles ?",
+      "options": [
+        "2 ans",
+        "3 ans",
+        "6 ans",
+        "12 ans"
+      ],
+      "correct_answer": 2,
+      "explanation": "Les consultations pour enfants organisées par l’ONE s’adressent aux enfants de 0 à 6 ans."
+    },
+    {
+      "id": 3,
+      "question": "Quel est l’objectif principal des consultations pour enfants ?",
+      "options": [
+        "Assurer un suivi préventif de la santé et du développement de l’enfant",
+        "Proposer des garderies",
+        "Attribuer un logement social",
+        "Offrir des aides financières"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les consultations permettent un suivi médical préventif de l’enfant et accompagnent les parents."
+    },
+    {
+      "id": 4,
+      "question": "Quel service accompagne les familles pendant la grossesse et jusqu’aux 3 ans de l’enfant ?",
+      "options": [
+        "Les SASPe",
+        "Les services d’accompagnement périnatal",
+        "Les MCAE",
+        "Les LREP"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les services d’accompagnement périnatal de l’ONE accompagnent les familles de la grossesse aux 3 ans de l’enfant."
+    },
+    {
+      "id": 5,
+      "question": "Quelle structure relève des milieux d’accueil collectifs subventionnés par l’ONE ?",
+      "options": [
+        "Crèche parentale",
+        "Halte-accueil",
+        "Maison ouverte",
+        "Espace parents"
+      ],
+      "correct_answer": 0,
+      "explanation": "La crèche parentale est un milieu d’accueil collectif subventionné par l’ONE."
+    },
+    {
+      "id": 6,
+      "question": "Quel est l’âge maximum des enfants accueillis dans une crèche ?",
+      "options": [
+        "18 mois",
+        "24 mois",
+        "36 mois",
+        "6 ans"
+      ],
+      "correct_answer": 2,
+      "explanation": "Les crèches accueillent les enfants de 0 à 36 mois."
+    },
+    {
+      "id": 7,
+      "question": "Que signifie MCAE ?",
+      "options": [
+        "Maison Communale d’Accueil de l’Enfance",
+        "Mission Communautaire d’Aide à l’Enfance",
+        "Maison de la Communauté pour l’Accueil des Enfants",
+        "Milieu Collectif d’Accueil Éducatif"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le MCAE est une Maison Communale d’Accueil de l’Enfance, gérée par la commune."
+    },
+    {
+      "id": 8,
+      "question": "Quelle est la durée maximale d’accueil dans une halte-accueil ?",
+      "options": [
+        "1h",
+        "3h",
+        "6h",
+        "Toute la journée"
+      ],
+      "correct_answer": 1,
+      "explanation": "La halte-accueil accueille les enfants ponctuellement, maximum 3h par jour."
+    },
+    {
+      "id": 9,
+      "question": "Quel est l’objectif principal d’une maison ouverte ?",
+      "options": [
+        "Offrir un lieu d’accueil convivial favorisant la socialisation et le lien parent-enfant",
+        "Remplacer les crèches",
+        "Donner des soins médicaux",
+        "Attribuer le RIS"
+      ],
+      "correct_answer": 0,
+      "explanation": "La maison ouverte est un lieu convivial de rencontre et socialisation pour enfants et parents."
+    },
+    {
+      "id": 10,
+      "question": "Les SASPe sont destinés à :",
+      "options": [
+        "Accueillir temporairement les enfants placés pour raisons sociales",
+        "Accorder des allocations familiales",
+        "Former les assistantes sociales",
+        "Attribuer un logement"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SASPe accueillent les enfants de 0 à 6 ans temporairement lorsqu’un placement social est décidé."
+    },
+    {
+      "id": 11,
+      "question": "Quelle équipe intervient lorsqu’un enfant est victime de maltraitance ?",
+      "options": [
+        "Les SOS-Enfants",
+        "Les MCAE",
+        "Les SSM",
+        "Les LREP"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les équipes SOS-Enfants interviennent en cas de suspicion ou situation de maltraitance."
+    },
+    {
+      "id": 12,
+      "question": "Quel est le numéro gratuit de la ligne « Écoute-Enfants » ?",
+      "options": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "correct_answer": 3,
+      "explanation": "La ligne 103 est gratuite et anonyme, accessible 24h/24 pour les enfants en difficulté."
+    },
+    {
+      "id": 13,
+      "question": "Quel est l’objectif des Lieux de Rencontre Enfants et Parents (LREP) ?",
+      "options": [
+        "Offrir un cadre informel pour renforcer le lien parent-enfant",
+        "Attribuer un logement",
+        "Fournir une aide financière",
+        "Former des éducateurs"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les LREP offrent un lieu convivial favorisant la relation parents-enfants."
+    },
+    {
+      "id": 14,
+      "question": "Que signifient les EPS (Espaces Parents dans la séparation) ?",
+      "options": [
+        "Des lieux d’accueil et d’accompagnement pour parents en séparation",
+        "Des écoles parentales spécialisées",
+        "Des espaces de jeux collectifs",
+        "Des accueils pour assistantes sociales"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les EPS accompagnent les parents traversant une séparation."
+    },
+    {
+      "id": 15,
+      "question": "Quelle est une mission des SASPe ?",
+      "options": [
+        "Accueillir les enfants de 0 à 6 ans placés par décision sociale",
+        "Accorder le chômage",
+        "Former les éducateurs spécialisés",
+        "Organiser des activités sportives"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SASPe offrent un accueil temporaire sécurisé pour enfants en placement social."
+    },
+    {
+      "id": 16,
+      "question": "Quel est l’objectif du soutien à l’accueil extrascolaire ?",
+      "options": [
+        "Assurer la garde des enfants en dehors des heures scolaires",
+        "Remplacer les écoles",
+        "Attribuer des allocations",
+        "Former des enseignants"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’accueil extrascolaire permet de garder les enfants avant/après l’école et durant les congés."
+    },
+    {
+      "id": 17,
+      "question": "Quel type de personnel retrouve-t-on dans les consultations pour enfants ?",
+      "options": [
+        "Médecins, infirmières, assistants sociaux",
+        "Juges et avocats",
+        "Enseignants uniquement",
+        "Bénévoles sans formation"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les consultations sont assurées par des professionnels de santé et du social."
+    },
+    {
+      "id": 18,
+      "question": "Quel est l’âge maximum des enfants accueillis par un·e accueillant·e d’enfants conventionné·e ?",
+      "options": [
+        "3 ans",
+        "4 ans",
+        "5 ans",
+        "6 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Les accueillant·e·s conventionné·e·s peuvent accueillir les enfants jusqu’à 6 ans."
+    },
+    {
+      "id": 19,
+      "question": "Quel est le rôle des SOS-Enfants ?",
+      "options": [
+        "Prendre en charge les enfants maltraités et accompagner la famille",
+        "Octroyer des allocations familiales",
+        "Offrir un hébergement temporaire aux parents",
+        "Attribuer le RIS"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SOS-Enfants assurent la protection et le soutien psychologique de l’enfant et de sa famille."
+    },
+    {
+      "id": 20,
+      "question": "Quelle est la spécificité d’une crèche parentale ?",
+      "options": [
+        "Gérée en partie par les parents",
+        "Réservée aux familles nombreuses",
+        "Gratuite pour tous",
+        "Réservée aux enfants handicapés"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les crèches parentales sont gérées partiellement par les parents."
+    },
+    {
+      "id": 21,
+      "question": "Quel service accueille les enfants pendant les congés scolaires dans un cadre collectif ?",
+      "options": [
+        "L’accueil extrascolaire",
+        "Les MCAE",
+        "Les SASPe",
+        "Les LREP"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’accueil extrascolaire assure la garde en dehors du temps scolaire, y compris congés."
+    },
+    {
+      "id": 22,
+      "question": "Quelle est la mission principale des maisons ouvertes ?",
+      "options": [
+        "Favoriser le lien social et parentalité",
+        "Remplacer les crèches",
+        "Fournir des allocations",
+        "Assurer des soins hospitaliers"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les maisons ouvertes offrent un espace convivial de socialisation et parentalité."
+    },
+    {
+      "id": 23,
+      "question": "Qui finance principalement les milieux d’accueil subventionnés ?",
+      "options": [
+        "L’ONE",
+        "L’Union européenne",
+        "Le SPF Finances",
+        "Les mutualités"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les milieux d’accueil collectifs sont subventionnés par l’ONE."
+    },
+    {
+      "id": 24,
+      "question": "Quel est le rôle principal des EPS ?",
+      "options": [
+        "Soutenir les parents en difficulté lors d’une séparation",
+        "Fournir une aide financière",
+        "Assurer une médiation judiciaire",
+        "Attribuer un logement"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les EPS accompagnent les parents en période de séparation."
+    },
+    {
+      "id": 25,
+      "question": "Quelle est la mission des services périnataux ?",
+      "options": [
+        "Accompagner les familles de la grossesse aux 3 ans de l’enfant",
+        "Attribuer des logements",
+        "Fournir des allocations familiales",
+        "Assurer une médiation sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les services périnataux accompagnent les familles dans la période de transition."
+    },
+    {
+      "id": 27,
+      "question": "Que permet un LREP ?",
+      "options": [
+        "Accueillir conjointement enfants et parents dans un cadre informel",
+        "Attribuer une pension alimentaire",
+        "Former des enseignants",
+        "Remplacer les tribunaux"
+      ],
+      "correct_answer": 0,
+      "explanation": "Un LREP est un lieu informel de rencontre parent-enfant."
+    },
+    {
+      "id": 28,
+      "question": "Quel âge maximum pour les enfants accueillis en halte-accueil ?",
+      "options": [
+        "3 ans",
+        "4 ans",
+        "5 ans",
+        "6 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Les haltes-accueil accueillent des enfants de 0 à 6 ans."
+    },
+    {
+      "id": 29,
+      "question": "Quel est l’objectif principal des SASPe ?",
+      "options": [
+        "Accueillir les enfants placés en urgence sociale",
+        "Assurer la formation des éducateurs",
+        "Attribuer des allocations familiales",
+        "Fournir un logement"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SASPe accueillent les enfants placés pour raisons sociales."
+    },
+    {
+      "id": 30,
+      "question": "Quel est le rôle principal de la ligne 103 ?",
+      "options": [
+        "Donner une aide immédiate aux enfants en difficulté",
+        "Attribuer des allocations familiales",
+        "Former des parents",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "La ligne 103 est une ligne d’écoute et de soutien pour enfants."
+    },
+    {
+      "id": 31,
+      "question": "Quelle structure permet un accueil occasionnel de courte durée ?",
+      "options": [
+        "Halte-accueil",
+        "Crèche",
+        "MCAE",
+        "MR"
+      ],
+      "correct_answer": 0,
+      "explanation": "La halte-accueil permet un accueil ponctuel limité à 3h par jour."
+    },
+    {
+      "id": 32,
+      "question": "Quelle est la mission des maisons ouvertes ?",
+      "options": [
+        "Offrir un lieu de socialisation et de soutien à la parentalité",
+        "Accorder des aides financières",
+        "Donner des allocations familiales",
+        "Attribuer des logements"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les maisons ouvertes accueillent enfants et parents pour socialisation et parentalité."
+    },
+    {
+      "id": 33,
+      "question": "Quelle institution est responsable du suivi du développement de l’enfant en Wallonie ?",
+      "options": [
+        "ONE",
+        "INAMI",
+        "ONEM",
+        "CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’Office de la Naissance et de l’Enfance (ONE) est compétent pour ce suivi."
+    },
+    {
+      "id": 34,
+      "question": "Quels services assurent un accompagnement parental lors d’une séparation conflictuelle ?",
+      "options": [
+        "EPS",
+        "SASPe",
+        "SOS-Enfants",
+        "MCAE"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les Espaces Parents dans la séparation soutiennent les parents."
+    },
+    {
+      "id": 35,
+      "question": "Quels professionnels composent une équipe SOS-Enfants ?",
+      "options": [
+        "Médecins, psychologues, assistants sociaux, éducateurs",
+        "Enseignants uniquement",
+        "Avocats et juges",
+        "Volontaires non formés"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SOS-Enfants sont pluridisciplinaires pour mieux protéger les enfants."
+    },
+    {
+      "id": 36,
+      "question": "Quel est l’objectif des consultations pour enfants ?",
+      "options": [
+        "Prévenir les maladies, suivre le développement et accompagner les parents",
+        "Assurer la garde à temps plein",
+        "Attribuer des allocations familiales",
+        "Former les éducateurs"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les consultations sont préventives et éducatives."
+    },
+    {
+      "id": 37,
+      "question": "Quel est l’âge maximum des enfants accueillis dans une MCAE ?",
+      "options": [
+        "3 ans",
+        "4 ans",
+        "5 ans",
+        "6 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Les MCAE accueillent les enfants de 0 à 6 ans."
+    },
+    {
+      "id": 38,
+      "question": "Que permet la médiation par un EPS ?",
+      "options": [
+        "Soutenir les parents dans le dialogue après une séparation",
+        "Attribuer une aide financière",
+        "Remplacer le juge",
+        "Fournir des logements"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les EPS favorisent le dialogue parental post-séparation."
+    },
+    {
+      "id": 39,
+      "question": "Quel est l’objectif général des politiques de petite enfance ?",
+      "options": [
+        "Favoriser le développement global de l’enfant et soutenir la parentalité",
+        "Accorder des aides financières",
+        "Organiser des activités sportives",
+        "Remplacer les CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "La politique de petite enfance vise la santé, le bien-être et la socialisation des enfants."
+    },
+    {
+      "id": 40,
+      "question": "Quel service peut être sollicité en cas de suspicion de maltraitance infantile ?",
+      "options": [
+        "SOS-Enfants",
+        "ONEM",
+        "CPAS",
+        "SLSP"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les équipes SOS-Enfants prennent en charge les situations de maltraitance."
+    }
+  ]
+}

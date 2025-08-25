@@ -1,0 +1,1204 @@
+{
+  "questions": [
+    {
+      "question": "Quelle est la mission principale du CPAS ?",
+      "options": [
+        "Assurer le droit à l’aide sociale",
+        "Gérer les pensions de retraite",
+        "Contrôler les cotisations sociales",
+        "Attribuer les allocations de chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS a pour mission de garantir le droit à l’aide sociale, afin de permettre à chacun de mener une vie conforme à la dignité humaine.",
+      "id": 1
+    },
+    {
+      "question": "Quel type d’aide le CPAS peut-il octroyer ?",
+      "options": [
+        "Uniquement financière",
+        "Uniquement médicale",
+        "Financière, matérielle, sociale et administrative",
+        "Seulement le revenu d’intégration sociale (RIS)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le CPAS peut accorder des aides financières, matérielles, sociales, administratives, ou le RIS selon les besoins de la personne.",
+      "id": 2
+    },
+    {
+      "question": "Le RIS (revenu d’intégration sociale) est financé par :",
+      "options": [
+        "Les cotisations sociales",
+        "Les budgets de l’État fédéral",
+        "Les provinces",
+        "L’Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le RIS est financé par l’État fédéral et octroyé via les CPAS.",
+      "id": 3
+    },
+    {
+      "question": "Quelle est la mission principale de l’ONSS ?",
+      "options": [
+        "Rembourser les frais médicaux",
+        "Gérer les allocations de chômage",
+        "Collecter et répartir les cotisations sociales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’ONSS (Office National de Sécurité Sociale) collecte les cotisations sociales des employeurs et travailleurs pour financer la sécurité sociale.",
+      "id": 4
+    },
+    {
+      "question": "La DIMONA est :",
+      "options": [
+        "Un type d’allocation sociale",
+        "Une déclaration obligatoire d’entrée/sortie de travail à l’ONSS",
+        "Une pension complémentaire",
+        "Un service des mutualités"
+      ],
+      "correct_answer": 1,
+      "explanation": "La DIMONA (Déclaration Immédiate) est une obligation légale pour les employeurs de déclarer l’entrée et la sortie de chaque travailleur à l’ONSS.",
+      "id": 5
+    },
+    {
+      "question": "L’ONEM est compétent pour :",
+      "options": [
+        "Les allocations de chômage",
+        "Les pensions de retraite",
+        "Les allocations familiales",
+        "Le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (Office National de l’Emploi) gère les allocations de chômage et certaines mesures liées à l’emploi.",
+      "id": 6
+    },
+    {
+      "question": "Quelle condition n’est pas nécessaire pour percevoir des allocations de chômage ?",
+      "options": [
+        "Avoir travaillé un nombre de jours suffisant",
+        "Être inscrit comme demandeur d’emploi",
+        "Accepter un emploi convenable proposé",
+        "Être âgé d’au moins 25 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Il n’y a pas de condition d’âge de 25 ans : les allocations dépendent du passé professionnel et des règles d’admissibilité, pas d’un seuil d’âge.",
+      "id": 7
+    },
+    {
+      "question": "L’INAMI intervient principalement dans :",
+      "options": [
+        "Les remboursements de soins de santé et les indemnités",
+        "La construction de logements sociaux",
+        "L’attribution des bourses scolaires",
+        "Le financement des CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’INAMI (Institut National d’Assurance Maladie-Invalidité) gère l’assurance maladie-invalidité et rembourse les soins de santé.",
+      "id": 8
+    },
+    {
+      "question": "Les mutualités ont pour rôle de :",
+      "options": [
+        "Financer les pensions de retraite",
+        "Appliquer l’assurance maladie-invalidité",
+        "Attribuer les allocations familiales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les mutualités sont des organismes assureurs chargés de l’application de l’assurance maladie-invalidité (remboursements, indemnités).",
+      "id": 9
+    },
+    {
+      "question": "Que signifie l’acronyme SPF dans le contexte belge ?",
+      "options": [
+        "Service Public Fédéral",
+        "Service de Protection Familiale",
+        "Société Publique de Financement",
+        "Service Provincial de Formation"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SPF (Services Publics Fédéraux) sont les administrations fédérales belges, par ex. SPF Finances, SPF Sécurité sociale.",
+      "id": 10
+    },
+    {
+      "question": "Le SPP Intégration sociale est chargé de :",
+      "options": [
+        "La lutte contre la pauvreté et l’exclusion sociale",
+        "La gestion des hôpitaux publics",
+        "L’organisation des allocations familiales",
+        "Le remboursement des soins de santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SPP Intégration sociale est un service fédéral qui coordonne la lutte contre la pauvreté et soutient les CPAS.",
+      "id": 11
+    },
+    {
+      "question": "Quelle est la mission principale du CPAS ?",
+      "options": [
+        "Assurer le droit à l’aide sociale",
+        "Gérer les pensions de retraite",
+        "Contrôler les cotisations sociales",
+        "Attribuer les allocations de chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS a pour mission de garantir le droit à l’aide sociale, afin de permettre à chacun de mener une vie conforme à la dignité humaine.",
+      "id": 12
+    },
+    {
+      "question": "Quel type d’aide le CPAS peut-il octroyer ?",
+      "options": [
+        "Uniquement financière",
+        "Uniquement médicale",
+        "Financière, matérielle, sociale et administrative",
+        "Seulement le revenu d’intégration sociale (RIS)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le CPAS peut accorder des aides financières, matérielles, sociales, administratives, ou le RIS selon les besoins de la personne.",
+      "id": 13
+    },
+    {
+      "question": "Le RIS (revenu d’intégration sociale) est financé par :",
+      "options": [
+        "Les cotisations sociales",
+        "Les budgets de l’État fédéral",
+        "Les provinces",
+        "L’Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le RIS est financé par l’État fédéral et octroyé via les CPAS.",
+      "id": 14
+    },
+    {
+      "question": "Quelle est la mission principale de l’ONSS ?",
+      "options": [
+        "Rembourser les frais médicaux",
+        "Gérer les allocations de chômage",
+        "Collecter et répartir les cotisations sociales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’ONSS (Office National de Sécurité Sociale) collecte les cotisations sociales des employeurs et travailleurs pour financer la sécurité sociale.",
+      "id": 15
+    },
+    {
+      "question": "La DIMONA est :",
+      "options": [
+        "Un type d’allocation sociale",
+        "Une déclaration obligatoire d’entrée/sortie de travail à l’ONSS",
+        "Une pension complémentaire",
+        "Un service des mutualités"
+      ],
+      "correct_answer": 1,
+      "explanation": "La DIMONA (Déclaration Immédiate) est une obligation légale pour les employeurs de déclarer l’entrée et la sortie de chaque travailleur à l’ONSS.",
+      "id": 16
+    },
+    {
+      "question": "L’ONEM est compétent pour :",
+      "options": [
+        "Les allocations de chômage",
+        "Les pensions de retraite",
+        "Les allocations familiales",
+        "Le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (Office National de l’Emploi) gère les allocations de chômage et certaines mesures liées à l’emploi.",
+      "id": 17
+    },
+    {
+      "question": "Quelle condition n’est pas nécessaire pour percevoir des allocations de chômage ?",
+      "options": [
+        "Avoir travaillé un nombre de jours suffisant",
+        "Être inscrit comme demandeur d’emploi",
+        "Accepter un emploi convenable proposé",
+        "Être âgé d’au moins 25 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Il n’y a pas de condition d’âge de 25 ans : les allocations dépendent du passé professionnel et des règles d’admissibilité, pas d’un seuil d’âge.",
+      "id": 18
+    },
+    {
+      "question": "L’INAMI intervient principalement dans :",
+      "options": [
+        "Les remboursements de soins de santé et les indemnités",
+        "La construction de logements sociaux",
+        "L’attribution des bourses scolaires",
+        "Le financement des CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’INAMI (Institut National d’Assurance Maladie-Invalidité) gère l’assurance maladie-invalidité et rembourse les soins de santé.",
+      "id": 19
+    },
+    {
+      "question": "Les mutualités ont pour rôle de :",
+      "options": [
+        "Financer les pensions de retraite",
+        "Appliquer l’assurance maladie-invalidité",
+        "Attribuer les allocations familiales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les mutualités sont des organismes assureurs chargés de l’application de l’assurance maladie-invalidité (remboursements, indemnités).",
+      "id": 20
+    },
+    {
+      "question": "Que signifie l’acronyme SPF dans le contexte belge ?",
+      "options": [
+        "Service Public Fédéral",
+        "Service de Protection Familiale",
+        "Société Publique de Financement",
+        "Service Provincial de Formation"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SPF (Services Publics Fédéraux) sont les administrations fédérales belges, par ex. SPF Finances, SPF Sécurité sociale.",
+      "id": 21
+    },
+    {
+      "question": "Le SPP Intégration sociale est chargé de :",
+      "options": [
+        "La lutte contre la pauvreté et l’exclusion sociale",
+        "La gestion des hôpitaux publics",
+        "L’organisation des allocations familiales",
+        "Le remboursement des soins de santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SPP Intégration sociale est un service fédéral qui coordonne la lutte contre la pauvreté et soutient les CPAS.",
+      "id": 22
+    },
+    {
+      "question": "Quelle est la mission principale du CPAS ?",
+      "options": [
+        "Assurer le droit à l’aide sociale",
+        "Gérer les pensions de retraite",
+        "Contrôler les cotisations sociales",
+        "Attribuer les allocations de chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS a pour mission de garantir le droit à l’aide sociale, afin de permettre à chacun de mener une vie conforme à la dignité humaine.",
+      "id": 23
+    },
+    {
+      "question": "Quel type d’aide le CPAS peut-il octroyer ?",
+      "options": [
+        "Uniquement financière",
+        "Uniquement médicale",
+        "Financière, matérielle, sociale et administrative",
+        "Seulement le revenu d’intégration sociale (RIS)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le CPAS peut accorder des aides financières, matérielles, sociales, administratives, ou le RIS selon les besoins de la personne.",
+      "id": 24
+    },
+    {
+      "question": "Le RIS (revenu d’intégration sociale) est financé par :",
+      "options": [
+        "Les cotisations sociales",
+        "Les budgets de l’État fédéral",
+        "Les provinces",
+        "L’Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le RIS est financé par l’État fédéral et octroyé via les CPAS.",
+      "id": 25
+    },
+    {
+      "question": "Quelle est la mission principale de l’ONSS ?",
+      "options": [
+        "Rembourser les frais médicaux",
+        "Gérer les allocations de chômage",
+        "Collecter et répartir les cotisations sociales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’ONSS (Office National de Sécurité Sociale) collecte les cotisations sociales des employeurs et travailleurs pour financer la sécurité sociale.",
+      "id": 26
+    },
+    {
+      "question": "La DIMONA est :",
+      "options": [
+        "Un type d’allocation sociale",
+        "Une déclaration obligatoire d’entrée/sortie de travail à l’ONSS",
+        "Une pension complémentaire",
+        "Un service des mutualités"
+      ],
+      "correct_answer": 1,
+      "explanation": "La DIMONA (Déclaration Immédiate) est une obligation légale pour les employeurs de déclarer l’entrée et la sortie de chaque travailleur à l’ONSS.",
+      "id": 27
+    },
+    {
+      "question": "L’ONEM est compétent pour :",
+      "options": [
+        "Les allocations de chômage",
+        "Les pensions de retraite",
+        "Les allocations familiales",
+        "Le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (Office National de l’Emploi) gère les allocations de chômage et certaines mesures liées à l’emploi.",
+      "id": 28
+    },
+    {
+      "question": "Quelle condition n’est pas nécessaire pour percevoir des allocations de chômage ?",
+      "options": [
+        "Avoir travaillé un nombre de jours suffisant",
+        "Être inscrit comme demandeur d’emploi",
+        "Accepter un emploi convenable proposé",
+        "Être âgé d’au moins 25 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Il n’y a pas de condition d’âge de 25 ans : les allocations dépendent du passé professionnel et des règles d’admissibilité, pas d’un seuil d’âge.",
+      "id": 29
+    },
+    {
+      "question": "L’INAMI intervient principalement dans :",
+      "options": [
+        "Les remboursements de soins de santé et les indemnités",
+        "La construction de logements sociaux",
+        "L’attribution des bourses scolaires",
+        "Le financement des CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’INAMI (Institut National d’Assurance Maladie-Invalidité) gère l’assurance maladie-invalidité et rembourse les soins de santé.",
+      "id": 30
+    },
+    {
+      "question": "Les mutualités ont pour rôle de :",
+      "options": [
+        "Financer les pensions de retraite",
+        "Appliquer l’assurance maladie-invalidité",
+        "Attribuer les allocations familiales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les mutualités sont des organismes assureurs chargés de l’application de l’assurance maladie-invalidité (remboursements, indemnités).",
+      "id": 31
+    },
+    {
+      "question": "Que signifie l’acronyme SPF dans le contexte belge ?",
+      "options": [
+        "Service Public Fédéral",
+        "Service de Protection Familiale",
+        "Société Publique de Financement",
+        "Service Provincial de Formation"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SPF (Services Publics Fédéraux) sont les administrations fédérales belges, par ex. SPF Finances, SPF Sécurité sociale.",
+      "id": 32
+    },
+    {
+      "question": "Le SPP Intégration sociale est chargé de :",
+      "options": [
+        "La lutte contre la pauvreté et l’exclusion sociale",
+        "La gestion des hôpitaux publics",
+        "L’organisation des allocations familiales",
+        "Le remboursement des soins de santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SPP Intégration sociale est un service fédéral qui coordonne la lutte contre la pauvreté et soutient les CPAS.",
+      "id": 33
+    },
+    {
+      "question": "Quelle est la mission principale du CPAS ?",
+      "options": [
+        "Assurer le droit à l’aide sociale",
+        "Gérer les pensions de retraite",
+        "Contrôler les cotisations sociales",
+        "Attribuer les allocations de chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS a pour mission de garantir le droit à l’aide sociale, afin de permettre à chacun de mener une vie conforme à la dignité humaine.",
+      "id": 34
+    },
+    {
+      "question": "Quel type d’aide le CPAS peut-il octroyer ?",
+      "options": [
+        "Uniquement financière",
+        "Uniquement médicale",
+        "Financière, matérielle, sociale et administrative",
+        "Seulement le revenu d’intégration sociale (RIS)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le CPAS peut accorder des aides financières, matérielles, sociales, administratives, ou le RIS selon les besoins de la personne.",
+      "id": 35
+    },
+    {
+      "question": "Le RIS (revenu d’intégration sociale) est financé par :",
+      "options": [
+        "Les cotisations sociales",
+        "Les budgets de l’État fédéral",
+        "Les provinces",
+        "L’Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le RIS est financé par l’État fédéral et octroyé via les CPAS.",
+      "id": 36
+    },
+    {
+      "question": "Quelle est la mission principale de l’ONSS ?",
+      "options": [
+        "Rembourser les frais médicaux",
+        "Gérer les allocations de chômage",
+        "Collecter et répartir les cotisations sociales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’ONSS (Office National de Sécurité Sociale) collecte les cotisations sociales des employeurs et travailleurs pour financer la sécurité sociale.",
+      "id": 37
+    },
+    {
+      "question": "La DIMONA est :",
+      "options": [
+        "Un type d’allocation sociale",
+        "Une déclaration obligatoire d’entrée/sortie de travail à l’ONSS",
+        "Une pension complémentaire",
+        "Un service des mutualités"
+      ],
+      "correct_answer": 1,
+      "explanation": "La DIMONA (Déclaration Immédiate) est une obligation légale pour les employeurs de déclarer l’entrée et la sortie de chaque travailleur à l’ONSS.",
+      "id": 38
+    },
+    {
+      "question": "L’ONEM est compétent pour :",
+      "options": [
+        "Les allocations de chômage",
+        "Les pensions de retraite",
+        "Les allocations familiales",
+        "Le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (Office National de l’Emploi) gère les allocations de chômage et certaines mesures liées à l’emploi.",
+      "id": 39
+    },
+    {
+      "question": "Quelle condition n’est pas nécessaire pour percevoir des allocations de chômage ?",
+      "options": [
+        "Avoir travaillé un nombre de jours suffisant",
+        "Être inscrit comme demandeur d’emploi",
+        "Accepter un emploi convenable proposé",
+        "Être âgé d’au moins 25 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Il n’y a pas de condition d’âge de 25 ans : les allocations dépendent du passé professionnel et des règles d’admissibilité, pas d’un seuil d’âge.",
+      "id": 40
+    },
+    {
+      "question": "L’INAMI intervient principalement dans :",
+      "options": [
+        "Les remboursements de soins de santé et les indemnités",
+        "La construction de logements sociaux",
+        "L’attribution des bourses scolaires",
+        "Le financement des CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’INAMI (Institut National d’Assurance Maladie-Invalidité) gère l’assurance maladie-invalidité et rembourse les soins de santé.",
+      "id": 41
+    },
+    {
+      "question": "Les mutualités ont pour rôle de :",
+      "options": [
+        "Financer les pensions de retraite",
+        "Appliquer l’assurance maladie-invalidité",
+        "Attribuer les allocations familiales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les mutualités sont des organismes assureurs chargés de l’application de l’assurance maladie-invalidité (remboursements, indemnités).",
+      "id": 42
+    },
+    {
+      "question": "Que signifie l’acronyme SPF dans le contexte belge ?",
+      "options": [
+        "Service Public Fédéral",
+        "Service de Protection Familiale",
+        "Société Publique de Financement",
+        "Service Provincial de Formation"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SPF (Services Publics Fédéraux) sont les administrations fédérales belges, par ex. SPF Finances, SPF Sécurité sociale.",
+      "id": 43
+    },
+    {
+      "question": "Le SPP Intégration sociale est chargé de :",
+      "options": [
+        "La lutte contre la pauvreté et l’exclusion sociale",
+        "La gestion des hôpitaux publics",
+        "L’organisation des allocations familiales",
+        "Le remboursement des soins de santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SPP Intégration sociale est un service fédéral qui coordonne la lutte contre la pauvreté et soutient les CPAS.",
+      "id": 44
+    },
+    {
+      "question": "Quelle est la mission principale du CPAS ?",
+      "options": [
+        "Assurer le droit à l’aide sociale",
+        "Gérer les pensions de retraite",
+        "Contrôler les cotisations sociales",
+        "Attribuer les allocations de chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS a pour mission de garantir le droit à l’aide sociale, afin de permettre à chacun de mener une vie conforme à la dignité humaine.",
+      "id": 45
+    },
+    {
+      "question": "Quel type d’aide le CPAS peut-il octroyer ?",
+      "options": [
+        "Uniquement financière",
+        "Uniquement médicale",
+        "Financière, matérielle, sociale et administrative",
+        "Seulement le revenu d’intégration sociale (RIS)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le CPAS peut accorder des aides financières, matérielles, sociales, administratives, ou le RIS selon les besoins de la personne.",
+      "id": 46
+    },
+    {
+      "question": "Le RIS (revenu d’intégration sociale) est financé par :",
+      "options": [
+        "Les cotisations sociales",
+        "Les budgets de l’État fédéral",
+        "Les provinces",
+        "L’Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le RIS est financé par l’État fédéral et octroyé via les CPAS.",
+      "id": 47
+    },
+    {
+      "question": "Quelle est la mission principale de l’ONSS ?",
+      "options": [
+        "Rembourser les frais médicaux",
+        "Gérer les allocations de chômage",
+        "Collecter et répartir les cotisations sociales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’ONSS (Office National de Sécurité Sociale) collecte les cotisations sociales des employeurs et travailleurs pour financer la sécurité sociale.",
+      "id": 48
+    },
+    {
+      "question": "La DIMONA est :",
+      "options": [
+        "Un type d’allocation sociale",
+        "Une déclaration obligatoire d’entrée/sortie de travail à l’ONSS",
+        "Une pension complémentaire",
+        "Un service des mutualités"
+      ],
+      "correct_answer": 1,
+      "explanation": "La DIMONA (Déclaration Immédiate) est une obligation légale pour les employeurs de déclarer l’entrée et la sortie de chaque travailleur à l’ONSS.",
+      "id": 49
+    },
+    {
+      "question": "L’ONEM est compétent pour :",
+      "options": [
+        "Les allocations de chômage",
+        "Les pensions de retraite",
+        "Les allocations familiales",
+        "Le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (Office National de l’Emploi) gère les allocations de chômage et certaines mesures liées à l’emploi.",
+      "id": 50
+    },
+    {
+      "question": "Quelle condition n’est pas nécessaire pour percevoir des allocations de chômage ?",
+      "options": [
+        "Avoir travaillé un nombre de jours suffisant",
+        "Être inscrit comme demandeur d’emploi",
+        "Accepter un emploi convenable proposé",
+        "Être âgé d’au moins 25 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Il n’y a pas de condition d’âge de 25 ans : les allocations dépendent du passé professionnel et des règles d’admissibilité, pas d’un seuil d’âge.",
+      "id": 51
+    },
+    {
+      "question": "L’INAMI intervient principalement dans :",
+      "options": [
+        "Les remboursements de soins de santé et les indemnités",
+        "La construction de logements sociaux",
+        "L’attribution des bourses scolaires",
+        "Le financement des CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’INAMI (Institut National d’Assurance Maladie-Invalidité) gère l’assurance maladie-invalidité et rembourse les soins de santé.",
+      "id": 52
+    },
+    {
+      "question": "Les mutualités ont pour rôle de :",
+      "options": [
+        "Financer les pensions de retraite",
+        "Appliquer l’assurance maladie-invalidité",
+        "Attribuer les allocations familiales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les mutualités sont des organismes assureurs chargés de l’application de l’assurance maladie-invalidité (remboursements, indemnités).",
+      "id": 53
+    },
+    {
+      "question": "Que signifie l’acronyme SPF dans le contexte belge ?",
+      "options": [
+        "Service Public Fédéral",
+        "Service de Protection Familiale",
+        "Société Publique de Financement",
+        "Service Provincial de Formation"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SPF (Services Publics Fédéraux) sont les administrations fédérales belges, par ex. SPF Finances, SPF Sécurité sociale.",
+      "id": 54
+    },
+    {
+      "question": "Le SPP Intégration sociale est chargé de :",
+      "options": [
+        "La lutte contre la pauvreté et l’exclusion sociale",
+        "La gestion des hôpitaux publics",
+        "L’organisation des allocations familiales",
+        "Le remboursement des soins de santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SPP Intégration sociale est un service fédéral qui coordonne la lutte contre la pauvreté et soutient les CPAS.",
+      "id": 55
+    },
+    {
+      "question": "Quelle est la mission principale du CPAS ?",
+      "options": [
+        "Assurer le droit à l’aide sociale",
+        "Gérer les pensions de retraite",
+        "Contrôler les cotisations sociales",
+        "Attribuer les allocations de chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS a pour mission de garantir le droit à l’aide sociale, afin de permettre à chacun de mener une vie conforme à la dignité humaine.",
+      "id": 56
+    },
+    {
+      "question": "Quel type d’aide le CPAS peut-il octroyer ?",
+      "options": [
+        "Uniquement financière",
+        "Uniquement médicale",
+        "Financière, matérielle, sociale et administrative",
+        "Seulement le revenu d’intégration sociale (RIS)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le CPAS peut accorder des aides financières, matérielles, sociales, administratives, ou le RIS selon les besoins de la personne.",
+      "id": 57
+    },
+    {
+      "question": "Le RIS (revenu d’intégration sociale) est financé par :",
+      "options": [
+        "Les cotisations sociales",
+        "Les budgets de l’État fédéral",
+        "Les provinces",
+        "L’Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le RIS est financé par l’État fédéral et octroyé via les CPAS.",
+      "id": 58
+    },
+    {
+      "question": "Quelle est la mission principale de l’ONSS ?",
+      "options": [
+        "Rembourser les frais médicaux",
+        "Gérer les allocations de chômage",
+        "Collecter et répartir les cotisations sociales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’ONSS (Office National de Sécurité Sociale) collecte les cotisations sociales des employeurs et travailleurs pour financer la sécurité sociale.",
+      "id": 59
+    },
+    {
+      "question": "La DIMONA est :",
+      "options": [
+        "Un type d’allocation sociale",
+        "Une déclaration obligatoire d’entrée/sortie de travail à l’ONSS",
+        "Une pension complémentaire",
+        "Un service des mutualités"
+      ],
+      "correct_answer": 1,
+      "explanation": "La DIMONA (Déclaration Immédiate) est une obligation légale pour les employeurs de déclarer l’entrée et la sortie de chaque travailleur à l’ONSS.",
+      "id": 60
+    },
+    {
+      "question": "L’ONEM est compétent pour :",
+      "options": [
+        "Les allocations de chômage",
+        "Les pensions de retraite",
+        "Les allocations familiales",
+        "Le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (Office National de l’Emploi) gère les allocations de chômage et certaines mesures liées à l’emploi.",
+      "id": 61
+    },
+    {
+      "question": "Quelle condition n’est pas nécessaire pour percevoir des allocations de chômage ?",
+      "options": [
+        "Avoir travaillé un nombre de jours suffisant",
+        "Être inscrit comme demandeur d’emploi",
+        "Accepter un emploi convenable proposé",
+        "Être âgé d’au moins 25 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Il n’y a pas de condition d’âge de 25 ans : les allocations dépendent du passé professionnel et des règles d’admissibilité, pas d’un seuil d’âge.",
+      "id": 62
+    },
+    {
+      "question": "L’INAMI intervient principalement dans :",
+      "options": [
+        "Les remboursements de soins de santé et les indemnités",
+        "La construction de logements sociaux",
+        "L’attribution des bourses scolaires",
+        "Le financement des CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’INAMI (Institut National d’Assurance Maladie-Invalidité) gère l’assurance maladie-invalidité et rembourse les soins de santé.",
+      "id": 63
+    },
+    {
+      "question": "Les mutualités ont pour rôle de :",
+      "options": [
+        "Financer les pensions de retraite",
+        "Appliquer l’assurance maladie-invalidité",
+        "Attribuer les allocations familiales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les mutualités sont des organismes assureurs chargés de l’application de l’assurance maladie-invalidité (remboursements, indemnités).",
+      "id": 64
+    },
+    {
+      "question": "Que signifie l’acronyme SPF dans le contexte belge ?",
+      "options": [
+        "Service Public Fédéral",
+        "Service de Protection Familiale",
+        "Société Publique de Financement",
+        "Service Provincial de Formation"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SPF (Services Publics Fédéraux) sont les administrations fédérales belges, par ex. SPF Finances, SPF Sécurité sociale.",
+      "id": 65
+    },
+    {
+      "question": "Le SPP Intégration sociale est chargé de :",
+      "options": [
+        "La lutte contre la pauvreté et l’exclusion sociale",
+        "La gestion des hôpitaux publics",
+        "L’organisation des allocations familiales",
+        "Le remboursement des soins de santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SPP Intégration sociale est un service fédéral qui coordonne la lutte contre la pauvreté et soutient les CPAS.",
+      "id": 66
+    },
+    {
+      "question": "Quelle est la mission principale du CPAS ?",
+      "options": [
+        "Assurer le droit à l’aide sociale",
+        "Gérer les pensions de retraite",
+        "Contrôler les cotisations sociales",
+        "Attribuer les allocations de chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS a pour mission de garantir le droit à l’aide sociale, afin de permettre à chacun de mener une vie conforme à la dignité humaine.",
+      "id": 67
+    },
+    {
+      "question": "Quel type d’aide le CPAS peut-il octroyer ?",
+      "options": [
+        "Uniquement financière",
+        "Uniquement médicale",
+        "Financière, matérielle, sociale et administrative",
+        "Seulement le revenu d’intégration sociale (RIS)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le CPAS peut accorder des aides financières, matérielles, sociales, administratives, ou le RIS selon les besoins de la personne.",
+      "id": 68
+    },
+    {
+      "question": "Le RIS (revenu d’intégration sociale) est financé par :",
+      "options": [
+        "Les cotisations sociales",
+        "Les budgets de l’État fédéral",
+        "Les provinces",
+        "L’Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le RIS est financé par l’État fédéral et octroyé via les CPAS.",
+      "id": 69
+    },
+    {
+      "question": "Quelle est la mission principale de l’ONSS ?",
+      "options": [
+        "Rembourser les frais médicaux",
+        "Gérer les allocations de chômage",
+        "Collecter et répartir les cotisations sociales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’ONSS (Office National de Sécurité Sociale) collecte les cotisations sociales des employeurs et travailleurs pour financer la sécurité sociale.",
+      "id": 70
+    },
+    {
+      "question": "La DIMONA est :",
+      "options": [
+        "Un type d’allocation sociale",
+        "Une déclaration obligatoire d’entrée/sortie de travail à l’ONSS",
+        "Une pension complémentaire",
+        "Un service des mutualités"
+      ],
+      "correct_answer": 1,
+      "explanation": "La DIMONA (Déclaration Immédiate) est une obligation légale pour les employeurs de déclarer l’entrée et la sortie de chaque travailleur à l’ONSS.",
+      "id": 71
+    },
+    {
+      "question": "L’ONEM est compétent pour :",
+      "options": [
+        "Les allocations de chômage",
+        "Les pensions de retraite",
+        "Les allocations familiales",
+        "Le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (Office National de l’Emploi) gère les allocations de chômage et certaines mesures liées à l’emploi.",
+      "id": 72
+    },
+    {
+      "question": "Quelle condition n’est pas nécessaire pour percevoir des allocations de chômage ?",
+      "options": [
+        "Avoir travaillé un nombre de jours suffisant",
+        "Être inscrit comme demandeur d’emploi",
+        "Accepter un emploi convenable proposé",
+        "Être âgé d’au moins 25 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Il n’y a pas de condition d’âge de 25 ans : les allocations dépendent du passé professionnel et des règles d’admissibilité, pas d’un seuil d’âge.",
+      "id": 73
+    },
+    {
+      "question": "L’INAMI intervient principalement dans :",
+      "options": [
+        "Les remboursements de soins de santé et les indemnités",
+        "La construction de logements sociaux",
+        "L’attribution des bourses scolaires",
+        "Le financement des CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’INAMI (Institut National d’Assurance Maladie-Invalidité) gère l’assurance maladie-invalidité et rembourse les soins de santé.",
+      "id": 74
+    },
+    {
+      "question": "Les mutualités ont pour rôle de :",
+      "options": [
+        "Financer les pensions de retraite",
+        "Appliquer l’assurance maladie-invalidité",
+        "Attribuer les allocations familiales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les mutualités sont des organismes assureurs chargés de l’application de l’assurance maladie-invalidité (remboursements, indemnités).",
+      "id": 75
+    },
+    {
+      "question": "Que signifie l’acronyme SPF dans le contexte belge ?",
+      "options": [
+        "Service Public Fédéral",
+        "Service de Protection Familiale",
+        "Société Publique de Financement",
+        "Service Provincial de Formation"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SPF (Services Publics Fédéraux) sont les administrations fédérales belges, par ex. SPF Finances, SPF Sécurité sociale.",
+      "id": 76
+    },
+    {
+      "question": "Le SPP Intégration sociale est chargé de :",
+      "options": [
+        "La lutte contre la pauvreté et l’exclusion sociale",
+        "La gestion des hôpitaux publics",
+        "L’organisation des allocations familiales",
+        "Le remboursement des soins de santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SPP Intégration sociale est un service fédéral qui coordonne la lutte contre la pauvreté et soutient les CPAS.",
+      "id": 77
+    },
+    {
+      "question": "Quelle est la mission principale du CPAS ?",
+      "options": [
+        "Assurer le droit à l’aide sociale",
+        "Gérer les pensions de retraite",
+        "Contrôler les cotisations sociales",
+        "Attribuer les allocations de chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS a pour mission de garantir le droit à l’aide sociale, afin de permettre à chacun de mener une vie conforme à la dignité humaine.",
+      "id": 78
+    },
+    {
+      "question": "Quel type d’aide le CPAS peut-il octroyer ?",
+      "options": [
+        "Uniquement financière",
+        "Uniquement médicale",
+        "Financière, matérielle, sociale et administrative",
+        "Seulement le revenu d’intégration sociale (RIS)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le CPAS peut accorder des aides financières, matérielles, sociales, administratives, ou le RIS selon les besoins de la personne.",
+      "id": 79
+    },
+    {
+      "question": "Le RIS (revenu d’intégration sociale) est financé par :",
+      "options": [
+        "Les cotisations sociales",
+        "Les budgets de l’État fédéral",
+        "Les provinces",
+        "L’Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le RIS est financé par l’État fédéral et octroyé via les CPAS.",
+      "id": 80
+    },
+    {
+      "question": "Quelle est la mission principale de l’ONSS ?",
+      "options": [
+        "Rembourser les frais médicaux",
+        "Gérer les allocations de chômage",
+        "Collecter et répartir les cotisations sociales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’ONSS (Office National de Sécurité Sociale) collecte les cotisations sociales des employeurs et travailleurs pour financer la sécurité sociale.",
+      "id": 81
+    },
+    {
+      "question": "La DIMONA est :",
+      "options": [
+        "Un type d’allocation sociale",
+        "Une déclaration obligatoire d’entrée/sortie de travail à l’ONSS",
+        "Une pension complémentaire",
+        "Un service des mutualités"
+      ],
+      "correct_answer": 1,
+      "explanation": "La DIMONA (Déclaration Immédiate) est une obligation légale pour les employeurs de déclarer l’entrée et la sortie de chaque travailleur à l’ONSS.",
+      "id": 82
+    },
+    {
+      "question": "L’ONEM est compétent pour :",
+      "options": [
+        "Les allocations de chômage",
+        "Les pensions de retraite",
+        "Les allocations familiales",
+        "Le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (Office National de l’Emploi) gère les allocations de chômage et certaines mesures liées à l’emploi.",
+      "id": 83
+    },
+    {
+      "question": "Quelle condition n’est pas nécessaire pour percevoir des allocations de chômage ?",
+      "options": [
+        "Avoir travaillé un nombre de jours suffisant",
+        "Être inscrit comme demandeur d’emploi",
+        "Accepter un emploi convenable proposé",
+        "Être âgé d’au moins 25 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Il n’y a pas de condition d’âge de 25 ans : les allocations dépendent du passé professionnel et des règles d’admissibilité, pas d’un seuil d’âge.",
+      "id": 84
+    },
+    {
+      "question": "L’INAMI intervient principalement dans :",
+      "options": [
+        "Les remboursements de soins de santé et les indemnités",
+        "La construction de logements sociaux",
+        "L’attribution des bourses scolaires",
+        "Le financement des CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’INAMI (Institut National d’Assurance Maladie-Invalidité) gère l’assurance maladie-invalidité et rembourse les soins de santé.",
+      "id": 85
+    },
+    {
+      "question": "Les mutualités ont pour rôle de :",
+      "options": [
+        "Financer les pensions de retraite",
+        "Appliquer l’assurance maladie-invalidité",
+        "Attribuer les allocations familiales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les mutualités sont des organismes assureurs chargés de l’application de l’assurance maladie-invalidité (remboursements, indemnités).",
+      "id": 86
+    },
+    {
+      "question": "Que signifie l’acronyme SPF dans le contexte belge ?",
+      "options": [
+        "Service Public Fédéral",
+        "Service de Protection Familiale",
+        "Société Publique de Financement",
+        "Service Provincial de Formation"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SPF (Services Publics Fédéraux) sont les administrations fédérales belges, par ex. SPF Finances, SPF Sécurité sociale.",
+      "id": 87
+    },
+    {
+      "question": "Le SPP Intégration sociale est chargé de :",
+      "options": [
+        "La lutte contre la pauvreté et l’exclusion sociale",
+        "La gestion des hôpitaux publics",
+        "L’organisation des allocations familiales",
+        "Le remboursement des soins de santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SPP Intégration sociale est un service fédéral qui coordonne la lutte contre la pauvreté et soutient les CPAS.",
+      "id": 88
+    },
+    {
+      "question": "Quelle est la mission principale du CPAS ?",
+      "options": [
+        "Assurer le droit à l’aide sociale",
+        "Gérer les pensions de retraite",
+        "Contrôler les cotisations sociales",
+        "Attribuer les allocations de chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS a pour mission de garantir le droit à l’aide sociale, afin de permettre à chacun de mener une vie conforme à la dignité humaine.",
+      "id": 89
+    },
+    {
+      "question": "Quel type d’aide le CPAS peut-il octroyer ?",
+      "options": [
+        "Uniquement financière",
+        "Uniquement médicale",
+        "Financière, matérielle, sociale et administrative",
+        "Seulement le revenu d’intégration sociale (RIS)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le CPAS peut accorder des aides financières, matérielles, sociales, administratives, ou le RIS selon les besoins de la personne.",
+      "id": 90
+    },
+    {
+      "question": "Le RIS (revenu d’intégration sociale) est financé par :",
+      "options": [
+        "Les cotisations sociales",
+        "Les budgets de l’État fédéral",
+        "Les provinces",
+        "L’Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le RIS est financé par l’État fédéral et octroyé via les CPAS.",
+      "id": 91
+    },
+    {
+      "question": "Quelle est la mission principale de l’ONSS ?",
+      "options": [
+        "Rembourser les frais médicaux",
+        "Gérer les allocations de chômage",
+        "Collecter et répartir les cotisations sociales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’ONSS (Office National de Sécurité Sociale) collecte les cotisations sociales des employeurs et travailleurs pour financer la sécurité sociale.",
+      "id": 92
+    },
+    {
+      "question": "La DIMONA est :",
+      "options": [
+        "Un type d’allocation sociale",
+        "Une déclaration obligatoire d’entrée/sortie de travail à l’ONSS",
+        "Une pension complémentaire",
+        "Un service des mutualités"
+      ],
+      "correct_answer": 1,
+      "explanation": "La DIMONA (Déclaration Immédiate) est une obligation légale pour les employeurs de déclarer l’entrée et la sortie de chaque travailleur à l’ONSS.",
+      "id": 93
+    },
+    {
+      "question": "L’ONEM est compétent pour :",
+      "options": [
+        "Les allocations de chômage",
+        "Les pensions de retraite",
+        "Les allocations familiales",
+        "Le revenu d’intégration sociale"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’ONEM (Office National de l’Emploi) gère les allocations de chômage et certaines mesures liées à l’emploi.",
+      "id": 94
+    },
+    {
+      "question": "Quelle condition n’est pas nécessaire pour percevoir des allocations de chômage ?",
+      "options": [
+        "Avoir travaillé un nombre de jours suffisant",
+        "Être inscrit comme demandeur d’emploi",
+        "Accepter un emploi convenable proposé",
+        "Être âgé d’au moins 25 ans"
+      ],
+      "correct_answer": 3,
+      "explanation": "Il n’y a pas de condition d’âge de 25 ans : les allocations dépendent du passé professionnel et des règles d’admissibilité, pas d’un seuil d’âge.",
+      "id": 95
+    },
+    {
+      "question": "L’INAMI intervient principalement dans :",
+      "options": [
+        "Les remboursements de soins de santé et les indemnités",
+        "La construction de logements sociaux",
+        "L’attribution des bourses scolaires",
+        "Le financement des CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’INAMI (Institut National d’Assurance Maladie-Invalidité) gère l’assurance maladie-invalidité et rembourse les soins de santé.",
+      "id": 96
+    },
+    {
+      "question": "Les mutualités ont pour rôle de :",
+      "options": [
+        "Financer les pensions de retraite",
+        "Appliquer l’assurance maladie-invalidité",
+        "Attribuer les allocations familiales",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les mutualités sont des organismes assureurs chargés de l’application de l’assurance maladie-invalidité (remboursements, indemnités).",
+      "id": 97
+    },
+    {
+      "question": "Que signifie l’acronyme SPF dans le contexte belge ?",
+      "options": [
+        "Service Public Fédéral",
+        "Service de Protection Familiale",
+        "Société Publique de Financement",
+        "Service Provincial de Formation"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SPF (Services Publics Fédéraux) sont les administrations fédérales belges, par ex. SPF Finances, SPF Sécurité sociale.",
+      "id": 98
+    },
+    {
+      "question": "Le SPP Intégration sociale est chargé de :",
+      "options": [
+        "La lutte contre la pauvreté et l’exclusion sociale",
+        "La gestion des hôpitaux publics",
+        "L’organisation des allocations familiales",
+        "Le remboursement des soins de santé"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SPP Intégration sociale est un service fédéral qui coordonne la lutte contre la pauvreté et soutient les CPAS.",
+      "id": 99
+    },
+    {
+      "question": "Quelle est la mission principale du CPAS ?",
+      "options": [
+        "Assurer le droit à l’aide sociale",
+        "Gérer les pensions de retraite",
+        "Contrôler les cotisations sociales",
+        "Attribuer les allocations de chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CPAS a pour mission de garantir le droit à l’aide sociale, afin de permettre à chacun de mener une vie conforme à la dignité humaine.",
+      "id": 100
+    }
+  ]
+}
