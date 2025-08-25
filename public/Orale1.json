@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel organe adopte les lois au niveau fédéral ?",
+      "options": [
+        "Parlement + Roi",
+        "Parlement de la Communauté française",
+        "Parlement wallon",
+        "Gouvernement fédéral"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : au niveau fédéral, ce sont le Parlement et le Roi qui adoptent les lois. ❌ Mauvaises réponses : le Parlement de la Communauté française adopte des décrets, le Parlement wallon adopte aussi des décrets, et le Gouvernement fédéral exécute mais ne légifère pas."
+    },
+    {
+      "id": 2,
+      "question": "Quel genre de texte est adopté par le Parlement de la Communauté française ?",
+      "options": [
+        "Lois",
+        "Décrets",
+        "Ordonnances",
+        "Arrêtés royaux"
+      ],
+      "correct_answer": 1,
+      "explanation": "Bonne réponse : le Parlement de la Communauté française adopte des décrets. ❌ Mauvaises réponses : les lois relèvent du Parlement fédéral, les ordonnances concernent Bruxelles-Capitale, et les arrêtés royaux sont pris par le Roi et le Gouvernement fédéral."
+    },
+    {
+      "id": 3,
+      "question": "Quel genre de texte est adopté par le Gouvernement fédéral avec le Roi ?",
+      "options": [
+        "Lois",
+        "Arrêtés royaux",
+        "Ordonnances",
+        "Décrets"
+      ],
+      "correct_answer": 1,
+      "explanation": "Bonne réponse : les arrêtés royaux sont adoptés par le Roi et le Gouvernement fédéral. ❌ Mauvaises réponses : les lois sont votées par le Parlement fédéral, les décrets par les parlements communautaires ou régionaux, et les ordonnances par Bruxelles-Capitale."
+    },
+    {
+      "id": 4,
+      "question": "Quelle compétence relève du niveau fédéral ?",
+      "options": [
+        "Logement",
+        "Sécurité sociale",
+        "Petite enfance (ONE)",
+        "Santé mentale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Bonne réponse : la sécurité sociale est une compétence fédérale. ❌ Mauvaises réponses : le logement et la santé mentale relèvent de la Région wallonne, la petite enfance (ONE) relève de la Communauté française."
+    },
+    {
+      "id": 5,
+      "question": "Quelle compétence relève de la Communauté française ?",
+      "options": [
+        "Justice",
+        "Aménagement du territoire",
+        "Enseignement et soutien scolaire",
+        "Sécurité sociale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Bonne réponse : l’enseignement et le soutien scolaire relèvent de la Communauté française. ❌ Mauvaises réponses : la justice et la sécurité sociale sont fédérales, l’aménagement du territoire est régional (Région wallonne)."
+    },
+    {
+      "id": 6,
+      "question": "Quelle compétence relève de la Région wallonne ?",
+      "options": [
+        "Affaires étrangères",
+        "Défense et maintien de l’ordre",
+        "Formation professionnelle",
+        "CPAS"
+      ],
+      "correct_answer": 2,
+      "explanation": "Bonne réponse : la formation professionnelle est une compétence régionale (Région wallonne). ❌ Mauvaises réponses : les affaires étrangères et la défense relèvent du fédéral, les CPAS dépendent aussi du fédéral (sécurité sociale et aide sociale)."
+    },
+    {
+      "id": 7,
+      "question": "Quel organe adopte des décrets en Région wallonne ?",
+      "options": [
+        "Parlement wallon",
+        "Parlement fédéral",
+        "Conseil de la Communauté française",
+        "Roi"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : c’est le Parlement wallon qui adopte des décrets. ❌ Mauvaises réponses : le Parlement fédéral adopte des lois, le Conseil de la Communauté française adopte aussi des décrets mais pour la Communauté, et le Roi ne légifère pas seul."
+    },
+    {
+      "id": 8,
+      "question": "Quelle institution est compétente pour la petite enfance (ONE) ?",
+      "options": [
+        "Fédéral",
+        "Communauté française",
+        "Région wallonne",
+        "Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Bonne réponse : la petite enfance (ONE) relève de la Communauté française. ❌ Mauvaises réponses : le fédéral gère la sécurité sociale et la justice, la Région wallonne gère le logement et la santé mentale, l’Union européenne n’intervient pas directement."
+    },
+    {
+      "id": 9,
+      "question": "Quel genre de texte est adopté par le Gouvernement wallon ?",
+      "options": [
+        "Arrêtés royaux",
+        "Arrêtés du Gouvernement wallon",
+        "Décrets",
+        "Ordonnances"
+      ],
+      "correct_answer": 1,
+      "explanation": "Bonne réponse : le Gouvernement wallon adopte des arrêtés du Gouvernement wallon. ❌ Mauvaises réponses : les arrêtés royaux sont fédéraux, les décrets sont votés par les parlements (pas les gouvernements), et les ordonnances sont spécifiques à Bruxelles-Capitale."
+    },
+    {
+      "id": 10,
+      "question": "Quelle compétence relève de la Région wallonne dans le domaine de l’aide aux personnes ?",
+      "options": [
+        "Intégration des personnes d’origine étrangère",
+        "Justice",
+        "Sécurité sociale",
+        "Affaires étrangères"
+      ],
+      "correct_answer": 0,
+      "explanation": "Bonne réponse : l’intégration des personnes d’origine étrangère relève de la Région wallonne. ❌ Mauvaises réponses : la justice et la sécurité sociale relèvent du fédéral, les affaires étrangères relèvent aussi du fédéral."
+    }
+  ]
+}

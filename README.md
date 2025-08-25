@@ -140,31 +140,32 @@ Modifiez les valeurs dans `useTimer.js` :
 
 ## 🌐 Déploiement
 
-L'application est configurée pour être déployée sur **https://www.gcuisinier.net/study-quizz/**
+L'application est configurée pour **deux modes de déploiement** :
 
-### 🚀 Process de déploiement :
+### 🚀 GitHub Pages (Automatique)
+```bash
+# Configuration en une fois
+npm run setup-submodule
 
-1. **Build optimisé** :
-   ```bash
-   npm run build
-   ```
+# Puis push normal = déploiement auto !
+git push origin main
+```
 
-2. **Test local** :
-   ```bash
-   npm run preview  # http://localhost:4173/study-quizz/
-   ```
+**Résultat** : `https://[USER].github.io/[REPO]/study-quizz/`
 
-3. **Déploiement** :
-   - Copier tout le contenu de `dist/` vers le serveur web
-   - Structure finale : `www.gcuisinier.net/study-quizz/`
+### 🏠 Serveur personnel
+```bash
+npm run build   # Build
+npm run deploy  # Instructions de déploiement
+```
 
-### 📋 Fichiers inclus dans le déploiement :
-- `index.html` - Application principale
-- `assets/` - JavaScript et CSS optimisés
-- `*.json` - Données des quiz
-- `.htaccess` - Configuration Apache
+**Résultat** : `https://www.gcuisinier.net/study-quizz/`
 
-Voir [DEPLOYMENT.md](./DEPLOYMENT.md) pour le guide complet.
+### 📚 Guides de déploiement
+
+- 🚀 **[QUICKSTART.md](./QUICKSTART.md)** - Configuration en 3 étapes
+- 🔧 **[GITHUB_DEPLOYMENT.md](./GITHUB_DEPLOYMENT.md)** - Guide GitHub Pages complet  
+- 🌐 **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Déploiement serveur personnel
 
 ## 🚀 Migration depuis JavaScript vanilla
 

@@ -1,0 +1,81 @@
+name: Deploy to gh-pages (Submodule)
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:  # Permet de déclencher manuellement
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout with submodules
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Build application
+      env:
+        GITHUB_REPOSITORY: ${{ github.repository }}
+      run: npm run build
+      
+    - name: Configure git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+    
+    - name: Deploy to gh-pages submodule
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # Aller dans le submodule dist
+        cd dist
+        
+        # S'assurer qu'on est sur gh-pages
+        git checkout gh-pages || git checkout -b gh-pages
+        
+        # Ajouter tous les nouveaux fichiers
+        git add -A
+        
+        # Vérifier s'il y a des changements
+        if git diff --staged --quiet; then
+          echo "✅ No changes to deploy"
+        else
+          # Créer le commit
+          git commit -m "🚀 Auto-deploy from Actions
+          
+          📦 Build: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+          🔗 Source: ${{ github.sha }}
+          🌿 Branch: ${{ github.ref_name }}
+          👤 Author: ${{ github.actor }}"
+          
+          # Push avec le token
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git gh-pages
+          
+          echo "✅ Successfully deployed!"
+        fi
+    
+    - name: Summary
+      run: |
+        echo "## 🎉 Deployment Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "✅ **Status**: Deployment completed successfully" >> $GITHUB_STEP_SUMMARY
+        echo "📱 **Live URL**: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/study-quizz/" >> $GITHUB_STEP_SUMMARY
+        echo "🔗 **Commit**: [\`${{ github.sha }}\`](https://github.com/${{ github.repository }}/commit/${{ github.sha }})" >> $GITHUB_STEP_SUMMARY
+        echo "⏰ **Deploy Time**: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 📊 Build Stats" >> $GITHUB_STEP_SUMMARY
+        echo "- **Files deployed**: $(find dist -type f | wc -l)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Total size**: $(du -sh dist | cut -f1)" >> $GITHUB_STEP_SUMMARY
