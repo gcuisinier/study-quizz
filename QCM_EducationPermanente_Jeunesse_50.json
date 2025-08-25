@@ -1,0 +1,604 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel est l’objectif central de l’éducation permanente en Fédération Wallonie-Bruxelles ?",
+      "options": [
+        "Transmettre des savoirs scolaires évalués par des examens",
+        "Favoriser l’analyse critique et l’émancipation citoyenne des adultes",
+        "Former uniquement à des métiers techniques",
+        "Organiser des activités sportives compétitives"
+      ],
+      "correct_answer": 1,
+      "explanation": "L’éducation permanente relève de l’éducation non formelle et vise l’analyse critique, l’émancipation et la participation citoyenne, principalement des adultes."
+    },
+    {
+      "id": 2,
+      "question": "Quelle caractéristique distingue l’éducation permanente de l’enseignement obligatoire ?",
+      "options": [
+        "Elle est centrée sur l’évaluation par points",
+        "Elle se déroule toujours à l’école",
+        "Elle est non formelle et axée sur la participation volontaire",
+        "Elle délivre des diplômes reconnus"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’éducation permanente est non formelle, volontaire et orientée vers la citoyenneté, sans délivrance de diplômes scolaires."
+    },
+    {
+      "id": 3,
+      "question": "Les Centres d’Expression et de Créativité (CEC) ont pour mission principale :",
+      "options": [
+        "Accueillir les personnes à l’hôpital",
+        "Utiliser la création artistique comme levier d’expression et de lien social",
+        "Délivrer des certificats scolaires",
+        "Remplacer les cours d’arts plastiques à l’école"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les CEC mobilisent les pratiques artistiques pour favoriser l’expression, la créativité et la participation sociale."
+    },
+    {
+      "id": 4,
+      "question": "Parmi ces associations, laquelle relève typiquement de l’éducation permanente en FWB ?",
+      "options": [
+        "Lire et Écrire",
+        "Office National de l’Emploi",
+        "Office de la Naissance et de l’Enfance",
+        "Respect Seniors"
+      ],
+      "correct_answer": 0,
+      "explanation": "Lire et Écrire est une association d’éducation permanente qui lutte contre l’illettrisme et promeut l’alphabétisation des adultes."
+    },
+    {
+      "id": 5,
+      "question": "Quelle pratique est la plus représentative des méthodes d’éducation permanente ?",
+      "options": [
+        "Cours magistral unidirectionnel",
+        "Recherche-action et animation participative",
+        "Examen standardisé annuel",
+        "Compétition sportive"
+      ],
+      "correct_answer": 1,
+      "explanation": "La recherche-action, l’animation participative et le débat critique constituent des méthodes centrales de l’éducation permanente."
+    },
+    {
+      "id": 6,
+      "question": "Quel public est prioritairement visé par l’éducation permanente reconnue ?",
+      "options": [
+        "Les adultes",
+        "Les enfants de maternelle",
+        "Uniquement les personnes âgées",
+        "Uniquement les étudiants universitaires"
+      ],
+      "correct_answer": 0,
+      "explanation": "En FWB, l’éducation permanente s’adresse principalement aux adultes, même si des activités intergénérationnelles existent."
+    },
+    {
+      "id": 7,
+      "question": "ATD Quart Monde, Vie Féminine et LST sont :",
+      "options": [
+        "Des services hospitaliers",
+        "Des associations reconnues d’éducation permanente",
+        "Des entreprises publiques",
+        "Des agences de placement"
+      ],
+      "correct_answer": 1,
+      "explanation": "Ce sont des associations d’éducation permanente actives dans l’émancipation et la lutte contre les inégalités."
+    },
+    {
+      "id": 8,
+      "question": "Un CEC peut principalement proposer :",
+      "options": [
+        "Des ateliers de création (théâtre, photo, écriture, arts plastiques)",
+        "Des contrôles fiscaux",
+        "Des examens scolaires certificatifs",
+        "Des consultations médicales"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les CEC mènent des ateliers artistiques et culturels pour favoriser l’expression et l’inclusion."
+    },
+    {
+      "id": 9,
+      "question": "Dans l’éducation permanente, l’expression « non formelle » signifie que :",
+      "options": [
+        "Les activités n’ont jamais d’objectifs",
+        "Les activités ne sont pas structurées",
+        "L’apprentissage se fait hors du cadre scolaire et sans certification",
+        "Les activités sont illégales"
+      ],
+      "correct_answer": 2,
+      "explanation": "L’éducation non formelle se déroule en dehors de l’école et ne délivre pas de diplômes, tout en poursuivant des objectifs d’émancipation."
+    },
+    {
+      "id": 10,
+      "question": "Quelle finalité n’est PAS une finalité de l’éducation permanente ?",
+      "options": [
+        "Émancipation sociale",
+        "Développement de l’esprit critique",
+        "Participation citoyenne",
+        "Augmenter les taxes communales"
+      ],
+      "correct_answer": 3,
+      "explanation": "L’éducation permanente vise l’émancipation, l’esprit critique et la participation, pas des objectifs fiscaux."
+    },
+    {
+      "id": 11,
+      "question": "Le Service de la Jeunesse de la FWB a pour mission de :",
+      "options": [
+        "Former des policiers",
+        "Reconnaître et soutenir les organisations de jeunesse et les centres de jeunes",
+        "Gérer les pensions de retraite",
+        "Délivrer des permis de conduire"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le Service de la Jeunesse agrée et subventionne les OJ, MJ et centres de jeunes et soutient l’éducation non formelle des jeunes."
+    },
+    {
+      "id": 12,
+      "question": "Une Organisation de Jeunesse (OJ) a pour vocation :",
+      "options": [
+        "D’enseigner le programme scolaire officiel",
+        "De promouvoir l’éducation à la citoyenneté active par des activités non formelles",
+        "D’effectuer des contrôles de police",
+        "De réguler les loyers"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les OJ forment les jeunes à la citoyenneté par la participation, l’animation et l’engagement associatif."
+    },
+    {
+      "id": 13,
+      "question": "Parmi ces exemples, lequel est typique d’une activité d’OJ ?",
+      "options": [
+        "Atelier de participation citoyenne et projets solidaires",
+        "Examen de mathématiques",
+        "Délivrance de diplômes scolaires",
+        "Inspection du travail"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les OJ mènent des projets participatifs, solidaires et citoyens en éducation non formelle."
+    },
+    {
+      "id": 14,
+      "question": "Les OJ sont en général destinées à des jeunes âgés de :",
+      "options": [
+        "0–5 ans",
+        "12–30 ans (selon les organisations)",
+        "Uniquement plus de 65 ans",
+        "Uniquement 30–50 ans"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les OJ s’adressent aux jeunes et jeunes adultes, souvent dans la tranche 12–30 ans selon leurs statuts."
+    },
+    {
+      "id": 15,
+      "question": "Une caractéristique clé des OJ est :",
+      "options": [
+        "La participation active des jeunes à la conception des projets",
+        "La passivité du public",
+        "L’obligation d’un uniforme scolaire",
+        "L’évaluation chiffrée semestrielle"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les OJ valorisent l’implication des jeunes, la prise d’initiative et l’autogestion."
+    },
+    {
+      "id": 16,
+      "question": "Quel secteur n’est PAS typiquement couvert par les OJ ?",
+      "options": [
+        "Citoyenneté, mobilité internationale, volontariat",
+        "Information jeunesse",
+        "Actions culturelles et socio-éducatives",
+        "Imposition des revenus"
+      ],
+      "correct_answer": 3,
+      "explanation": "La fiscalité n’est pas une mission des OJ."
+    },
+    {
+      "id": 17,
+      "question": "La mission principale d’une Maison de Jeunes (MJ) est :",
+      "options": [
+        "Assurer des cours obligatoires",
+        "Proposer un lieu d’accueil, d’expression et de participation pour les 12–26 ans",
+        "Gérer des hôpitaux",
+        "Délivrer des diplômes"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les MJ sont des lieux socio-culturels d’accueil, d’expression, de création et de participation citoyenne des jeunes."
+    },
+    {
+      "id": 18,
+      "question": "Une MJ travaille prioritairement :",
+      "options": [
+        "Par l’animation socioculturelle et l’accompagnement de projets de jeunes",
+        "Par des examens certificatifs",
+        "Par des amendes administratives",
+        "Par des consultations médicales"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les MJ mènent des animations, accompagnent des projets et favorisent l’autonomie des jeunes."
+    },
+    {
+      "id": 19,
+      "question": "Quel public-cible retrouve-t-on typiquement en MJ ?",
+      "options": [
+        "Enfants de maternelle",
+        "Jeunes de 12 à 26 ans",
+        "Adultes de plus de 40 ans uniquement",
+        "Professionnels de santé"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les MJ s’adressent en priorité aux jeunes de 12 à 26 ans (fourchette indicative)."
+    },
+    {
+      "id": 20,
+      "question": "Quel type d’activité est le plus cohérent avec une MJ ?",
+      "options": [
+        "Atelier rap/vidéo participatif avec restitution publique",
+        "Contrôle fiscal",
+        "Consultation juridique payante",
+        "Concours d’examens scolaires"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les MJ encouragent la création, l’expression et la participation culturelle des jeunes."
+    },
+    {
+      "id": 21,
+      "question": "Les centres de jeunes se distinguent par :",
+      "options": [
+        "Un ancrage local et un accueil libre",
+        "Une scolarité obligatoire",
+        "Une sélection par concours",
+        "Une gestion par le SPF Finances"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les centres de jeunes sont ancrés dans leur quartier/commune, avec un accueil libre et des projets co-construits."
+    },
+    {
+      "id": 22,
+      "question": "La mission d’Infor-Jeunes est :",
+      "options": [
+        "Informer de manière gratuite, anonyme et pluraliste",
+        "Délivrer des diplômes",
+        "Contrôler la police",
+        "Gérer des pensions"
+      ],
+      "correct_answer": 0,
+      "explanation": "Infor-Jeunes fournit une information gratuite, neutre, pluraliste et accessible aux jeunes."
+    },
+    {
+      "id": 23,
+      "question": "Quel contenu trouve-t-on typiquement à Infor-Jeunes ?",
+      "options": [
+        "Infos sur études, emploi, logement, santé, droits, mobilité",
+        "Résultats d’examens scolaires",
+        "Contrôles judiciaires",
+        "Tarifs d’imposition"
+      ],
+      "correct_answer": 0,
+      "explanation": "Infor-Jeunes informe sur les droits et démarches : études, jobs, logement, santé, mobilité, stages à l’étranger, etc."
+    },
+    {
+      "id": 24,
+      "question": "Le Service Droit des Jeunes (SDJ) propose surtout :",
+      "options": [
+        "Information et accompagnement juridiques sur les droits des mineurs et jeunes majeurs",
+        "Examens de droit",
+        "Soins psychiatriques intensifs",
+        "Attribution de logements sociaux"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SDJ informe et défend les droits des jeunes dans de multiples domaines (école, famille, aide à la jeunesse, étrangers…)."
+    },
+    {
+      "id": 25,
+      "question": "Une spécificité d’Infor-Jeunes est :",
+      "options": [
+        "La gratuité et l’anonymat de l’accueil",
+        "La facturation obligatoire",
+        "L’accès réservé aux majeurs",
+        "Le secret professionnel levé automatiquement"
+      ],
+      "correct_answer": 0,
+      "explanation": "Infor-Jeunes assure un accueil gratuit, anonyme et neutre, avec respect de la confidentialité."
+    },
+    {
+      "id": 26,
+      "question": "Quel service oriente juridiquement un jeune sur un conflit scolaire ou familial ?",
+      "options": [
+        "Service Droit des Jeunes",
+        "Maison de Jeunes",
+        "Centre d’Expression et de Créativité",
+        "Office National de l’Emploi"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SDJ propose information et accompagnement juridiques adaptés aux jeunes."
+    },
+    {
+      "id": 27,
+      "question": "Quel est un résultat attendu d’une action d’éducation permanente ?",
+      "options": [
+        "Renforcement du pouvoir d’agir (empowerment) des participants",
+        "Certification scolaire",
+        "Sanctions disciplinaires",
+        "Diminution des budgets culturels"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’éducation permanente vise l’empowerment, la participation et la transformation sociale."
+    },
+    {
+      "id": 28,
+      "question": "Quelle méthode n’est pas typique en éducation permanente ?",
+      "options": [
+        "Débat, théâtre-forum, analyse collective",
+        "Recherche-action",
+        "Cours magistral sans interaction",
+        "Atelier de co-création"
+      ],
+      "correct_answer": 2,
+      "explanation": "Les approches interactives sont privilégiées, contrairement au cours magistral unidirectionnel."
+    },
+    {
+      "id": 29,
+      "question": "Quel thème est fréquemment abordé par les associations d’éducation permanente ?",
+      "options": [
+        "Droits sociaux et égalité des chances",
+        "Tarification douanière",
+        "Calcul d’impôts des sociétés",
+        "Inspection du travail"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les thématiques portent sur la citoyenneté, l’égalité, la lutte contre les discriminations, l’environnement, etc."
+    },
+    {
+      "id": 30,
+      "question": "Quel type de production une association d’éducation permanente peut-elle réaliser ?",
+      "options": [
+        "Analyses citoyennes, brochures, podcasts, expositions",
+        "Diplômes officiels",
+        "Contraventions",
+        "Ordonnances médicales"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les productions visent à informer, conscientiser et mobiliser (analyses, outils d’animation, médias)."
+    },
+    {
+      "id": 31,
+      "question": "Un centre de vacances pour enfants/jeunes propose :",
+      "options": [
+        "Des séjours et plaines encadrés par des animateurs formés",
+        "Des cours universitaires",
+        "Des soins hospitaliers",
+        "Des examens certificatifs"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les centres de vacances offrent des activités de loisirs éducatifs encadrées par des animateurs formés."
+    },
+    {
+      "id": 32,
+      "question": "Un principe clé des centres de vacances reconnus est :",
+      "options": [
+        "La sécurité, l’accessibilité et le projet pédagogique",
+        "La compétition à tout prix",
+        "La sélection par examen",
+        "La facturation obligatoire élevée"
+      ],
+      "correct_answer": 0,
+      "explanation": "Un encadrement adéquat, un projet pédagogique et la sécurité des enfants sont au cœur du dispositif."
+    },
+    {
+      "id": 33,
+      "question": "Quelle compétence un animateur de centre de vacances doit-il démontrer ?",
+      "options": [
+        "Animation et gestion de groupe, sécurité, médiation",
+        "Émission de jugements juridiques",
+        "Chirurgie d’urgence",
+        "Contrôle fiscal"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les animateurs sont formés à l’animation, la gestion de groupe, la sécurité et la pédagogie du jeu."
+    },
+    {
+      "id": 34,
+      "question": "Quel est l’objectif éducatif prioritaire d’un centre de vacances ?",
+      "options": [
+        "Développer la socialisation, l’autonomie et la créativité",
+        "Préparer aux examens",
+        "Former des experts-comptables",
+        "Assurer des soins intensifs"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les centres de vacances visent l’épanouissement par le jeu, la vie collective et la créativité."
+    },
+    {
+      "id": 35,
+      "question": "Quelle différence majeure entre une MJ et Infor-Jeunes ?",
+      "options": [
+        "La MJ informe anonymement, Infor-Jeunes anime artistiquement",
+        "La MJ est un lieu d’accueil et de projets, Infor-Jeunes est un service d’information",
+        "Il n’y a aucune différence",
+        "Infor-Jeunes héberge des jeunes, la MJ délivre des conseils juridiques"
+      ],
+      "correct_answer": 1,
+      "explanation": "La MJ accompagne des projets et des activités socio-culturelles ; Infor-Jeunes délivre de l’information neutre et accessible."
+    },
+    {
+      "id": 36,
+      "question": "Quelle différence entre un CEC et une MJ ?",
+      "options": [
+        "Le CEC utilise l’art comme outil d’expression, la MJ fonctionne comme lieu d’accueil et de participation des jeunes",
+        "Le CEC délivre des diplômes, la MJ non",
+        "La MJ est réservée aux adultes",
+        "Le CEC fait de la police"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le CEC centre ses actions sur la création artistique ; la MJ sur l’accueil et les projets de jeunes."
+    },
+    {
+      "id": 37,
+      "question": "Quel service oriente un jeune vers ses droits (logement, job étudiant, santé) ?",
+      "options": [
+        "Infor-Jeunes",
+        "Maison de Jeunes",
+        "Hôpital universitaire",
+        "ONEM"
+      ],
+      "correct_answer": 0,
+      "explanation": "Infor-Jeunes informe sur les droits et démarches : logement, jobs, mobilité, santé, etc."
+    },
+    {
+      "id": 38,
+      "question": "Quel lieu est le plus adapté pour co-créer un clip avec des ados ?",
+      "options": [
+        "Maison de Jeunes",
+        "Tribunal de première instance",
+        "CPAS",
+        "Mutualité"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les MJ développent des projets créatifs et citoyens avec les jeunes."
+    },
+    {
+      "id": 39,
+      "question": "Une valeur transversale des secteurs Jeunesse et Éducation permanente est :",
+      "options": [
+        "Neutralité, pluralisme et participation",
+        "Secret bancaire",
+        "Compétition individuelle",
+        "Uniforme obligatoire"
+      ],
+      "correct_answer": 0,
+      "explanation": "Neutralité, pluralisme, accessibilité et participation sont des valeurs communes aux secteurs EP/Jeunesse."
+    },
+    {
+      "id": 40,
+      "question": "La notion d’empowerment renvoie à :",
+      "options": [
+        "La capacité des participants à agir et influencer leur environnement",
+        "La distribution de diplômes",
+        "La surveillance policière",
+        "L’augmentation des impôts"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’empowerment est le renforcement du pouvoir d’agir, visé par EP/MJ/OJ."
+    },
+    {
+      "id": 41,
+      "question": "Pourquoi la protection des données et le secret professionnel sont-ils importants dans Infor-Jeunes/SDJ ?",
+      "options": [
+        "Pour permettre l’expression libre et sécurisée des jeunes",
+        "Pour vendre des données aux partenaires",
+        "Pour exclure les mineurs",
+        "Pour organiser des examens"
+      ],
+      "correct_answer": 0,
+      "explanation": "La confidentialité garantit un accès sûr et une relation de confiance avec les jeunes."
+    },
+    {
+      "id": 42,
+      "question": "Quel élément fait partie du cadre de qualité d’un centre de jeunes ?",
+      "options": [
+        "Projet d’action, participation des jeunes et évaluation",
+        "Notation des jeunes sur 20",
+        "Amendes en cas d’absence",
+        "Délivrance de permis de conduire"
+      ],
+      "correct_answer": 0,
+      "explanation": "Un projet d’action, la participation et l’évaluation participative structurent la qualité."
+    },
+    {
+      "id": 43,
+      "question": "L’accessibilité d’un service jeunesse signifie notamment :",
+      "options": [
+        "Local visible, horaires adaptés, accueil bienveillant, gratuité/ tarifs accessibles",
+        "Sélection sur concours",
+        "Accès réservé aux majeurs",
+        "Tarifs dissuasifs"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’accessibilité combine accueil, horaires, visibilité et coût modéré."
+    },
+    {
+      "id": 44,
+      "question": "Une action de MJ visant l’inclusion peut être :",
+      "options": [
+        "Un atelier vidéo co-animé avec une école de devoirs",
+        "La vente de diplômes",
+        "Un contrôle policier",
+        "Un examen de chimie"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les MJ collaborent souvent avec d’autres acteurs socio-éducatifs pour l’inclusion."
+    },
+    {
+      "id": 45,
+      "question": "La participation des jeunes dans un centre de jeunes consiste à :",
+      "options": [
+        "Coder les règles, décider des projets, évaluer les activités",
+        "Obéir sans discuter",
+        "Payer une amende en cas de retard",
+        "Passer des examens notés"
+      ],
+      "correct_answer": 0,
+      "explanation": "Co-gestion, co-décision et évaluation participative sont recherchées."
+    },
+    {
+      "id": 46,
+      "question": "Quel outil d’expression citoyenne un CEC peut-il mobiliser ?",
+      "options": [
+        "Théâtre-forum",
+        "Contrôle fiscal",
+        "Amende administrative",
+        "Chambre d’isolement"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le théâtre-forum est un outil d’expression et de conscientisation."
+    },
+    {
+      "id": 47,
+      "question": "Vers quel partenaire un Infor-Jeunes peut-il orienter un jeune cherchant un job étudiant ?",
+      "options": [
+        "Forem/Actiris et sites d’emplois étudiants",
+        "Service des impôts",
+        "Hôpital psychiatrique",
+        "Maison de repos"
+      ],
+      "correct_answer": 0,
+      "explanation": "Infor-Jeunes renseigne et oriente vers les services de l’emploi et ressources utiles."
+    },
+    {
+      "id": 48,
+      "question": "Une MJ qui souhaite soutenir la mobilité internationale peut collaborer avec :",
+      "options": [
+        "Une OJ active dans les échanges de jeunes",
+        "La prison locale",
+        "Le SPF Finances",
+        "Un cabinet médical"
+      ],
+      "correct_answer": 0,
+      "explanation": "De nombreuses OJ organisent des échanges, volontariats et chantiers à l’international."
+    },
+    {
+      "id": 49,
+      "question": "Une règle déontologique centrale en travail de jeunesse est :",
+      "options": [
+        "Respecter la confidentialité et le libre accès",
+        "Communiquer les informations des jeunes à tout partenaire",
+        "Refuser tout projet exprimé par les jeunes",
+        "Exclure les personnes minoritaires"
+      ],
+      "correct_answer": 0,
+      "explanation": "La confidentialité, le libre accès et la non-discrimination sont des principes clés."
+    },
+    {
+      "id": 50,
+      "question": "Quel indicateur montre la qualité d’un projet jeunesse ?",
+      "options": [
+        "Le niveau de participation réelle des jeunes aux décisions",
+        "Le nombre d’examens organisés",
+        "Le montant des amendes perçues",
+        "Le volume de sanctions"
+      ],
+      "correct_answer": 0,
+      "explanation": "La qualité se mesure notamment par la participation effective, l’inclusion et l’impact citoyen."
+    }
+  ]
+}
