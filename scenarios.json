@@ -1,0 +1,354 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Jimmy, 35 ans, est expulsé de son logement et n’a personne chez qui aller. Quelle structure propose un hébergement temporaire de plusieurs mois avec accompagnement social ?",
+      "options": ["Maison d’accueil", "Abri de nuit", "AIS", "CSS"],
+      "correct_answer": 0,
+      "explanation": "Les maisons d’accueil offrent un hébergement temporaire (jusqu’à 275 jours) avec accompagnement social pour personnes sans logement."
+    },
+    {
+      "id": 2,
+      "question": "Une personne sans-abri est délogée d’un squat par la police et doit dormir quelque part la nuit suivante. Où peut-elle aller pour une mise à l’abri ponctuelle ?",
+      "options": ["Abri de nuit", "Maison d’accueil", "AIS", "CSS"],
+      "correct_answer": 0,
+      "explanation": "Les abris de nuit accueillent gratuitement les personnes sans-abri pour une nuit, souvent en période hivernale."
+    },
+    {
+      "id": 3,
+      "question": "Un propriétaire souhaite louer son bien tout en sécurisant la gestion et les loyers. Vers quelle structure peut-il se tourner ?",
+      "options": ["AIS", "SLSP", "Forem", "MASS"],
+      "correct_answer": 0,
+      "explanation": "Les Agences Immobilières Sociales gèrent des logements privés à loyers modérés pour les mettre à disposition de ménages précarisés."
+    },
+    {
+      "id": 4,
+      "question": "Une famille vit depuis 10 ans dans un camping résidentiel. Quelle mesure publique vise le relogement durable des personnes vivant dans ce type d’habitat précaire ?",
+      "options": ["Plan HP", "Housing First", "ADeL", "MIRE"],
+      "correct_answer": 0,
+      "explanation": "Le Plan Habitat Permanent vise à reloger durablement les personnes vivant dans des campings résidentiels."
+    },
+    {
+      "id": 5,
+      "question": "Une famille sans-abri obtient un logement directement, avant tout accompagnement. Quelle approche privilégie le relogement immédiat avant le suivi social ?",
+      "options": ["Housing First", "Maison d’accueil", "SLSP", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Le dispositif Housing First reloge immédiatement les sans-abri en logement ordinaire, avec accompagnement social."
+    },
+    {
+      "id": 6,
+      "question": "Un couple avec 4 enfants souhaite acheter une maison et recherche un organisme qui propose des prêts sociaux spécialement adaptés aux familles nombreuses. Lequel ?",
+      "options": ["FLFNW", "ONEM", "SWCS", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Le Fonds du Logement des Familles Nombreuses de Wallonie propose des prêts sociaux adaptés aux familles nombreuses."
+    },
+    {
+      "id": 7,
+      "question": "Une mère qui quitte une structure d’hébergement souhaite louer un logement privé. Quelle aide régionale peut financer son déménagement et une partie du loyer ?",
+      "options": ["ADeL", "Plan HP", "Rénopack", "SECAL"],
+      "correct_answer": 0,
+      "explanation": "L’Allocation de Déménagement et de Loyer (ADeL) aide à quitter un logement inadéquat et à payer le nouveau loyer."
+    },
+    {
+      "id": 8,
+      "question": "Un locataire veut réaliser des travaux d’isolation et d’efficacité énergétique au moyen d’un prêt social à 0 %. Quelle solution choisir ?",
+      "options": ["Rénopack (SWCS)", "ADeL", "Plan HP", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Le Rénopack, géré par la SWCS, est un prêt à 0 % pour financer des travaux de rénovation énergétique."
+    },
+    {
+      "id": 9,
+      "question": "Un jeune couple achète une maison et cherche un crédit social pour la rénover. Vers quel organisme se tourner ?",
+      "options": ["SWCS", "FLFNW", "ONEM", "AIS"],
+      "correct_answer": 0,
+      "explanation": "La Société Wallonne du Crédit Social octroie des prêts hypothécaires et à la rénovation à conditions avantageuses."
+    },
+    {
+      "id": 10,
+      "question": "Une famille nombreuse a besoin d’un logement locatif public avec loyer adapté aux revenus. Quelle institution contacter ?",
+      "options": ["SLSP", "AIS", "SWCS", "MASS"],
+      "correct_answer": 0,
+      "explanation": "Les Sociétés de Logement de Service Public mettent en location des logements sociaux à loyers adaptés."
+    },
+    {
+      "id": 11,
+      "question": "Lors d’un bilan scolaire, des problèmes de vue sont suspectés chez un élève. Quel service compétent intervient au sein des écoles ?",
+      "options": ["PSE", "SECAL", "SIS", "SWCS"],
+      "correct_answer": 0,
+      "explanation": "Les Services de Promotion de la Santé à l’École assurent bilans de santé, dépistages et vaccinations des élèves."
+    },
+    {
+      "id": 12,
+      "question": "Un patient atteint d’une maladie incurable souhaite un accompagnement global (médical, psychologique et social) pour améliorer sa qualité de vie en fin de parcours. Vers quel dispositif se tourner ?",
+      "options": ["Soins palliatifs", "CSS", "PSE", "IFAPME"],
+      "correct_answer": 0,
+      "explanation": "Les soins palliatifs visent la meilleure qualité de vie possible pour les personnes en fin de vie, avec accompagnement global."
+    },
+    {
+      "id": 13,
+      "question": "À la sortie de l’hôpital, un patient a besoin d’infirmier, de kiné et d’aide familiale à domicile. Qui coordonne ces intervenants ?",
+      "options": ["Centre de coordination des soins et de l’aide à domicile", "CSS", "CLPS", "SIS"],
+      "correct_answer": 0,
+      "explanation": "Ces centres coordonnent les différents prestataires (infirmiers, aides familiales, kinés...) pour une prise en charge à domicile."
+    },
+    {
+      "id": 14,
+      "question": "Une personne âgée vivant seule veut un dispositif pour alerter rapidement en cas de chute ou de malaise à domicile. Quel service solliciter ?",
+      "options": ["Télévigilance", "PSE", "SAS", "SECAL"],
+      "correct_answer": 0,
+      "explanation": "La télévigilance permet d’alerter rapidement les secours en cas de problème à domicile (chute, malaise)."
+    },
+    {
+      "id": 15,
+      "question": "Une personne aide régulièrement et gratuitement un proche dépendant (courses, soins de base, accompagnements). Quelle reconnaissance officielle peut-elle demander ?",
+      "options": ["Aidant proche", "Volontaire civil", "Travailleur pair", "Case manager"],
+      "correct_answer": 0,
+      "explanation": "Le statut d’aidant proche reconnaît la personne qui aide régulièrement et gratuitement un proche dépendant."
+    },
+    {
+      "id": 16,
+      "question": "Une personne dépendante aux drogues cherche un accueil inconditionnel avec suivi médical et social coordonné. Quelle structure est adaptée ?",
+      "options": ["MASS", "CLPS", "CSS", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Les Maisons d’Accueil Socio-Sanitaires accueillent sans condition les personnes dépendantes aux drogues et offrent un suivi pluridisciplinaire."
+    },
+    {
+      "id": 17,
+      "question": "Un directeur d’école est informé d’une épidémie d’oreillons et doit organiser le dépistage et la vaccination. Quel service scolaire contacter ?",
+      "options": ["PSE", "SIS", "AIS", "SECAL"],
+      "correct_answer": 0,
+      "explanation": "Les Services de Promotion de la Santé à l’École assurent bilans de santé, dépistages et vaccinations des élèves."
+    },
+    {
+      "id": 18,
+      "question": "Un citoyen veut monter un projet local de prévention en santé et cherche un accompagnement méthodologique et des outils. Quel centre peut l’aider ?",
+      "options": ["CLPS", "ONEM", "SIS", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Les Centres Locaux de Promotion de la Santé soutiennent les projets de prévention et mettent à disposition des outils pédagogiques."
+    },
+    {
+      "id": 19,
+      "question": "Pour une personne atteinte d’Alzheimer, il faut coordonner soins médicaux, aides à domicile et soutien social. Quel professionnel s’en charge ?",
+      "options": ["Case manager", "Aidant proche", "SECAL", "SIS"],
+      "correct_answer": 0,
+      "explanation": "Le case manager coordonne le parcours de soins et d’aides pour les personnes en situations complexes (souvent maladies neurodégénératives)."
+    },
+    {
+      "id": 20,
+      "question": "Une famille en crise souhaite un premier accueil, une écoute et un accompagnement social via un service mutualiste agréé. Lequel ?",
+      "options": ["CSS", "MASS", "SECAL", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Les Centres de Service Social des mutuelles offrent un premier accueil, écoute et accompagnement social des familles en difficulté."
+    },
+    {
+      "id": 21,
+      "question": "En Wallonie, quel organisme public est chargé d’accompagner les demandeurs d’emploi et d’organiser la formation professionnelle ?",
+      "options": ["FOREM", "ONEM", "MIRE", "CISP"],
+      "correct_answer": 0,
+      "explanation": "Le FOREM est le service public wallon de l’emploi et de la formation, il accompagne les demandeurs d’emploi."
+    },
+    {
+      "id": 22,
+      "question": "Quel organisme fédéral gère l’octroi des allocations de chômage et contrôle les demandeurs ?",
+      "options": ["ONEM", "FOREM", "MIRE", "SWCS"],
+      "correct_answer": 0,
+      "explanation": "L’ONEM est un organisme fédéral qui gère les allocations de chômage et contrôle les demandeurs."
+    },
+    {
+      "id": 23,
+      "question": "Un jeune de 16 ans souhaite une formation en alternance école + entreprise tout en gardant un statut scolaire. Où s’inscrire ?",
+      "options": ["CEFA", "CISP", "IFAPME", "PMS"],
+      "correct_answer": 0,
+      "explanation": "Les Centres d’Éducation et de Formation en Alternance permettent aux jeunes de suivre une formation école + entreprise avec statut scolaire."
+    },
+    {
+      "id": 24,
+      "question": "Un adulte veut suivre une formation qualifiante organisée par la Région, axée métiers et PME, en alternance. Quel organisme viser ?",
+      "options": ["IFAPME", "PSE", "SECAL", "SRJ"],
+      "correct_answer": 0,
+      "explanation": "L’IFAPME propose des formations qualifiantes en alternance pour adultes et jeunes, orientées vers les métiers et PME."
+    },
+    {
+      "id": 25,
+      "question": "Une personne très éloignée de l’emploi bénéficie d’un accompagnement intensif incluant coaching et stages. Quelle structure prend en charge ?",
+      "options": ["MIRE", "ONEM", "SWCS", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Les Missions Régionales pour l’Emploi accompagnent intensivement les publics très éloignés du marché du travail."
+    },
+    {
+      "id": 26,
+      "question": "Une personne peu scolarisée suit des ateliers d’alphabétisation et des modules vers l’emploi. Quelle structure l’accueille ?",
+      "options": ["CISP", "PMS", "PSE", "SRJ"],
+      "correct_answer": 0,
+      "explanation": "Les Centres d’Insertion Socioprofessionnelle forment et accompagnent des publics fragilisés vers le marché du travail."
+    },
+    {
+      "id": 27,
+      "question": "Dans un quartier défavorisé, des chantiers collectifs participatifs améliorent le cadre de vie tout en favorisant l’insertion. Quelle structure coordonne ?",
+      "options": ["Régie de quartier", "SLSP", "AIS", "SECAL"],
+      "correct_answer": 0,
+      "explanation": "Les régies de quartier favorisent la cohésion sociale par des chantiers et l’insertion par l’activité économique locale."
+    },
+    {
+      "id": 28,
+      "question": "Une personne en insertion est embauchée directement dans une structure de l’économie sociale avec un contrat de travail et un accompagnement. De quel type d’employeur s’agit-il ?",
+      "options": ["Entreprise d’insertion", "ETA", "SLSP", "PSE"],
+      "correct_answer": 0,
+      "explanation": "Les entreprises d’insertion emploient directement des personnes éloignées de l’emploi dans l’économie sociale."
+    },
+    {
+      "id": 29,
+      "question": "Un citoyen cherche des informations neutres sur les métiers, les formations et les parcours possibles. Quel lieu d’information consulter ?",
+      "options": ["Carrefour/Cité des métiers", "MASS", "AIS", "CSS"],
+      "correct_answer": 0,
+      "explanation": "Les Cités des métiers offrent information et orientation sur les métiers, formations et parcours pro."
+    },
+    {
+      "id": 30,
+      "question": "Le CPAS veut orienter un bénéficiaire vers des ateliers CV et la diffusion d’offres locales. À quel lieu de proximité l’adresser ?",
+      "options": ["Maison de l’emploi", "MIRE", "SAS", "PSE"],
+      "correct_answer": 0,
+      "explanation": "Les maisons de l’emploi organisent ateliers CV, orientation et offres locales pour les demandeurs."
+    },
+    {
+      "id": 31,
+      "question": "Un enfant nouvellement arrivé en Belgique doit apprendre intensivement le français avant de rejoindre une classe ordinaire. Vers quel dispositif est-il orienté ?",
+      "options": ["DASPA", "FLA", "CEFA", "SAS"],
+      "correct_answer": 0,
+      "explanation": "Le Dispositif d’Accueil et de Scolarisation des Primo-Arrivants propose un apprentissage intensif du français et une intégration scolaire."
+    },
+    {
+      "id": 32,
+      "question": "Un élève non francophone scolarisé en classe ordinaire reçoit un soutien linguistique au sein de l’école. Quel dispositif est mobilisé ?",
+      "options": ["FLA", "DASPA", "PSE", "PMS"],
+      "correct_answer": 0,
+      "explanation": "Le Français Langue d’Apprentissage soutient les élèves non francophones dans les classes ordinaires."
+    },
+    {
+      "id": 33,
+      "question": "Une élève en décrochage bénéficie d’un plan personnalisé élaboré à l’intérieur de son établissement. Quel dispositif interne est activé ?",
+      "options": ["DIAS", "SAS", "PSE", "PMS"],
+      "correct_answer": 0,
+      "explanation": "Le Dispositif Interne d’Accrochage Scolaire propose un plan personnalisé pour les élèves décrocheurs."
+    },
+    {
+      "id": 34,
+      "question": "Un jeune en rupture scolaire est accueilli temporairement par un service extérieur pour préparer sa réintégration. Vers quel service est-il orienté ?",
+      "options": ["SAS", "DIAS", "MASS", "CSS"],
+      "correct_answer": 0,
+      "explanation": "Les Services d’Accrochage Scolaire accueillent temporairement les jeunes en rupture pour favoriser la réintégration scolaire."
+    },
+    {
+      "id": 35,
+      "question": "Un enfant en difficulté à l’école a besoin d’un accompagnement psychologique, social et d’aide à l’orientation. Quel centre contacter ?",
+      "options": ["PMS", "PSE", "AIS", "SECAL"],
+      "correct_answer": 0,
+      "explanation": "Les Centres Psycho-Médico-Sociaux accompagnent élèves et familles sur le plan psychologique, social et orientation scolaire."
+    },
+    {
+      "id": 36,
+      "question": "Pour prévenir les conflits et violences en milieu scolaire, des intervenants extérieurs neutres sont sollicités. Quel dispositif est mis en place ?",
+      "options": ["Médiation scolaire", "SAS", "SECAL", "MIRE"],
+      "correct_answer": 0,
+      "explanation": "La médiation scolaire vise à prévenir et résoudre les conflits en milieu scolaire, lutter contre le décrochage."
+    },
+    {
+      "id": 37,
+      "question": "Après un événement dramatique dans une école (p. ex. suicide), une intervention d’urgence est requise. Quelle équipe intervient ?",
+      "options": ["Équipe mobile", "PSE", "SIS", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Les équipes mobiles interviennent en urgence dans les écoles lors de crises (suicide, drame, violence)."
+    },
+    {
+      "id": 38,
+      "question": "Un jeune souhaite suivre un dispositif combinant cours à l’école et pratique en entreprise tout en conservant un statut scolaire. Quelle structure choisir ?",
+      "options": ["CEFA", "IFAPME", "CISP", "SIS"],
+      "correct_answer": 0,
+      "explanation": "Les Centres d’Éducation et de Formation en Alternance permettent aux jeunes de suivre une formation école + entreprise avec statut scolaire."
+    },
+    {
+      "id": 39,
+      "question": "Un jeune veut apprendre un métier en alternance au sein d’une PME via un organisme régional orienté métiers. Lequel convient ?",
+      "options": ["IFAPME", "CEFA", "MIRE", "SECAL"],
+      "correct_answer": 0,
+      "explanation": "L’IFAPME propose des formations qualifiantes en alternance pour adultes et jeunes, orientées vers les métiers et PME."
+    },
+    {
+      "id": 40,
+      "question": "Après la classe, un enfant fréquente une structure extrascolaire qui propose aide aux devoirs et activités éducatives. De quel type de structure s’agit-il ?",
+      "options": ["École de devoirs", "SAS", "PMS", "PSE"],
+      "correct_answer": 0,
+      "explanation": "Les écoles de devoirs offrent un accueil extrascolaire, une aide méthodologique pour les devoirs et des activités d’ouverture citoyenne."
+    },
+    {
+      "id": 41,
+      "question": "Un jeune adulte en situation de handicap souhaite une formation pratique adaptée pour développer des compétences professionnelles. Où s’adresser ?",
+      "options": ["CFISPA", "CISP", "CEFA", "MASS"],
+      "correct_answer": 0,
+      "explanation": "Les Centres de Formation et d’Insertion Socioprofessionnelle Adaptée forment les personnes handicapées à des métiers adaptés."
+    },
+    {
+      "id": 42,
+      "question": "Un travailleur en situation de handicap cherche un emploi avec conditions de travail adaptées et encadrement spécifique. Dans quel type d’entreprise ?",
+      "options": ["ETA", "Entreprise d’insertion", "SAS", "SIS"],
+      "correct_answer": 0,
+      "explanation": "Les Entreprises de Travail Adapté emploient des personnes handicapées dans un environnement adapté et encadré."
+    },
+    {
+      "id": 43,
+      "question": "Pour maintenir ou rétablir le lien entre un enfant et son parent séparé, un lieu neutre et sécurisé avec supervision est proposé. Comment s’appelle ce type de structure ?",
+      "options": ["Espaces-Rencontres", "SECAL", "PMS", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Les Espaces-Rencontres permettent de maintenir ou restaurer le lien parent-enfant dans un lieu neutre et supervisé."
+    },
+    {
+      "id": 44,
+      "question": "Une femme victime de violences conjugales cherche accueil, soutien psychologique et aide juridique, avec éventuellement un travail avec l’auteur. Quel service contacter ?",
+      "options": ["Service spécialisé violences", "SECAL", "PSE", "ONEM"],
+      "correct_answer": 0,
+      "explanation": "Ces services accompagnent les victimes de violences conjugales (soutien, juridique, psy) et travaillent aussi avec les auteurs."
+    },
+    {
+      "id": 45,
+      "question": "Un couple souhaite régler les modalités de séparation sans procès long et coûteux. Quel dispositif privilégier ?",
+      "options": ["Médiation familiale", "SECAL", "CPAS", "ONEM"],
+      "correct_answer": 0,
+      "explanation": "La médiation familiale aide les parents séparés à trouver des accords à l’amiable, sans passer par un procès long et coûteux."
+    },
+    {
+      "id": 46,
+      "question": "Une personne n’a pas reçu sa pension alimentaire depuis six mois et veut la récupérer, voire obtenir une avance. Vers quel service se tourner ?",
+      "options": ["SECAL", "CPAS", "SWCS", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Le Service des Créances Alimentaires récupère les pensions alimentaires impayées et peut avancer les sommes aux créanciers."
+    },
+    {
+      "id": 47,
+      "question": "Un adulte avec handicap important ne peut travailler et cherche un accueil de jour avec activités adaptées. Quel service viser ?",
+      "options": ["SAJA", "SAS", "SRJ", "SRA"],
+      "correct_answer": 0,
+      "explanation": "Les Services d’Accueil de Jour pour Adultes accueillent des adultes handicapés non insérables en emploi pour activités adaptées."
+    },
+    {
+      "id": 48,
+      "question": "Un enfant en situation de handicap, non scolarisé, participe en journée à des activités éducatives adaptées. Dans quel service ?",
+      "options": ["SAS’J", "SAS", "DIAS", "CFISPA"],
+      "correct_answer": 0,
+      "explanation": "Les Services d’Accueil Spécialisés pour Jeunes accueillent des jeunes handicapés non scolarisés pour activités éducatives adaptées."
+    },
+    {
+      "id": 49,
+      "question": "Un adulte en situation de handicap vit en logement individuel avec suivi éducatif pour renforcer son autonomie. Quelle formule d’habitat choisir ?",
+      "options": ["Service logement supervisé (AVIQ)", "Maison d’accueil", "SAS", "AIS"],
+      "correct_answer": 0,
+      "explanation": "Le logement supervisé prépare les personnes handicapées à la vie autonome avec suivi éducatif et social."
+    },
+    {
+      "id": 50,
+      "question": "Une commune désigne une personne référente chargée d’informer localement les personnes en situation de handicap et de les orienter. Comment s’appelle cette fonction ?",
+      "options": ["Handicontact", "CSS", "SIS", "MASS"],
+      "correct_answer": 0,
+      "explanation": "L’agent Handicontact informe localement les personnes handicapées et les oriente vers les services compétents."
+    }
+  ]
+}

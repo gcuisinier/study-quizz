@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la mission des services G (gériatrie) dans un hôpital ?",
+      "options": [
+        "Prendre en charge les enfants hospitalisés",
+        "Prendre en charge les patients âgés polypathologiques",
+        "Fournir un logement temporaire",
+        "Offrir des activités de loisirs"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les services G accueillent des personnes âgées polypathologiques pour restaurer l’autonomie."
+    },
+    {
+      "id": 2,
+      "question": "Quel est l’objectif d’un service G ?",
+      "options": [
+        "Maintenir ou restaurer l’autonomie fonctionnelle",
+        "Proposer uniquement des soins palliatifs",
+        "Fournir un revenu complémentaire",
+        "Organiser des activités sportives"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le but est de maintenir ou restaurer l’autonomie fonctionnelle de la personne âgée."
+    },
+    {
+      "id": 3,
+      "question": "Quelle est la mission de l’ASBL Aidants Proches ?",
+      "options": [
+        "Gérer les pensions de retraite",
+        "Informer, soutenir et orienter les aidants proches",
+        "Remplacer les hôpitaux gériatriques",
+        "Attribuer le RIS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Elle soutient et accompagne les aidants proches dans leur rôle."
+    },
+    {
+      "id": 4,
+      "question": "Depuis quelle année le statut d’aidant proche est-il reconnu officiellement ?",
+      "options": [
+        "1995",
+        "2005",
+        "2020",
+        "2010"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le statut d’aidant proche est reconnu légalement depuis 2020."
+    },
+    {
+      "id": 5,
+      "question": "Qu’offre la Ligue Alzheimer aux familles ?",
+      "options": [
+        "Des logements sociaux",
+        "Une ligne d’écoute, des groupes de parole et des formations",
+        "Des allocations chômage",
+        "Des repas gratuits"
+      ],
+      "correct_answer": 1,
+      "explanation": "La Ligue Alzheimer propose écoute, soutien, formations et groupes de parole."
+    },
+    {
+      "id": 6,
+      "question": "Qu’est-ce que le baluchonnage ?",
+      "options": [
+        "Hébergement collectif des seniors",
+        "Remplacement complet et continu de l’aidant proche pendant quelques jours",
+        "Service hospitalier spécialisé en gériatrie",
+        "Aide financière aux familles nombreuses"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le baluchonnage remplace l’aidant proche à domicile pour prévenir son épuisement."
+    },
+    {
+      "id": 7,
+      "question": "Combien coûte le baluchonnage ?",
+      "options": [
+        "Gratuit",
+        "20 €/jour",
+        "65 €/24h",
+        "150 €/semaine"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le coût est de 65 € par tranche de 24 heures."
+    },
+    {
+      "id": 8,
+      "question": "Quelle est la mission de la plateforme Bien Vivre Chez Soi ?",
+      "options": [
+        "Financer les pensions",
+        "Conseiller et soutenir les personnes âgées pour aménager leur logement",
+        "Offrir des hébergements temporaires",
+        "Former les aidants proches"
+      ],
+      "correct_answer": 1,
+      "explanation": "Elle conseille les personnes âgées ou handicapées pour adapter leur logement."
+    },
+    {
+      "id": 9,
+      "question": "Quelle est la mission de la plateforme SAM (Solidaire À la Maison) ?",
+      "options": [
+        "Offrir des repas gratuits aux seniors",
+        "Mettre en lien les aidants proches via une plateforme numérique",
+        "Gérer les maisons de repos",
+        "Fournir des allocations sociales"
+      ],
+      "correct_answer": 1,
+      "explanation": "SAM met en relation les aidants proches grâce à un réseau numérique."
+    },
+    {
+      "id": 10,
+      "question": "Que propose un centre d’accueil de jour pour aînés ?",
+      "options": [
+        "Hébergement permanent",
+        "Accueil en journée avec encadrement adapté",
+        "Cours d’informatique uniquement",
+        "Prêts financiers"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les centres de jour accueillent en journée des personnes âgées avec activités adaptées."
+    },
+    {
+      "id": 11,
+      "question": "Quelle est la mission d’un centre de soins de jour ?",
+      "options": [
+        "Offrir des soins intensifs aux personnes âgées dépendantes durant la journée",
+        "Proposer des activités culturelles uniquement",
+        "Fournir un hébergement permanent",
+        "Accorder des allocations"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les centres de soins de jour offrent des soins médicaux intensifs pendant la journée."
+    },
+    {
+      "id": 12,
+      "question": "Quelle est la durée maximale d’un court séjour en MR/MRS ?",
+      "options": [
+        "30 jours",
+        "60 jours",
+        "90 jours/an",
+        "120 jours"
+      ],
+      "correct_answer": 2,
+      "explanation": "Un court séjour est limité à 90 jours par an, consécutifs ou non."
+    },
+    {
+      "id": 13,
+      "question": "Quelle est la différence entre une MR et une MRS ?",
+      "options": [
+        "MR accueille valides/semi-valides, MRS accueille personnes nécessitant des soins lourds",
+        "MR est gratuite, MRS est payante",
+        "MR pour jeunes, MRS pour seniors",
+        "Aucune différence"
+      ],
+      "correct_answer": 0,
+      "explanation": "La MR s’adresse aux valides/semi-valides, la MRS aux dépendants nécessitant soins lourds."
+    },
+    {
+      "id": 14,
+      "question": "Quelle échelle sert à orienter vers une MRS ?",
+      "options": [
+        "Échelle de Katz",
+        "Échelle de Barthel",
+        "Échelle de Glasgow",
+        "Échelle d’isolement social"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’échelle de Katz évalue le degré de dépendance pour orienter vers une MRS."
+    },
+    {
+      "id": 15,
+      "question": "Que propose une résidence-services (RS) ?",
+      "options": [
+        "Logement individuel avec services collectifs accessibles",
+        "Hébergement gratuit",
+        "Logement intergénérationnel",
+        "Allocations familiales"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les résidences-services offrent un logement individuel avec accès à des services communs."
+    },
+    {
+      "id": 16,
+      "question": "L’accueil familial pour aînés peut héberger :",
+      "options": [
+        "1 personne",
+        "3 personnes maximum",
+        "10 personnes maximum",
+        "Illimité"
+      ],
+      "correct_answer": 1,
+      "explanation": "L’accueil familial est limité à 3 personnes maximum par famille d’accueil."
+    },
+    {
+      "id": 17,
+      "question": "Quelle est une mission de l’accueil familial pour aînés ?",
+      "options": [
+        "Offrir un hébergement chez une famille agréée hors famille proche",
+        "Offrir un revenu d’intégration",
+        "Gérer les pensions",
+        "Fournir un logement social"
+      ],
+      "correct_answer": 0,
+      "explanation": "Il offre un hébergement chez une famille agréée (hors famille proche jusqu’au 4e degré)."
+    },
+    {
+      "id": 18,
+      "question": "L’habitat intergénérationnel « Un Toit 2 Âges » met en lien :",
+      "options": [
+        "Deux seniors entre eux",
+        "Un senior et un jeune étudiant/travailleur",
+        "Un couple et une famille nombreuse",
+        "Deux associations sociales"
+      ],
+      "correct_answer": 1,
+      "explanation": "Il met en lien une personne âgée disposant d’un logement et un jeune étudiant ou travailleur."
+    },
+    {
+      "id": 19,
+      "question": "L’habitat groupé participatif de type Abbeyfield repose sur :",
+      "options": [
+        "Maison de repos classique",
+        "Logements privés + espaces collectifs autogérés",
+        "Hébergements temporaires uniquement",
+        "Résidence pour étudiants"
+      ],
+      "correct_answer": 1,
+      "explanation": "Abbeyfield combine logements privés et espaces collectifs gérés par les résidents."
+    },
+    {
+      "id": 20,
+      "question": "Quelle est la mission de Respect Seniors ?",
+      "options": [
+        "Octroyer des crédits",
+        "Lutter contre la maltraitance des personnes âgées",
+        "Former les médecins",
+        "Attribuer les pensions de retraite"
+      ],
+      "correct_answer": 1,
+      "explanation": "Respect Seniors lutte contre toutes les formes de maltraitance des personnes âgées."
+    },
+    {
+      "id": 21,
+      "question": "Quelle tranche d’âge est visée par Respect Seniors ?",
+      "options": [
+        "Dès 50 ans",
+        "Dès 55 ans",
+        "Dès 60 ans",
+        "Dès 70 ans"
+      ],
+      "correct_answer": 2,
+      "explanation": "Respect Seniors vise les personnes âgées de 60 ans et plus."
+    },
+    {
+      "id": 22,
+      "question": "Que propose Respect Seniors ?",
+      "options": [
+        "Accueil téléphonique, écoute, prévention et interventions",
+        "Hébergement permanent",
+        "Remboursement des soins",
+        "Prêts financiers"
+      ],
+      "correct_answer": 0,
+      "explanation": "Il propose écoute, prévention et interventions en cas de maltraitance."
+    },
+    {
+      "id": 23,
+      "question": "Quelle est la mission de SENOAH ?",
+      "options": [
+        "Informer et accompagner dans la recherche de MR/MRS",
+        "Offrir un hébergement temporaire",
+        "Fournir des pensions alimentaires",
+        "Superviser les CPAS"
+      ],
+      "correct_answer": 0,
+      "explanation": "SENOAH aide à trouver un hébergement adapté et accompagne les familles."
+    },
+    {
+      "id": 24,
+      "question": "Quel est le coût du service SENOAH ?",
+      "options": [
+        "Gratuit",
+        "10 €/séance",
+        "50 €/mois",
+        "100 €/an"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le service SENOAH est gratuit."
+    },
+    {
+      "id": 25,
+      "question": "Quelle organisation propose les « Cafés Alzheimer » ?",
+      "options": [
+        "Respect Seniors",
+        "La Ligue Alzheimer",
+        "SENOAH",
+        "MR/MRS"
+      ],
+      "correct_answer": 1,
+      "explanation": "La Ligue Alzheimer organise des Cafés Alzheimer pour les familles et proches."
+    },
+    {
+      "id": 26,
+      "question": "Un objectif de l’habitat intergénérationnel est :",
+      "options": [
+        "Réduire l’isolement social des seniors",
+        "Offrir un revenu d’intégration",
+        "Assurer un hébergement médicalisé lourd",
+        "Organiser des activités scolaires"
+      ],
+      "correct_answer": 0,
+      "explanation": "Il favorise la solidarité et réduit l’isolement des seniors."
+    },
+    {
+      "id": 27,
+      "question": "Quel dispositif permet à un aidant de se reposer quelques jours tout en assurant la continuité des soins ?",
+      "options": [
+        "Court séjour",
+        "Baluchonnage",
+        "Plateforme SAM",
+        "Accueil familial"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le baluchonnage remplace l’aidant à domicile durant plusieurs jours."
+    },
+    {
+      "id": 28,
+      "question": "Quel type de dépendance est accueilli en centre de soins de jour ?",
+      "options": [
+        "Dépendance légère",
+        "Dépendance modérée à lourde",
+        "Pas de dépendance",
+        "Dépendance uniquement financière"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les centres de soins de jour accueillent les personnes âgées très dépendantes."
+    },
+    {
+      "id": 29,
+      "question": "Quelle est la particularité des résidences-services par rapport aux MR/MRS ?",
+      "options": [
+        "Préservent l’autonomie avec logement individuel",
+        "Sont gratuites",
+        "N’accueillent que des couples",
+        "Proposent uniquement des courts séjours"
+      ],
+      "correct_answer": 0,
+      "explanation": "Elles permettent aux seniors autonomes de garder un logement privé avec services communs."
+    },
+    {
+      "id": 30,
+      "question": "Quelle est la finalité de l’accompagnement des aidants proches ?",
+      "options": [
+        "Prévenir leur épuisement et valoriser leur rôle",
+        "Assurer leur revenu de remplacement",
+        "Leur attribuer un logement social",
+        "Supprimer leur statut"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’accompagnement vise à soutenir les aidants et éviter leur épuisement."
+    }
+  ]
+}

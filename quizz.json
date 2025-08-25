@@ -1,0 +1,50 @@
+{
+  "quizzes": [
+    {
+      "name": "Quizz Scenario",
+      "description": "Choisi la bonne institution pour répondre au besoin",
+      "file": "scenarios.json"
+    },
+    {
+      "name": "Quizz Acronyme Q1",
+      "description": "Que veut dire cet acronyme ?",
+      "file": "Q1_acronyne.json"
+    },
+    {
+      "name": "Quizz Acronyme Q2",
+      "description": "Que veut dire cet acronyme ?",
+      "file": "Q2_acronyme.json"
+    },
+    {
+      "name": "Quizz Enseignement",
+      "description": "Question sur le chapitre enseignement",
+      "file": "qcm_enseignement.json"
+    },
+    {
+      "name": "Quizz Hando",
+      "description": "Question sur le chapitre Handicapt",
+      "file": "qcm_handicap.json"
+    },
+    {
+      "name": "Q1 - Ainés",
+      "description": "Question sur le Q1 Ainé",
+      "file": "Q1_Aines_Complet.json"
+    },
+    {
+      "name": "Q1 - Petite enfants",
+      "description": "Question sur le ONE, etc",
+      "file": "Q1_PetiteEnfance_Complet.json"
+    },
+    {
+      "name": "Q1 - Santé mentale",
+      "description": "Question Santé mentale",
+      "file": "Q1_SanteMentale_Complet.json"
+    }
+    ,
+    {
+      "name": "Q1 - Aide Famille",
+      "description": "Question Aide aux familles",
+      "file": "Q1_AideFamille.json"
+    }
+  ]
+}

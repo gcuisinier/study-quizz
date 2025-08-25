@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la mission principale de Télé-Accueil ?",
+      "options": [
+        "Informer sur les droits sociaux",
+        "Écouter les usagers en détresse psychologique 24h/24",
+        "Accueillir des patients hospitalisés",
+        "Attribuer des allocations"
+      ],
+      "correct_answer": 1,
+      "explanation": "Télé-Accueil offre une écoute anonyme et gratuite 24h/24 pour les personnes en détresse psychologique."
+    },
+    {
+      "id": 2,
+      "question": "Quel service propose une écoute anonyme gratuite par téléphone ?",
+      "options": [
+        "SSM",
+        "MSP",
+        "Télé-Accueil",
+        "IHP"
+      ],
+      "correct_answer": 2,
+      "explanation": "Télé-Accueil fonctionne par téléphone 24h/24 avec anonymat garanti."
+    },
+    {
+      "id": 3,
+      "question": "Quel est le rôle principal des Services de santé mentale (SSM) ?",
+      "options": [
+        "Accueillir, diagnostiquer et proposer un suivi thérapeutique",
+        "Fournir des allocations financières",
+        "Attribuer un logement",
+        "Donner des cours de prévention routière"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SSM accueillent, évaluent et accompagnent les personnes en difficulté psychique avec une équipe pluridisciplinaire."
+    },
+    {
+      "id": 4,
+      "question": "Les clubs thérapeutiques, proposés par les SSM, servent à :",
+      "options": [
+        "Offrir un espace d’activités stabilisantes et de lien social",
+        "Attribuer des allocations chômage",
+        "Assurer un suivi juridique",
+        "Proposer uniquement des soins médicaux"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les clubs thérapeutiques stabilisent et soutiennent les usagers chroniques par des activités sociales et thérapeutiques."
+    },
+    {
+      "id": 5,
+      "question": "Quel type de public est accueilli par les SSM ?",
+      "options": [
+        "Uniquement les enfants",
+        "Uniquement les personnes âgées",
+        "Tout âge, toute personne fragilisée psychologiquement",
+        "Uniquement les auteurs de violences"
+      ],
+      "correct_answer": 2,
+      "explanation": "Les SSM accueillent toute personne en difficulté psychique, quel que soit l’âge."
+    },
+    {
+      "id": 6,
+      "question": "Quelle est la mission des centres psychothérapeutiques de jour et de nuit ?",
+      "options": [
+        "Accueillir temporairement des personnes avec troubles psychiques mais gardant une autonomie",
+        "Assurer un logement permanent",
+        "Donner des allocations familiales",
+        "Former les travailleurs sociaux"
+      ],
+      "correct_answer": 0,
+      "explanation": "Ils assurent un accueil temporaire de jour ou de nuit pour personnes avec troubles nécessitant un cadre thérapeutique."
+    },
+    {
+      "id": 7,
+      "question": "Quel index hospitalier est destiné aux adultes nécessitant des soins actifs de courte durée ?",
+      "options": [
+        "Index A",
+        "Index T",
+        "Index IBE",
+        "Index SP6"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’Index A correspond aux services d’observation et traitement pour adultes."
+    },
+    {
+      "id": 8,
+      "question": "Quel index concerne les troubles chroniques nécessitant réadaptation sociale ?",
+      "options": [
+        "Index A",
+        "Index T",
+        "Index IBE",
+        "Index SP6"
+      ],
+      "correct_answer": 1,
+      "explanation": "L’Index T est pour les patients souffrant de troubles chroniques de longue durée."
+    },
+    {
+      "id": 9,
+      "question": "Les unités HIC (High Intensive Care) accueillent :",
+      "options": [
+        "Des patients en crise psychiatrique aiguë nécessitant soins intensifs",
+        "Uniquement des enfants",
+        "Uniquement des personnes âgées",
+        "Des personnes atteintes de maladies physiques"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les HIC assurent une prise en charge en soins intensifs pour crises psychiatriques aiguës."
+    },
+    {
+      "id": 10,
+      "question": "Quel est le rôle des maisons de soins psychiatriques (MSP) ?",
+      "options": [
+        "Offrir un cadre résidentiel non hospitalier pour troubles psychiques stabilisés",
+        "Assurer les soins en hôpital aigu",
+        "Former les psychiatres",
+        "Attribuer des allocations"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les MSP accueillent des personnes stabilisées ne pouvant vivre seules mais sans nécessité d’hospitalisation."
+    },
+    {
+      "id": 11,
+      "question": "Combien de personnes peuvent être hébergées dans une IHP ?",
+      "options": [
+        "1",
+        "3 à 10",
+        "20 à 50",
+        "60"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les Initiatives d’Habitations Protégées hébergent 3 à 10 personnes."
+    },
+    {
+      "id": 12,
+      "question": "Quel est l’objectif des IHP ?",
+      "options": [
+        "Favoriser l’autonomie et la réinsertion avec accompagnement",
+        "Fournir un hébergement définitif",
+        "Offrir des allocations financières",
+        "Remplacer les hôpitaux psychiatriques"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les IHP visent la réinsertion et l’autonomie progressive."
+    },
+    {
+      "id": 13,
+      "question": "Quel type d’encadrement est prévu en IHP ?",
+      "options": [
+        "Continu et permanent",
+        "Non continu, centré sur l’autonomie",
+        "Exclusivement médical",
+        "Sans encadrement"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les IHP assurent un accompagnement non continu favorisant l’autonomie."
+    },
+    {
+      "id": 14,
+      "question": "Quelle est la mission des urgences psychiatriques ?",
+      "options": [
+        "Intervenir rapidement en cas de crise",
+        "Attribuer un RIS",
+        "Assurer un hébergement permanent",
+        "Proposer un logement social"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les urgences psychiatriques assurent un travail de crise 24h/24."
+    },
+    {
+      "id": 15,
+      "question": "Les groupes de Self-Help reposent sur :",
+      "options": [
+        "La pair-aidance entre personnes concernées",
+        "La supervision médicale obligatoire",
+        "Le suivi psychiatrique intensif",
+        "Une aide financière mensuelle"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les Self-Help reposent sur le partage d’expérience et l’entraide entre pairs."
+    },
+    {
+      "id": 16,
+      "question": "La réforme PSY 107 vise :",
+      "options": [
+        "Une prise en charge intégrée et communautaire",
+        "La fermeture de tous les hôpitaux psychiatriques",
+        "L’arrêt du financement public",
+        "L’ouverture de prisons psychiatriques"
+      ],
+      "correct_answer": 0,
+      "explanation": "La réforme PSY 107 vise une approche intégrée, communautaire et en réseau."
+    },
+    {
+      "id": 17,
+      "question": "Quelle structure de la réforme PSY 107 se déplace au domicile des patients ?",
+      "options": [
+        "Les équipes mobiles",
+        "Les MSP",
+        "Les SSM",
+        "Les urgences psychiatriques"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les équipes mobiles interviennent dans le milieu de vie du patient."
+    },
+    {
+      "id": 18,
+      "question": "Quelles structures assurent une présence continue non hospitalière ?",
+      "options": [
+        "MSP",
+        "IHP",
+        "SSM",
+        "Groupes de Self-Help"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les MSP accueillent avec présence continue, contrairement aux IHP qui sont non continus."
+    },
+    {
+      "id": 19,
+      "question": "Quelle est la spécificité des SSM par rapport aux équipes mobiles ?",
+      "options": [
+        "Ils accueillent sur place, alors que les équipes mobiles vont au domicile",
+        "Ils interviennent en urgence",
+        "Ils attribuent des aides sociales",
+        "Ils gèrent les logements"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SSM travaillent en centre fixe tandis que les équipes mobiles se déplacent."
+    },
+    {
+      "id": 20,
+      "question": "Quel index hospitalier concerne les patients psycho-gériatriques ?",
+      "options": [
+        "Index A",
+        "Index T",
+        "Index IBE",
+        "Index SP6"
+      ],
+      "correct_answer": 3,
+      "explanation": "L’index SP6 est destiné aux patients psycho-gériatriques."
+    },
+    {
+      "id": 21,
+      "question": "Quel index hospitalier est spécialisé pour les troubles graves du comportement nécessitant un encadrement renforcé ?",
+      "options": [
+        "Index IBE",
+        "Index T",
+        "Index SP6",
+        "Index A"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’Index IBE correspond aux unités de traitement intensif pour comportements graves."
+    },
+    {
+      "id": 22,
+      "question": "Quelle est la mission des équipes mobiles dans le cadre de la réforme PSY 107 ?",
+      "options": [
+        "Intervenir au domicile pour éviter une hospitalisation",
+        "Attribuer un logement social",
+        "Organiser des activités sportives",
+        "Gérer les pensions"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les équipes mobiles interviennent dans le milieu de vie du patient afin de prévenir ou limiter les hospitalisations."
+    },
+    {
+      "id": 23,
+      "question": "Les maisons de soins psychiatriques accueillent au maximum :",
+      "options": [
+        "20 lits",
+        "40 lits",
+        "60 lits",
+        "100 lits"
+      ],
+      "correct_answer": 2,
+      "explanation": "Les MSP sont limitées à environ 60 lits pour garder une ambiance familiale et éviter un cadre hospitalier."
+    },
+    {
+      "id": 24,
+      "question": "Quelle est la différence entre un SSM et un centre psychothérapeutique de jour ?",
+      "options": [
+        "Le SSM propose diagnostic et suivi ambulatoire, le centre de jour propose un programme thérapeutique intensif",
+        "Le SSM est hospitalier, le centre de jour est ambulatoire",
+        "Le SSM donne des allocations, le centre de jour pas",
+        "Aucune différence"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SSM assurent un suivi ambulatoire tandis que les centres de jour offrent un programme thérapeutique plus intensif."
+    },
+    {
+      "id": 25,
+      "question": "Quel est le public visé par les services de santé mentale (SSM) ?",
+      "options": [
+        "Tout âge, de l’enfant à la personne âgée",
+        "Uniquement les adultes",
+        "Uniquement les enfants",
+        "Uniquement les seniors"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les SSM accueillent toute personne, enfant ou adulte, en difficulté psychologique."
+    },
+    {
+      "id": 26,
+      "question": "Quel est le financement des MSP et IHP ?",
+      "options": [
+        "AVIQ et INAMI",
+        "Union européenne",
+        "CPAS",
+        "SPF Finances"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les MSP et IHP sont subsidiés par l’AVIQ et l’INAMI."
+    },
+    {
+      "id": 27,
+      "question": "Les groupes de Self-Help peuvent concerner :",
+      "options": [
+        "Des dépendances, maladies chroniques, ou situations de deuil",
+        "Uniquement les addictions",
+        "Uniquement les troubles alimentaires",
+        "Uniquement les seniors"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les groupes de Self-Help couvrent diverses thématiques : addictions, maladies, deuil, isolement…"
+    },
+    {
+      "id": 28,
+      "question": "Quelle est la mission des HIC (High Intensive Care) ?",
+      "options": [
+        "Prendre en charge les crises psychiatriques aiguës en milieu hospitalier",
+        "Attribuer des logements",
+        "Assurer la médiation familiale",
+        "Former les travailleurs sociaux"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les HIC accueillent en hospitalisation intensive les personnes en crise psychiatrique aiguë."
+    },
+    {
+      "id": 29,
+      "question": "Quels troubles peuvent amener à une hospitalisation psychiatrique de jour ?",
+      "options": [
+        "Troubles de l’humeur, anxiété, dépendances, deuil",
+        "Uniquement les psychoses",
+        "Uniquement les troubles alimentaires",
+        "Uniquement les troubles gériatriques"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les hôpitaux de jour psychiatriques accueillent divers troubles : humeur, anxiété, dépendances, stress post-traumatique…"
+    },
+    {
+      "id": 30,
+      "question": "Quel est l’objectif global de la réforme PSY 107 ?",
+      "options": [
+        "Remplacer l’hospitalisation par des alternatives de proximité",
+        "Supprimer le financement public",
+        "Réserver les soins aux adultes uniquement",
+        "Transférer les soins au secteur privé"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’objectif est de développer des alternatives de proximité, éviter les hospitalisations longues et promouvoir l’inclusion sociale."
+    }
+  ]
+}

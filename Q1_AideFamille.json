@@ -1,0 +1,376 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la mission principale d’un espace-rencontre parent(s)-enfant(s) ?",
+      "options": [
+        "Aider financièrement les familles monoparentales",
+        "Offrir un cadre neutre et sécurisé pour maintenir le lien entre l’enfant et le parent non gardien",
+        "Organiser des consultations médicales pour enfants",
+        "Proposer des activités sportives aux familles"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les espaces-rencontres favorisent la relation parent-enfant dans un cadre sécurisé."
+    },
+    {
+      "id": 2,
+      "question": "Qui peut saisir un espace-rencontre ?",
+      "options": [
+        "Un juge uniquement",
+        "Les parents uniquement",
+        "Tribunal de la famille, juge de paix, SAJ/SPJ ou les parents eux-mêmes",
+        "Les mutualités"
+      ],
+      "correct_answer": 2,
+      "explanation": "Un espace-rencontre peut être saisi par une juridiction, le SAJ/SPJ ou les parents."
+    },
+    {
+      "id": 3,
+      "question": "Quel est l’objectif principal de la médiation familiale ?",
+      "options": [
+        "Gérer uniquement le patrimoine du couple",
+        "Permettre aux parents séparés de rester parents et d’éviter les conflits judiciaires longs",
+        "Remplacer la décision du tribunal",
+        "Décider de la garde des enfants"
+      ],
+      "correct_answer": 1,
+      "explanation": "La médiation familiale aide à préserver la parentalité et à éviter les conflits judiciaires prolongés."
+    },
+    {
+      "id": 4,
+      "question": "La médiation familiale est animée par :",
+      "options": [
+        "Un avocat imposé par le tribunal",
+        "Un tiers impartial formé à l’écoute et au dialogue",
+        "Un travailleur social du CPAS",
+        "Un juge de paix"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le médiateur est un tiers impartial qui aide les parents à dialoguer."
+    },
+    {
+      "id": 5,
+      "question": "Les Centres de planning familial (CPF) relèvent de :",
+      "options": [
+        "L’INAMI",
+        "La Région wallonne",
+        "Le SPF Finances",
+        "L’Union européenne"
+      ],
+      "correct_answer": 1,
+      "explanation": "Ils relèvent du Code wallon de l’action sociale et de la santé."
+    },
+    {
+      "id": 6,
+      "question": "Quelle mission n’est pas assurée par les centres de planning familial ?",
+      "options": [
+        "Prévention des grossesses non désirées",
+        "Dépistage des IST",
+        "Attribution du RIS",
+        "Aide en cas de violences conjugales"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le RIS relève des CPAS et non des CPF."
+    },
+    {
+      "id": 7,
+      "question": "Quels professionnels composent une équipe de planning familial ?",
+      "options": [
+        "Médecins, psychologues, sexologues, travailleurs sociaux",
+        "Uniquement des médecins",
+        "Juges et avocats",
+        "Professeurs et éducateurs"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les CPF sont pluridisciplinaires."
+    },
+    {
+      "id": 8,
+      "question": "Le SECAL a été créé pour :",
+      "options": [
+        "Gérer les pensions de retraite",
+        "Payer les allocations familiales",
+        "Lutter contre la pauvreté liée au non-paiement des pensions alimentaires",
+        "Verser des indemnités de chômage"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le SECAL garantit le paiement des pensions alimentaires."
+    },
+    {
+      "id": 9,
+      "question": "Le SECAL peut :",
+      "options": [
+        "Verser des avances sur pensions alimentaires",
+        "Supprimer la dette alimentaire",
+        "Fixer la garde des enfants",
+        "Décider du montant d’une pension"
+      ],
+      "correct_answer": 0,
+      "explanation": "Il peut avancer la pension et récupérer la dette."
+    },
+    {
+      "id": 10,
+      "question": "Le cycle de la violence conjugale comporte :",
+      "options": [
+        "Deux phases",
+        "Trois phases",
+        "Quatre phases",
+        "Cinq phases"
+      ],
+      "correct_answer": 2,
+      "explanation": "Il comporte 4 phases : lune de miel, tension, crise, accalmie."
+    },
+    {
+      "id": 11,
+      "question": "Quelle est la première phase du cycle de la violence ?",
+      "options": [
+        "Crise",
+        "Lune de miel",
+        "Accalmie",
+        "Silence"
+      ],
+      "correct_answer": 1,
+      "explanation": "Au départ, l’agresseur se montre rassurant (lune de miel)."
+    },
+    {
+      "id": 12,
+      "question": "Quel type de violence ne fait pas partie des violences conjugales ?",
+      "options": [
+        "Physique",
+        "Économique",
+        "Psychologique",
+        "Pédagogique"
+      ],
+      "correct_answer": 3,
+      "explanation": "Les violences reconnues sont physiques, psychologiques, sexuelles, économiques, verbales, administratives."
+    },
+    {
+      "id": 13,
+      "question": "Quelle structure lutte contre les violences entre partenaires ?",
+      "options": [
+        "SECAL",
+        "Services spécialisés d’accompagnement global",
+        "ONEM",
+        "INAMI"
+      ],
+      "correct_answer": 1,
+      "explanation": "Les services spécialisés accompagnent les victimes et travaillent avec les auteurs."
+    },
+    {
+      "id": 14,
+      "question": "Une mission des services violences conjugales est :",
+      "options": [
+        "Soutenir uniquement les victimes",
+        "Accompagner victimes et auteurs pour prévenir la récidive",
+        "Remplacer les juges",
+        "Verser des indemnités financières"
+      ],
+      "correct_answer": 1,
+      "explanation": "Ils soutiennent les victimes et responsabilisent les auteurs."
+    },
+    {
+      "id": 15,
+      "question": "Quelle est la finalité de la médiation familiale ?",
+      "options": [
+        "Trouver une bonne solution réduisant les dommages",
+        "Statuer sur la garde définitive",
+        "Fixer un montant de pension alimentaire",
+        "Remplacer les jugements"
+      ],
+      "correct_answer": 0,
+      "explanation": "L’objectif est de réduire les dommages et préserver l’intérêt de l’enfant."
+    },
+    {
+      "id": 16,
+      "question": "Quelles thématiques sont abordées en médiation familiale ?",
+      "options": [
+        "Uniquement financières",
+        "Patrimoniales, familiales, économiques, sociales",
+        "Uniquement médicales",
+        "Scolaires uniquement"
+      ],
+      "correct_answer": 1,
+      "explanation": "La médiation couvre de nombreux aspects : patrimoniaux, familiaux, économiques, sociaux."
+    },
+    {
+      "id": 17,
+      "question": "Quelle est une mission des CPF ?",
+      "options": [
+        "Organiser des animations de sensibilisation",
+        "Construire des logements sociaux",
+        "Octroyer des allocations de chômage",
+        "Fixer les pensions"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les CPF sensibilisent et informent le public sur la vie affective et relationnelle."
+    },
+    {
+      "id": 18,
+      "question": "Les CPF pratiquent la prévention de :",
+      "options": [
+        "Grossesses non désirées et IST",
+        "Allocations familiales",
+        "Pensions de retraite",
+        "Dettes sociales"
+      ],
+      "correct_answer": 0,
+      "explanation": "Ils préviennent les grossesses non désirées et les infections sexuellement transmissibles."
+    },
+    {
+      "id": 19,
+      "question": "Quelle est l’autorité compétente pour le SECAL ?",
+      "options": [
+        "SPF Finances",
+        "Région wallonne",
+        "Communauté française",
+        "Mutualités"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le SECAL dépend du SPF Finances."
+    },
+    {
+      "id": 20,
+      "question": "Les violences conjugales se caractérisent par :",
+      "options": [
+        "Actes isolés sans répétition",
+        "Un cycle de domination répété",
+        "Un simple conflit",
+        "Des disputes financières uniquement"
+      ],
+      "correct_answer": 1,
+      "explanation": "La violence conjugale s’inscrit dans un cycle de domination."
+    },
+    {
+      "id": 21,
+      "question": "Les services d’accompagnement en matière de violences :",
+      "options": [
+        "Collectent aussi des données statistiques",
+        "Décident des jugements",
+        "Attribuent des allocations",
+        "Organisent des soins hospitaliers"
+      ],
+      "correct_answer": 0,
+      "explanation": "Ils collectent des statistiques en plus d’accompagner."
+    },
+    {
+      "id": 22,
+      "question": "Qui peut recourir au SECAL ?",
+      "options": [
+        "Le créancier alimentaire en cas de non-paiement",
+        "Le juge uniquement",
+        "Le médecin traitant",
+        "La mutualité"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le créancier alimentaire peut saisir le SECAL en cas de non-paiement."
+    },
+    {
+      "id": 23,
+      "question": "Quelle est une mission des CPF envers le public ?",
+      "options": [
+        "Informer sur le droit familial",
+        "Octroyer des prêts",
+        "Proposer des logements sociaux",
+        "Gérer le chômage"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les CPF informent le public sur le droit familial et les droits sexuels."
+    },
+    {
+      "id": 24,
+      "question": "Dans le cadre de violences conjugales, un objectif est :",
+      "options": [
+        "Responsabiliser l’auteur par des groupes de parole",
+        "Supprimer le droit de garde automatiquement",
+        "Exclure l’auteur sans suivi",
+        "Imposer un divorce judiciaire"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les services responsabilisent les auteurs pour prévenir la récidive."
+    },
+    {
+      "id": 25,
+      "question": "Une médiation familiale est basée sur :",
+      "options": [
+        "L’impartialité du médiateur",
+        "L’autorité du juge",
+        "Le financement par le CPAS",
+        "L’avis médical obligatoire"
+      ],
+      "correct_answer": 0,
+      "explanation": "La médiation familiale repose sur un tiers impartial."
+    },
+    {
+      "id": 26,
+      "question": "Les CPF proposent aussi :",
+      "options": [
+        "Des consultations médicales, psychologiques, juridiques",
+        "La gestion des pensions",
+        "La collecte des cotisations sociales",
+        "La médiation de dettes"
+      ],
+      "correct_answer": 0,
+      "explanation": "Ils offrent des consultations variées pour répondre aux besoins affectifs, relationnels et sexuels."
+    },
+    {
+      "id": 27,
+      "question": "L’une des valeurs clés des CPF est :",
+      "options": [
+        "Confidentialité et non-jugement",
+        "Remboursement automatique des soins",
+        "Aide au chômage",
+        "Droit au logement"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les CPF reposent sur la confidentialité, l’accessibilité et le non-jugement."
+    },
+    {
+      "id": 28,
+      "question": "Le SECAL a été institué en :",
+      "options": [
+        "1990",
+        "2003",
+        "2010",
+        "2015"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le SECAL existe depuis 2003."
+    },
+    {
+      "id": 29,
+      "question": "Quelle prestation le SECAL ne peut pas faire ?",
+      "options": [
+        "Verser des avances",
+        "Réclamer les arriérés",
+        "Annuler la pension fixée par le juge",
+        "Prélever sur salaire du débiteur"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le SECAL ne peut pas annuler une pension décidée par un juge."
+    },
+    {
+      "id": 30,
+      "question": "Quelle est une conséquence des violences conjugales sur les victimes ?",
+      "options": [
+        "Isolement social et dépendance accrue",
+        "Avantages financiers",
+        "Réinsertion immédiate",
+        "Allègement fiscal"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les violences entraînent isolement et dépendance psychologique/économique."
+    },
+    {
+      "id": 31,
+      "question": "Quelles sont les 4 phases du cycle de la violence conjugale ?",
+      "options": [
+        "Phase de tension → Agression → Justification → Lune de miel",
+        "Phase de tension → Lune de miel → Agression → Justification",
+        "Conflit → Réconciliation → Crise → Routine",
+        "Provocation → Explosion → Excuse → Retour à la normale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le cycle de la violence conjugale est composé de 4 phases : la phase de tension, l’agression (ou crise), la justification (minimisation, culpabilisation, excuses) et la phase de lune de miel (réconciliation)."
+    }
+  ]
+}
