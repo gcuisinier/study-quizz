@@ -398,13 +398,13 @@
       "type": "single",
       "question": "Jeune de 16 ans, toujours inscrit mais décroché, souhaitant se « rescolariser » : quel dispositif mobiliser ?",
       "options": [
-        "Dispositif Relais",
+        "DIAS",
         "CPAS",
         "DASPA",
         "EFT"
       ],
       "correct_answer": 0,
-      "explanation": "Les Dispositifs Relais proposent un accompagnement temporaire pour reconstruire un projet de rescolarisation."
+      "explanation": "Les DIAS (Dispositif interne d’accrochage scolaire) proposent un accompagnement temporaire pour reconstruire un projet de rescolarisation."
     },
     {
       "id": 31,
