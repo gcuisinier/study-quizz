@@ -120,13 +120,13 @@
       "id": 10,
       "question": "Quel est le service de la mutuelle reconnu par la Région wallonne où travaillent des assistants sociaux assurant accueil et accompagnement ?",
       "options": [
-        "Service social mutualiste",
+        "Centres de service social (CSS)",
         "Maison médicale",
         "Service d’aide sociale générale (SASG)",
         "CPAS"
       ],
       "correct_answer": 0,
-      "explanation": "Les services sociaux mutualistes, agréés par la RW, assurent accueil, écoute et accompagnement des affiliés en difficulté."
+      "explanation": "Les Centres de service social (CSS), agréés par la RW, assurent accueil, écoute et accompagnement des affiliés en difficulté."
     },
     {
       "id": 11,
