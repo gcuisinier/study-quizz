@@ -179,6 +179,76 @@
       ],
       "correct_answer": 2,
       "explanation": "Les relations sont décrites comme intenses, instables et chaotiques."
+    },
+    {
+      "id": 16,
+      "question": "Quels éléments sont typiques du fonctionnement affectif borderline ?",
+      "options": [
+        "Une hypersensibilité émotionnelle",
+        "Une absence d’émotions",
+        "Une forte réactivité émotionnelle",
+        "Une indifférence aux stimuli sociaux",
+        "Une humeur stable et prévisible"
+      ],
+      "multiple": true,
+      "correct_answers": [0, 2],
+      "explanation": "Les personnes borderline présentent une hypersensibilité émotionnelle et une réactivité intense."
+    },
+    {
+      "id": 17,
+      "question": "Quels mécanismes de défense sont associés aux états limites ?",
+      "options": [
+        "Clivage",
+        "Humour",
+        "Identification projective",
+        "Intellectualisation",
+        "Sublimation"
+      ],
+      "multiple": true,
+      "correct_answers": [0, 2],
+      "explanation": "Le clivage et l’identification projective sont centraux dans le fonctionnement borderline."
+    },
+    {
+      "id": 18,
+      "question": "Quels comportements peuvent caractériser les relations interpersonnelles borderline ?",
+      "options": [
+        "Idéalisation de l’autre",
+        "Dévalorisation de l’autre",
+        "Relations stables et sécurisées",
+        "Peur intense de l’abandon",
+        "Évitement complet des relations"
+      ],
+      "multiple": true,
+      "correct_answers": [0, 1, 3],
+      "explanation": "Les personnes borderline alternent entre idéalisation, dévalorisation et vivent une forte peur d’être abandonnées."
+    },
+    {
+      "id": 19,
+      "question": "Quels critères du DSM-5 font partie du trouble borderline ?",
+      "options": [
+        "Impulsivité dans des domaines à risque",
+        "Sentiment chronique de vide",
+        "Besoin excessif de soins médicaux",
+        "Colère intense et inappropriée",
+        "Phobies spécifiques"
+      ],
+      "multiple": true,
+      "correct_answers": [0, 1, 3],
+      "explanation": "Le DSM-5 inclut l’impulsivité, le vide intérieur et la colère intense parmi les critères du trouble."
+    },
+    {
+      "id": 20,
+      "question": "Quels éléments du modèle biosocial de Linehan sont essentiels à la compréhension du trouble borderline ?",
+      "options": [
+        "Une vulnérabilité biologique",
+        "Un environnement invalidant",
+        "Un niveau intellectuel supérieur à la moyenne",
+        "Un isolement social volontaire",
+        "Un surmoi excessivement développé"
+      ],
+      "multiple": true,
+      "correct_answers": [0, 1],
+      "explanation": "Linehan décrit une interaction entre vulnérabilité biologique et environnement invalidant."
     }
   ]
 }
