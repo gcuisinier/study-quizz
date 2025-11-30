@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel est le noyau central du fonctionnement borderline ?",
+      "options": [
+        "La peur d’être incompris",
+        "L’angoisse de perdre l’amour de l’objet",
+        "L’absence d’émotions",
+        "Le refus des relations sociales"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le cours indique que le noyau central est l’angoisse de perdre l’amour de l’objet."
+    },
+    {
+      "id": 2,
+      "question": "Quel trait fait partie des caractéristiques du versant borderline ?",
+      "options": [
+        "Une grande stabilité émotionnelle",
+        "Une impulsivité marquée",
+        "Une absence totale d’affects",
+        "Une forte rigidité cognitive"
+      ],
+      "correct_answer": 1,
+      "explanation": "L’impulsivité est un des 4 traits fondamentaux du versant borderline."
+    },
+    {
+      "id": 3,
+      "question": "Quel mécanisme de défense est typique du fonctionnement borderline ?",
+      "options": [
+        "Le refoulement",
+        "Le clivage",
+        "L’humour",
+        "L’intellectualisation"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le clivage est un mécanisme central dans les états limites."
+    },
+    {
+      "id": 4,
+      "question": "Selon Linehan, le trouble borderline résulte de :",
+      "options": [
+        "Un déficit intellectuel",
+        "Une vulnérabilité biologique et un environnement invalidant",
+        "Une forte créativité",
+        "Une absence de liens familiaux"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le modèle biosocial combine vulnérabilité biologique et environnement invalidant."
+    },
+    {
+      "id": 5,
+      "question": "Comment se caractérisent les émotions dans la personnalité borderline ?",
+      "options": [
+        "Elles sont faibles et peu réactives",
+        "Elles sont intenses et rapides à descendre",
+        "Elles sont intenses et lentes à redescendre",
+        "Elles sont absentes en situation de stress"
+      ],
+      "correct_answer": 2,
+      "explanation": "Les émotions sont très intenses et mettent longtemps à redescendre."
+    },
+    {
+      "id": 6,
+      "question": "Quel schéma relationnel est typique du trouble borderline ?",
+      "options": [
+        "Ambivalence stable",
+        "Absence totale d’attachement",
+        "Idéalisation puis dévalorisation",
+        "Relations froides et distantes"
+      ],
+      "correct_answer": 2,
+      "explanation": "Les relations oscillent entre idéalisation et dévalorisation."
+    },
+    {
+      "id": 7,
+      "question": "Combien de critères DSM-5 doivent être remplis pour diagnostiquer un trouble borderline ?",
+      "options": [
+        "Au moins 2",
+        "Au moins 3",
+        "Au moins 5",
+        "Au moins 7"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le DSM-5 exige au moins 5 critères sur 9."
+    },
+    {
+      "id": 8,
+      "question": "Quelle est la représentation de soi chez les personnes borderline ?",
+      "options": [
+        "Stable et positive",
+        "Précaire et lacunaire",
+        "Résolument indépendante",
+        "Orientée vers la réussite personnelle"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le cours mentionne une représentation de soi précaire et un Moi lacunaire."
+    },
+    {
+      "id": 9,
+      "question": "Quel comportement peut apparaître dans le trouble borderline ?",
+      "options": [
+        "Des gestes suicidaires ou automutilations",
+        "Une absence totale d’émotions",
+        "Une rigidité extrême",
+        "Une indifférence à l’abandon"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les gestes suicidaires et automutilations font partie des critères DSM-5."
+    },
+    {
+      "id": 10,
+      "question": "Quel traitement est recommandé par l’APA et le NICE pour le trouble borderline ?",
+      "options": [
+        "Psychothérapies de long cours",
+        "Antidépresseurs uniquement",
+        "Hypnose brève",
+        "Placement obligatoire"
+      ],
+      "correct_answer": 0,
+      "explanation": "Les recommandations internationales indiquent la psychothérapie comme traitement de choix."
+    },
+    {
+      "id": 11,
+      "question": "Selon le modèle biosocial, comment évoluent les émotions chez une personne borderline ?",
+      "options": [
+        "Elles retombent rapidement",
+        "Elles mettent du temps à redescendre",
+        "Elles restent faibles",
+        "Elles ne varient pas"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le retour à l’état émotionnel initial est lent."
+    },
+    {
+      "id": 12,
+      "question": "Comment les personnes borderline vivent-elles les relations ?",
+      "options": [
+        "Elles évitent toute relation",
+        "Elles craignent l’envahissement tout en recherchant la proximité",
+        "Elles ne s’attachent jamais",
+        "Elles développent une empathie excessive"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le cours décrit une recherche de proximité mêlée à la peur d’être envahi."
+    },
+    {
+      "id": 13,
+      "question": "Quel facteur est fortement lié au développement de la personnalité borderline ?",
+      "options": [
+        "Une rupture amoureuse au lycée",
+        "La maltraitance infantile",
+        "La pauvreté",
+        "Un échec scolaire précoce"
+      ],
+      "correct_answer": 1,
+      "explanation": "Il existe un relatif consensus sur le lien entre maltraitance infantile et borderline."
+    },
+    {
+      "id": 14,
+      "question": "Quelle attitude est recommandée pour les professionnels accompagnants ?",
+      "options": [
+        "Un cadre flou pour éviter les conflits",
+        "Un cadre ferme et chaleureux (mur chaud)",
+        "Des interprétations fréquentes",
+        "Se justifier longuement"
+      ],
+      "correct_answer": 1,
+      "explanation": "Le cours insiste sur un cadre ferme, contenant et chaleureux."
+    },
+    {
+      "id": 15,
+      "question": "Comment sont typiquement les relations chez les personnes borderline ?",
+      "options": [
+        "Constantes et prévisibles",
+        "Basées sur la distance",
+        "Intenses et instables",
+        "Froides et désinvesties"
+      ],
+      "correct_answer": 2,
+      "explanation": "Les relations sont décrites comme intenses, instables et chaotiques."
+    }
+  ]
+}
